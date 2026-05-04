@@ -17,3 +17,8 @@ Chronological record of wiki operations.
 - Added medication-specific health insights (Daparyl M hydration, Panlipase timing, Huminsulin consistency).
 - Updated Multigrain mix to prioritize cooling Barley (Jau) for summer.
 - Updated index and log.
+## [2026-05-04] update | Clinical Medication Deep-Dive
+- Researched and documented synergy between Huminsulin, Daparyl M, and Panlipase 10000.
+- Created [[Medication-Research-May-2026]] page.
+- Updated website dashboard with "Clinical Therapy" section.
+- Updated log.

@@ -72,6 +72,11 @@
     { "emoji": "🍽️", "title": "The Plate Rule", "note": "50% Sabzi/Salad, 25% Protein, 25% Roti. Always take Panlipase with meals." },
     { "emoji": "🩺", "title": "Medical Optimization", "note": "Regular check-ins with the doctor to ensure insulin and medications are perfectly balanced." },
     { "emoji": "📊", "title": "Consistent Monitoring", "note": "Track fasting levels and weight weekly to stay on target." }
+  ],
+  "medications": [
+    { "name": "Huminsulin", "purpose": "Rapidly controls severe blood sugar highs (glucose toxicity).", "icon": "💉" },
+    { "name": "Daparyl M (Dapagliflozin + Metformin)", "purpose": "Improves insulin sensitivity and flushes excess glucose through kidneys.", "icon": "💊" },
+    { "name": "Panlipase 10000", "purpose": "Pancreatic enzyme replacement for proper nutrient absorption.", "icon": "🧬" }
   ]
 }
 

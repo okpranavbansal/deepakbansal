@@ -97,6 +97,21 @@ function renderDiet(container) {
         `).join('')}
       </div>
     </div>
+
+    ${dietData.medications ? `
+    <div class="section">
+      <div class="section-title">🩺 Clinical Therapy</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:15px;">
+        ${dietData.medications.map(med => `
+          <div class="lifestyle-card">
+            <div style="font-size:24px; margin-bottom:8px;">${med.icon}</div>
+            <div style="font-weight:600; font-size:15px; margin-bottom:5px; color:var(--navy);">${med.name}</div>
+            <div style="font-size:13px; color:var(--slate);">${med.purpose}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
   `;
   container.innerHTML = html;
 }

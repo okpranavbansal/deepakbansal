@@ -11,7 +11,9 @@ Chronological record of wiki operations.
 - Created [[LLM-Wiki-Pattern]] page.
 - Updated index and log.
 
-## [2026-05-04] update | Diet Research & Dashboard Optimization
-- Created [[Diet-Research-Summer-2026]] page based on medical & Ayurvedic findings.
-- Updated `data/diet.json` with medical urgency flags and summer optimizations (Chaach, Barley).
+## [2026-05-04] update | Holistic Calm & Medication Synergy
+- Removed anxiety-inducing language ("urgency", "panic") from `diet.json` and wiki pages.
+- Integrated Ayurvedic snacks (Roasted Chana, Cucumber) and soothing teas (Chamomile, Tulsi).
+- Added medication-specific health insights (Daparyl M hydration, Panlipase timing, Huminsulin consistency).
+- Updated Multigrain mix to prioritize cooling Barley (Jau) for summer.
 - Updated index and log.

@@ -1,0 +1,87 @@
+{
+  "goals": [
+    "🛑 MEDICAL URGENCY: Fasting Sugar ~300 is High Risk",
+    "Strict Sugar Control: Target < 150 mg/dL (Urgent Medication Required)",
+    "Weight Loss: Target -4 to -5 kg in 1 month (Current: 95kg)",
+    "Summer Cooling (Chaach, Jeera Water, Lauki/Tori)",
+    "Zero Sugar, Zero Refined Carbs, Zero Fruit Juice",
+    "Max 3 tsp (15ml) Oil per day total across all meals"
+  ],
+  "schedule": [
+    {
+      "time": "6:30 AM",
+      "label": "Wake-up (Cooling Start)",
+      "food": "<strong>Methi Dana Water</strong> (soaked overnight) OR <strong>Jeera Pani</strong>. <em>(Helps keep body cool and controls morning sugar spike)</em>"
+    },
+    {
+      "time": "8:30 AM",
+      "label": "Breakfast (Light & Protein)",
+      "food": "<strong>2 Moong Dal Chillas</strong> (made with 1 tsp oil max) + 1 small glass fresh <strong>Chaach</strong> (Buttermilk with roasted jeera). <em>(Replace Dahi with Chaach for better summer digestion)</em>"
+    },
+    {
+      "time": "11:00 AM",
+      "label": "Mid-Morning Snack",
+      "food": "<strong>Kheera (Cucumber) slices</strong> OR ½ Apple / 1 small Guava. + 1 glass <strong>Chaach</strong> (Buttermilk with jeera, no sugar)."
+    },
+    {
+      "time": "1:30 PM",
+      "label": "Lunch (Strict Portioning)",
+      "food": "<strong>1–2 Multigrain Rotis</strong> + 1 katori Dal / Paneer / Sabzi + Kachumber Salad + 1 bowl <strong>Chaach</strong>. <em>(Chaach is preferred over Dahi in summer for diabetes)</em>"
+    },
+    {
+      "time": "5:00 PM",
+      "label": "Evening Snack",
+      "food": "<strong>Roasted Chana</strong> OR Sprouted Moong. + 1 cup Green Tea (No sugar). <em>(Can also take 5-6 soaked almonds here)</em>"
+    },
+    {
+      "time": "7:30 PM",
+      "label": "Dinner (Light)",
+      "food": "<strong>1–2 Multigrain Rotis</strong> + Light Sabzi (Lauki/Tori) OR Vegetable Clear Soup. <em>(Keep dinner very light)</em>"
+    }
+  ],
+  "recipes": [
+    {
+      "title": "🌾 1 Week Multigrain Atta Mix (2kg)",
+      "details": "Mix together and store in an airtight container:",
+      "ingredients": [
+        "800g Gehun (Wheat)",
+        "400g Jowar (Sorghum) - Cooling",
+        "300g Jau (Barley) - Highly Cooling & Diabetic friendly",
+        "300g Bajra (Pearl Millet) - Limit in peak summer",
+        "200g Ragi",
+        "Optional: 100g Alsi (Flaxseed) powder, 2 tsp Ajwain"
+      ]
+    },
+    {
+      "title": "🥞 Moong Dal Chilla (For 2 pcs)",
+      "details": "Soak 100g moong dal for 6-8 hours. Grind into batter.",
+      "ingredients": [
+        "Add: 30g chopped Pyaz (Onion)",
+        "Add: 50g grated Lauki or Gajar",
+        "Add: Adrak, Hari Mirch, Dhaniya",
+        "Cooking: Use max ½ tsp oil per chilla (1 tsp total for 2)"
+      ]
+    },
+    {
+      "title": "🛢️ Daily Oil Rule (Max 15ml / 3 tsp)",
+      "details": "Rotate between healthy oils. Avoid refined oil & vanaspati.",
+      "ingredients": [
+        "Sarson Oil (Mustard) — Primary",
+        "Groundnut Oil",
+        "Olive Oil (for light cooking/salads)"
+      ]
+    }
+  ],
+  "drinks": [
+    { "emoji": "🌿", "name": "Methi / Jeera Water", "note": "Lowers morning sugar, cooling", "when": "Morning empty stomach" },
+    { "emoji": "🥛", "name": "Chaach (Buttermilk)", "note": "Ayurvedic nectar for summer, light & cooling", "when": "Mid-morning or lunch" },
+    { "emoji": "🍵", "name": "Green Tea", "note": "Lowers LDL, anti-inflammatory", "when": "Evening" },
+    { "emoji": "🥒", "name": "Hydration", "note": "Drink 8-10 glasses of water daily", "when": "Throughout the day" }
+  ],
+  "lifestyle": [
+    { "emoji": "🚶", "title": "Walk After Every Meal", "note": "10–15 min walk after breakfast, lunch, and dinner is mandatory. Total steps: 7000–9000/day." },
+    { "emoji": "🍽️", "title": "The Plate Rule", "note": "50% Sabzi/Salad, 25% Protein (Dal/Paneer), 25% Roti." },
+    { "emoji": "🩺", "title": "Doctor Consultation", "note": "Fasting 300 is high risk. Along with this strict diet, medication/insulin adjustment from a doctor is urgent." },
+    { "emoji": "📊", "title": "Weekly Check", "note": "Monitor fasting sugar every morning. Log weight weekly. Target: 150 mg/dL sugar, -4kg weight." }
+  ]
+}

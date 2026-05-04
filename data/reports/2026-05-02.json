@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-02",
+  "label": "May 2026",
+  "patient": {
+    "name": "Deepak Bansal",
+    "ageSex": "53 Years / Male",
+    "location": "Ambala, Haryana"
+  },
+  "summary": "4 Active Conditions identified: Type 2 Diabetes, Diabetic Dyslipidemia, Hypertension, and Fungal Skin Infection. Consultation with a specialist is recommended soon.",
+  "keyMarkers": [
+    { "title": "HbA1c", "value": "12.7%", "status": "attention", "normal": "Normal: <5.7% · Controlled: <7%" },
+    { "title": "Fasting Sugar", "value": "275.7 mg/dL", "status": "attention", "normal": "Normal: 70–100 mg/dL" },
+    { "title": "Avg Glucose", "value": "318 mg/dL", "status": "attention", "normal": "Target: 90–120 mg/dL" },
+    { "title": "LDL Cholesterol", "value": "181.7 mg/dL", "status": "attention", "normal": "Diabetic Target: <100 mg/dL" },
+    { "title": "Triglycerides", "value": "238 mg/dL", "status": "monitor", "normal": "Normal: <150 mg/dL" },
+    { "title": "HDL (Good)", "value": "35 mg/dL", "status": "monitor", "normal": "Normal: 40–60 mg/dL" }
+  ],
+  "sections": [
+    {
+      "title": "Diabetes Markers",
+      "icon": "🩸",
+      "type": "table",
+      "headers": ["Test", "Value", "Normal Range", "Status"],
+      "rows": [
+        ["Fasting Blood Sugar", "275.71 mg/dL", "70–100 mg/dL", "attention"],
+        ["HbA1c", "12.7%", "<5.7% (Normal) · <7% (Controlled)", "attention"],
+        ["Average Blood Glucose", "318 mg/dL", "90–120 mg/dL", "attention"]
+      ],
+      "note": "HbA1c of 12.7% reflects average blood glucose over the past 90 days. At this level, consistent management is needed to prevent long-term complications in the kidneys, eyes, and heart."
+    },
+    {
+      "title": "Lipid Profile",
+      "icon": "🫀",
+      "type": "table",
+      "headers": ["Test", "Value", "Normal Range", "Status"],
+      "rows": [
+        ["Total Cholesterol", "244 mg/dL", "<200 mg/dL", "monitor"],
+        ["LDL Cholesterol", "181.68 mg/dL", "<100 mg/dL (target)", "attention"],
+        ["HDL Cholesterol", "35 mg/dL", "40–60 mg/dL", "monitor"],
+        ["Triglycerides", "238 mg/dL", "<150 mg/dL", "monitor"],
+        ["TC / HDL Ratio", "6.9", "3–5", "attention"]
+      ],
+      "note": "Elevated triglycerides and a high TC/HDL ratio indicate metabolic stress. Improving these markers will significantly reduce cardiovascular risk."
+    },
+    {
+      "title": "Kidney Function",
+      "icon": "🫘",
+      "type": "table",
+      "headers": ["Test", "Value", "Normal Range", "Status"],
+      "rows": [
+        ["Creatinine (Serum)", "0.56 mg/dL", "0.72–1.18 mg/dL", "monitor"],
+        ["eGFR", "118 mL/min", "≥90 = Normal", "monitor"],
+        ["Blood Urea Nitrogen", "11.86 mg/dL", "7.94–20.07 mg/dL", "ok"]
+      ],
+      "note": "The kidneys are currently working at a high capacity (hyperfiltration). A Urine Microalbumin test is recommended to check for early signs of stress."
+    },
+    {
+      "title": "How Everything Connects",
+      "icon": "🔗",
+      "type": "list",
+      "items": [
+        "<strong>Severely Uncontrolled Diabetes (3+ months)</strong> — The root of all current conditions.",
+        "<strong>High Triglycerides</strong> → Causes pancreatic stress and impacts digestion.",
+        "<strong>High LDL + Low HDL</strong> → Increases future risk of arterial buildup.",
+        "<strong>Hypertension</strong> → Multiplies pressure on kidneys and heart.",
+        "<strong>Fungal Infection</strong> → High blood sugar in skin creates a feed-source for fungus."
+      ],
+      "note": "Controlling the root cause (blood sugar) will naturally improve all the connected conditions listed above."
+    }
+  ],
+  "consultationPlan": [
+    { "specialist": "Diabetologist", "when": "Soon", "note": "Review medication for HbA1c control." },
+    { "specialist": "Physician", "when": "Soon", "note": "Monitor Blood Pressure and initiate protective measures." },
+    { "specialist": "Dermatologist", "when": "Within 1 week", "note": "Treatment for skin fungal infection." },
+    { "specialist": "Cardiologist", "when": "Within 2 weeks", "note": "Baseline heart health assessment." }
+  ],
+  "targets": [
+    { "marker": "HbA1c", "current": "12.7%", "target3": "9.5–10.5%", "target6": "7.5–8.5%" },
+    { "marker": "Fasting Sugar", "current": "275 mg/dL", "target3": "140–180 mg/dL", "target6": "100–130 mg/dL" },
+    { "marker": "Blood Pressure", "current": "Elevated", "target3": "<140/90", "target6": "<130/80" }
+  ]
+}

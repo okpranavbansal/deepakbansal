@@ -10,6 +10,10 @@
   --white: #FFFFFF;
   --border: #E2E8F0;
   --bg: #F0F2F5;
+  --shield: #1B6B3A;
+  --shield-light: #E8F5E9;
+  --warn-bg: #FFF3E0;
+  --warn-border: #E65100;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -126,6 +130,184 @@ body {
 .meal-time { background: var(--light); padding: 12px 14px; font-weight: 600; border-right: 1px solid var(--border); font-size: 12px; }
 .meal-food { padding: 12px 16px; font-size: 14px; }
 
+/* ── NEW ADDITIONS HIGHLIGHT ── */
+.meal-row-new {
+  background: var(--shield-light);
+  border-left: 4px solid var(--shield);
+}
+.meal-row-new .meal-time {
+  background: #C8E6C9;
+  color: var(--shield);
+  font-weight: 700;
+}
+.meal-row-new .meal-food {
+  color: #1B5E20;
+}
+
+/* ── PRIORITY PLAN ── */
+.priority-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.priority-card {
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.priority-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+.priority-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.priority-dot { font-size: 18px; }
+.priority-start {
+  margin-left: auto;
+  font-size: 12px;
+  font-family: 'DM Mono', monospace;
+  color: var(--slate);
+  background: var(--light);
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+.priority-body { font-size: 14px; color: var(--slate); }
+.priority-red { border-left: 5px solid #E53935; background: #FFEBEE; }
+.priority-yellow { border-left: 5px solid #FFA726; background: #FFF8E1; }
+.priority-green { border-left: 5px solid #43A047; background: #E8F5E9; }
+.priority-blue { border-left: 5px solid #1E88E5; background: #E3F2FD; }
+
+/* ── SPICE PROTOCOL ── */
+.spice-note {
+  background: linear-gradient(135deg, #FFF8E1, #FFF3E0);
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 1px solid #FFCC80;
+  color: #E65100;
+}
+.spice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+.spice-card {
+  background: var(--light);
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.spice-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+.spice-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+.spice-compound {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  color: var(--info);
+  background: #E3F2FD;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.spice-action {
+  font-size: 13px;
+  color: var(--shield);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.spice-usage {
+  font-size: 12px;
+  color: var(--slate);
+}
+
+/* ── PROTECTIVE DRINKS ── */
+.drink-card {
+  background: var(--light);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.drink-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* ── WEEKLY CHECKLIST ── */
+.checklist-note {
+  font-size: 13px;
+  color: var(--slate);
+  margin-bottom: 12px;
+}
+.checklist-table-wrap {
+  overflow-x: auto;
+}
+.checklist-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.checklist-table th {
+  background: var(--navy-mid);
+  color: white;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.checklist-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.checklist-table tr:nth-child(even) { background: #FAFAFA; }
+.check-item {
+  display: block;
+  font-size: 11px;
+  color: var(--navy);
+  white-space: nowrap;
+}
+
+/* ── SAFETY WARNING ── */
+.safety-warning {
+  background: var(--warn-bg);
+  border: 1px solid #FFCC80;
+  border-left: 5px solid var(--warn-border);
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #BF360C;
+}
+
+/* ── DISCLAIMER ── */
+.disclaimer {
+  background: #F5F5F5;
+  padding: 16px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--slate);
+  border: 1px solid var(--border);
+  line-height: 1.6;
+}
+
 /* ── REPORT SPECIFIC ── */
 .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .summary-card { padding: 20px; border-radius: 12px; border: 1px solid var(--border); }
@@ -202,4 +384,13 @@ body {
   .header { padding: 30px 20px; }
   #content-area { padding: 30px 20px; }
   .pagination { padding: 15px 20px; }
+  .spice-grid { grid-template-columns: 1fr 1fr; }
+  .priority-header { flex-wrap: wrap; }
+  .priority-start { margin-left: 0; }
+}
+
+@media print {
+  .pagination { display: none; }
+  .page-wrap { box-shadow: none; margin: 0; }
+  .checklist-table .check-item { font-size: 10px; }
 }

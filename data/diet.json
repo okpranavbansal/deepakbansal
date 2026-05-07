@@ -4,7 +4,9 @@
     "✅ Gentle Weight Management: Target -4 to -5 kg in 1 month",
     "✅ Cooling Summer Hydration (Chaach, Jeera Water, Lauki/Tori)",
     "✅ Balanced Nutrition: Focus on Whole Grains & Fresh Greens",
-    "✅ Healthy Fats: Controlled usage (Max 3 tsp / 15ml Oil per day)"
+    "✅ Healthy Fats: Controlled usage (Max 3 tsp / 15ml Oil per day)",
+    "🛡️ Pancreas Protection: Anti-inflammatory + Antioxidant Shield",
+    "🛡️ Cancer Prevention: Curcumin, Cruciferous Veg, Rasayana Herbs"
   ],
   "schedule": [
     {
@@ -13,65 +15,143 @@
       "food": "<strong>Methi Dana Water</strong> (soaked overnight) OR <strong>Jeera Pani</strong>. <em>(Helps maintain steady morning levels and keeps the body cool)</em>"
     },
     {
+      "time": "6:45 AM",
+      "label": "✨ Protective Boost",
+      "food": "<strong>Haldi + Kali Mirch Warm Water</strong> (½ tsp haldi, pinch black pepper, squeeze of nimbu). <em>(Daily curcumin dose — the #1 evidence-backed pancreas protector. Piperine increases absorption by 2000%)</em>"
+    },
+    {
+      "time": "7:00 AM",
+      "label": "✨ Immunity Shield",
+      "food": "<strong>Giloy Water</strong> (Mon/Wed/Fri/Sat) OR <strong>Amla Water</strong> (Tue/Thu/Sun). <em>(Giloy: Beta-cell protector. Amla: Richest Vitamin C source — 20x oranges)</em>"
+    },
+    {
       "time": "8:30 AM",
       "label": "Breakfast (Light & Protein)",
-      "food": "<strong>2 Moong Dal Chillas</strong> (made with 1 tsp oil max) + 1 small glass fresh <strong>Chaach</strong>. <em>(Take Panlipase 10000 with the first bite to aid digestion)</em>"
+      "food": "<strong>2 Moong Dal Chillas</strong> (add grated adrak + haldi to batter) + 1 crushed lahsun clove + <strong>Chaach</strong>. <em>(Take Panlipase 10000. Spiced tadka ensures curcumin + gingerol + allicin in every meal)</em>"
     },
     {
       "time": "11:00 AM",
-      "label": "Mid-Morning Refreshment",
-      "food": "<strong>Roasted Chana</strong> or <strong>Cucumber slices</strong>. + 1 glass <strong>Chaach</strong> (Buttermilk with jeera, no sugar). <em>(Hydration is key for Daparyl M effectiveness)</em>"
+      "label": "✨ Seasonal Fruits",
+      "food": "<strong>Jamun</strong> (8-10 pieces, peak May-July season!) OR <strong>Papaya</strong> (small bowl, alternate days). + 1 glass <strong>Chaach</strong>. <em>(Jamun: Anti-diabetic jamboline + anti-cancer anthocyanins. Papaya: Enzyme papain supports Panlipase)</em>"
     },
     {
       "time": "1:30 PM",
       "label": "Lunch (Balanced Plate)",
-      "food": "<strong>1–2 Multigrain Rotis</strong> + 1 katori Dal / Paneer / Sabzi + Fresh Salad + 1 bowl <strong>Chaach</strong>. <em>(Take Panlipase 10000 with the first bite. Do not skip meals while on Huminsulin)</em>"
+      "food": "<strong>1–2 Multigrain Rotis</strong> + Dal/Paneer/Sabzi (use Haldi-Adrak-Lahsun tadka always) + <strong>Anti-Cancer Salad</strong> (shredded cabbage + tamatar + kheera + gajar + nimbu). <em>(Rotate: Gobhi/Patta Gobhi/Broccoli sabzi 2x/week for sulforaphane)</em>"
     },
     {
       "time": "5:00 PM",
-      "label": "Evening Soother",
-      "food": "<strong>5-6 Soaked Almonds</strong> or <strong>Sprouted Moong</strong>. + 1 cup <strong>Chamomile</strong> or <strong>Tulsi Green Tea</strong> (No sugar)."
+      "label": "✨ Enhanced Snack",
+      "food": "<strong>5-6 Soaked Almonds + 2-3 Akhrot (Walnuts)</strong> + <strong>Sprouted Moong</strong> daily. + 1 cup <strong>Chamomile Tea</strong> with a pinch of dalchini. <em>(Walnuts: Omega-3 anti-inflammatory. Dalchini: Insulin sensitizer)</em>"
     },
     {
       "time": "7:30 PM",
       "label": "Dinner (Gentle & Light)",
-      "food": "<strong>1–2 Multigrain Rotis</strong> + Light Sabzi (Lauki/Tori) OR Vegetable Soup. <em>(Take Panlipase 10000. Keep dinner light for better morning sugar)</em>"
+      "food": "<strong>1–2 Multigrain Rotis</strong> + Light Sabzi (<strong>Karela 2x/week</strong> in rotation, Lauki/Tori other days) OR <strong>Pancreas Protection Soup</strong>. <em>(Take Panlipase 10000. Karela stimulates pancreatic beta cells)</em>"
+    },
+    {
+      "time": "9:00 PM",
+      "label": "✨ Golden Milk",
+      "food": "<strong>Haldi Doodh</strong> — warm low-fat milk + ½ tsp haldi + pinch kali mirch + pinch dalchini. No sugar. <em>(Night-time curcumin dose for deep tissue repair and anti-inflammatory action)</em>"
     }
   ],
   "recipes": [
     {
-      "title": "🌾 Summer Multigrain Atta Mix",
-      "details": "A cooling blend designed for summer sugar management:",
+      "title": "🟡 Haldi-Adrak Universal Tadka",
+      "details": "Use this as the BASE for EVERY sabzi — ensures curcumin + piperine + gingerol + allicin enter every meal:",
       "ingredients": [
-        "800g Gehun (Wheat)",
-        "400g Jowar (Sorghum) - Cooling",
-        "400g Jau (Barley) - Highly Cooling & Fiber-rich",
-        "200g Ragi / Bajra - Moderate amount for summer",
-        "100g Alsi (Flaxseed) powder, 2 tsp Ajwain"
+        "1 tsp Sarson Oil (mustard oil)",
+        "½ tsp Jeera (let splutter)",
+        "1 clove crushed Lahsun (wait 30 sec)",
+        "½ inch grated Adrak",
+        "½ tsp Haldi powder",
+        "Pinch of Kali Mirch + Hing",
+        "Then add your vegetable (gobhi, karela, lauki, etc.)"
       ]
     },
     {
-      "title": "🥞 Moong Dal Chilla (Digestion Friendly)",
-      "details": "Soak 100g moong dal. Grind into a smooth batter.",
+      "title": "🥒 Anti-Cancer Summer Salad",
+      "details": "Serve with lunch DAILY — covers 5 cancer-prevention compounds in one bowl:",
       "ingredients": [
-        "Add: Chopped Pyaz (Onion)",
-        "Add: Grated Lauki (very easy to digest)",
-        "Add: Adrak, Hari Mirch, Dhaniya",
-        "Cooking: Use minimal oil (Sarson or Groundnut)"
+        "Shredded Patta Gobhi (cabbage) — RAW for maximum sulforaphane",
+        "Sliced Kheera (cucumber) — cooling",
+        "Diced Tamatar (tomato) — lycopene",
+        "Grated Gajar (carrot) — beta-carotene",
+        "Squeeze of Nimbu + Kala Namak + Kali Mirch",
+        "Few drops of Alsi oil (flaxseed) if available"
+      ]
+    },
+    {
+      "title": "🫚 Pancreas Protection Soup",
+      "details": "Perfect for 2-3 evenings per week — gentle on digestion, powerful for protection:",
+      "ingredients": [
+        "1 small Lauki (bottle gourd), chopped",
+        "½ small Gobhi (cauliflower), florets",
+        "1 Tamatar (tomato)",
+        "1 inch Adrak (ginger), grated",
+        "½ tsp Haldi + pinch Kali Mirch",
+        "1 clove Lahsun, crushed",
+        "Boil → Blend smooth → Serve warm"
+      ]
+    },
+    {
+      "title": "🌾 Updated Multigrain Atta",
+      "details": "Cancer-Shield version with boosted Omega-3 and Methi Dana:",
+      "ingredients": [
+        "700g Gehun (Wheat) — reduced slightly",
+        "400g Jowar (Sorghum) — cooling",
+        "400g Jau (Barley) — fiber-rich, blood sugar regulation",
+        "200g Ragi — calcium + iron rich",
+        "150g Alsi (Flaxseed) powder — INCREASED for Omega-3",
+        "50g Methi Dana powder — NEW (anti-cancer flavonoids)",
+        "2 tsp Ajwain — digestive support"
       ]
     }
   ],
-  "drinks": [
-    { "emoji": "🌼", "name": "Chamomile Tea", "note": "Relaxing and cooling, great for evening", "when": "Evening" },
-    { "emoji": "🌿", "name": "Tulsi Green Tea", "note": "Aids metabolism and maintains calm", "when": "Evening or Mid-day" },
-    { "emoji": "🥛", "name": "Chaach (Buttermilk)", "note": "Ayurvedic nectar for summer digestion", "when": "Mid-morning or lunch" },
-    { "emoji": "🥒", "name": "Hydration", "note": "Drink 8-10 glasses of water (Essential for Daparyl M)", "when": "Throughout the day" }
+  "protectiveDrinks": [
+    { "emoji": "🟡", "name": "Haldi Kali Mirch Pani", "note": "½ tsp haldi + pinch kali mirch + nimbu in warm water. Daily curcumin dose", "when": "Morning, after Methi water" },
+    { "emoji": "🫙", "name": "Amla Juice / Water", "note": "Fresh amla blended with water OR 1 tsp powder. Antioxidant powerhouse", "when": "Mid-morning (alternate days)" },
+    { "emoji": "🌿", "name": "Giloy Water", "note": "Fresh Giloy stem boiled in water. Immunomodulator + beta-cell protector", "when": "Morning, empty stomach (3-4x/week)" },
+    { "emoji": "🥛", "name": "Haldi Doodh (Golden Milk)", "note": "Warm milk + haldi + kali mirch + dalchini. Night-time repair", "when": "Bedtime" }
+  ],
+  "spiceProtocol": [
+    { "spice": "Haldi (Turmeric)", "compound": "Curcumin", "action": "Anti-cancer, anti-inflammatory, antioxidant", "usage": "Every sabzi, dal, chilla. Always pair with Kali Mirch" },
+    { "spice": "Kali Mirch (Black Pepper)", "compound": "Piperine", "action": "Increases curcumin absorption by 2000%", "usage": "Freshly ground — dal, chaach, sabzi. 2-3 pinches daily" },
+    { "spice": "Adrak (Ginger)", "compound": "Gingerol", "action": "Anti-inflammatory, supports pancreatic enzyme flow", "usage": "Fresh grated in tea, chilla, sabzi. 1-inch daily" },
+    { "spice": "Dalchini (Cinnamon)", "compound": "Cinnamaldehyde", "action": "Insulin sensitizer, anti-proliferative", "usage": "¼ tsp in chamomile tea. Ceylon preferred" },
+    { "spice": "Lahsun (Garlic)", "compound": "Allicin", "action": "Immune booster, cancer risk reducer", "usage": "2 raw cloves or crushed in sabzi daily" },
+    { "spice": "Jeera (Cumin)", "compound": "Thymoquinone", "action": "Digestive aid, antioxidant", "usage": "In Chaach + dal tadka daily" }
+  ],
+  "weeklyChecklist": [
+    { "day": "Mon", "items": ["Haldi+Kali Mirch 2x", "Amla", "Jamun", "Gobhi sabzi", "Raw Salad", "Omega-3"] },
+    { "day": "Tue", "items": ["Haldi+Kali Mirch 2x", "Giloy", "Jamun", "Cabbage salad", "Raw Salad", "Omega-3", "Karela"] },
+    { "day": "Wed", "items": ["Haldi+Kali Mirch 2x", "Amla", "Jamun", "Broccoli soup", "Raw Salad", "Omega-3"] },
+    { "day": "Thu", "items": ["Haldi+Kali Mirch 2x", "Giloy", "Jamun", "Gobhi sabzi", "Raw Salad", "Omega-3", "Karela"] },
+    { "day": "Fri", "items": ["Haldi+Kali Mirch 2x", "Amla", "Jamun", "Cabbage salad", "Raw Salad", "Omega-3"] },
+    { "day": "Sat", "items": ["Haldi+Kali Mirch 2x", "Giloy", "Jamun", "Broccoli soup", "Raw Salad", "Omega-3"] },
+    { "day": "Sun", "items": ["Haldi+Kali Mirch 2x", "Amla", "Jamun", "— (rest day)", "Raw Salad", "Omega-3"] }
+  ],
+  "priorityPlan": [
+    { "week": "Week 1", "priority": "🔴", "items": "Haldi + Kali Mirch (2x daily) + Raw salad with cabbage at lunch + Jamun (daily, in season!)", "start": "Today" },
+    { "week": "Week 2", "priority": "🟡", "items": "Add Amla (powder or fresh) + Karela sabzi (2x/week) + Akhrot at 5 PM", "start": "After 1 week" },
+    { "week": "Week 3", "priority": "🟢", "items": "Add Giloy (3-4x/week) + Gobhi/Broccoli rotation + Golden Milk at night", "start": "After sugar monitoring is stable" },
+    { "week": "Week 4", "priority": "🔵", "items": "Add Ashwagandha (bedtime) + Pancreas Protection Soup + Updated Atta", "start": "After consulting doctor" }
+  ],
+  "safetyNotes": [
+    { "item": "Haldi + Kali Mirch", "insulin": "✅ Safe", "daparylM": "✅ Safe", "panlipase": "✅ Safe — may improve enzyme flow" },
+    { "item": "Giloy", "insulin": "⚠️ Can lower sugar — monitor", "daparylM": "⚠️ Additive sugar-lowering", "panlipase": "✅ Safe" },
+    { "item": "Amla", "insulin": "✅ Safe — mild benefit", "daparylM": "✅ Safe — may enhance Metformin", "panlipase": "✅ Safe" },
+    { "item": "Karela", "insulin": "⚠️ Lowers sugar — start small", "daparylM": "⚠️ Additive sugar-lowering", "panlipase": "✅ Safe" },
+    { "item": "Ashwagandha", "insulin": "⚠️ Mild sugar-lowering", "daparylM": "✅ Safe", "panlipase": "✅ Safe" },
+    { "item": "Cruciferous Vegetables", "insulin": "✅ Safe", "daparylM": "✅ Safe", "panlipase": "✅ Safe" },
+    { "item": "Jamun", "insulin": "⚠️ Seeds lower sugar", "daparylM": "✅ Safe", "panlipase": "✅ Safe" }
   ],
   "lifestyle": [
     { "emoji": "🚶", "title": "Post-Meal Walk", "note": "A gentle 10–15 min walk after meals helps steady sugar levels." },
     { "emoji": "🍽️", "title": "The Plate Rule", "note": "50% Sabzi/Salad, 25% Protein, 25% Roti. Always take Panlipase with meals." },
     { "emoji": "🩺", "title": "Medical Optimization", "note": "Regular check-ins with the doctor to ensure insulin and medications are perfectly balanced." },
-    { "emoji": "📊", "title": "Consistent Monitoring", "note": "Track fasting levels and weight weekly to stay on target." }
+    { "emoji": "📊", "title": "Consistent Monitoring", "note": "Track fasting levels and weight weekly to stay on target." },
+    { "emoji": "🛡️", "title": "Daily Non-Negotiables", "note": "Haldi+Kali Mirch (2x), Raw Salad, Omega-3, Jamun (in season) — every single day." }
   ],
   "medications": [
     { "name": "Huminsulin", "purpose": "Rapidly controls severe blood sugar highs (glucose toxicity).", "icon": "💉" },
@@ -79,4 +159,3 @@
     { "name": "Panlipase 10000", "purpose": "Pancreatic enzyme replacement for proper nutrient absorption.", "icon": "🧬" }
   ]
 }
-

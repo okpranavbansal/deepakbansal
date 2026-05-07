@@ -20,8 +20,19 @@ The current treatment plan for Deepak Bansal involves a sophisticated, multi-pro
 - **Role**: Treats Exocrine Pancreatic Insufficiency (EPI). EPI is often a secondary complication in chronic diabetic patients or those with pancreatic stress.
 - **Best Practice**: Must be taken with the **first bite** of every meal to ensure proper nutrient absorption and prevent malnutrition.
 
-## Conclusion
-The combination is medically robust. By addressing glucose toxicity (Insulin), sustained metabolic control (Daparyl M), and nutrient absorption (Panlipase), the patient is positioned for significant markers improvement.
+## Emergency Medications
+The following medications are kept at home for emergency use, specifically for suspected cardiac events:
+
+### 1. Disprin (325mg)
+- **Role**: Aspirin.
+- **Action**: To chew immediately.
+
+### 2. Sorbitrate (5mg)
+- **Role**: Isosorbide Dinitrate.
+- **Action**: To place under the tongue if there is severe chest pain (lowers heart workload).
+
+### 3. Emergency Stabilization Kit
+- **Atorvastatin (80mg) & Clopidogrel (300mg)**: High doses taken at once to stabilize a clot while in transit to the hospital.
 
 ---
-*Last Updated: 2026-05-04*
+*Last Updated: 2026-05-07*

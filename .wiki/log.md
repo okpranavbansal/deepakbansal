@@ -31,3 +31,17 @@ Chronological record of wiki operations.
 - Updated website: enhanced schedule (9 slots), 4-week priority plan, spice protocol, protective drinks, recipes (Universal Tadka, Anti-Cancer Salad, Pancreas Soup, Updated Atta), weekly checklist, safety table, disclaimer.
 - Updated [[Diet-Research-Summer-2026]] with verification results.
 - Updated log.
+
+## [2026-05-07] ingest | Emergency Medication Protocol
+- Ingested emergency medication details (Disprin 325mg, Sorbitrate 5mg, Atorvastatin/Clopidogrel) into [[Medication-Research-May-2026]].
+- Documented specific emergency actions (chewing vs sublingual).
+- Updated log.
+
+## [2026-05-07] research | Gas Relief Medicine for Diabetic Profile
+- Researched gas/bloating medicines safe for use with Huminsulin, Daparyl M (Dapagliflozin + Metformin), and Panlipase 10000.
+- Identified likely root causes: Metformin GI side effects, possible Panlipase underdosing (10,000 vs recommended 40,000-50,000 units), high-fiber diet.
+- Documented 3 tiers of treatment: immediate OTC (Digene, Pudin Hara, Gas-O-Fast), daily support (Gasex, Unienzyme with precautions), and doctor-level interventions (Panlipase dose increase, Metformin XR switch, PPI addition).
+- Added drug interaction safety matrix and home remedy guidance.
+- Created [[Gas-Relief-Research-May-2026]].
+- Updated index and log.
+

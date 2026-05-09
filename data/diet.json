@@ -549,6 +549,11 @@
   "simpleGuide": {
     "eatables": [
       {
+        "item": "Curd (Dahi) & Hari Chutney",
+        "reason": "Dahi is good for daytime digestion (avoid at night). Hari Chutney (Mint/Coriander) is an excellent side for Chilla.",
+        "emoji": "🥣"
+      },
+      {
         "item": "Lauki, Tori, Tinda (Gourds)",
         "reason": "Extremely light on liver & pancreas, good for blood sugar.",
         "emoji": "\ud83e\udd52"
@@ -590,6 +595,11 @@
       }
     ],
     "avoidables": [
+      {
+        "item": "Namkeen, Biscuits & Chips",
+        "reason": "Processed, fried, and spikes blood sugar rapidly while burdening digestion.",
+        "emoji": "🥨"
+      },
       {
         "item": "Sugar, Jaggery, Honey, Sweets",
         "reason": "Immediately turns into liver fat and spikes diabetes.",

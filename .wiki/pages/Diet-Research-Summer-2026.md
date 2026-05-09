@@ -84,4 +84,5 @@ The plan focuses on "Seasonal Optimization" (*Ritucharya*) to keep the body cool
 - [x] **[2026-05-09]** Added 8 healthy snacks (Makhana, Pumpkin Seeds, Cucumber Chana Chaat, Sprouts Chaat, Sattu Drink, Paneer Tikka, Beetroot Soup, Bhuna Chana)
 - [x] **[2026-05-09]** Added Liver Recovery Protocol with phased Ayurvedic herb introduction (Triphala → Kutki → Pumpkin Seeds → Green Tea)
 - [x] **[2026-05-09]** Added prostate-friendly foods (pumpkin seeds, cooked tomatoes, green tea) per USG finding of mild BPH Grade-1
+- [x] **[2026-05-09]** Added notes clarifying dietary allowances: Curd is fine during daytime, Hari/Pudina Chutney is recommended, while Namkeen/Biscuits/Chips are strictly to be avoided due to rapid sugar spikes.
 

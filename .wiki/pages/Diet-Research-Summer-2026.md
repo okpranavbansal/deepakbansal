@@ -80,3 +80,8 @@ The plan focuses on "Seasonal Optimization" (*Ritucharya*) to keep the body cool
 - [x] **[2026-05-07]** Verified all protective diet claims against web sources (NIH, Johns Hopkins, etc.)
 - [x] **[2026-05-07]** Integrated full Protective Diet Shield into website
 - [x] **[2026-05-07]** Added safety interaction table, priority plan, spice protocol, checklist
+- [x] **[2026-05-09]** USG confirmed Grade-2 fatty liver → added liver-healing foods (coffee, beetroot, pomegranate, lauki increase)
+- [x] **[2026-05-09]** Added 8 healthy snacks (Makhana, Pumpkin Seeds, Cucumber Chana Chaat, Sprouts Chaat, Sattu Drink, Paneer Tikka, Beetroot Soup, Bhuna Chana)
+- [x] **[2026-05-09]** Added Liver Recovery Protocol with phased Ayurvedic herb introduction (Triphala → Kutki → Pumpkin Seeds → Green Tea)
+- [x] **[2026-05-09]** Added prostate-friendly foods (pumpkin seeds, cooked tomatoes, green tea) per USG finding of mild BPH Grade-1
+

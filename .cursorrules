@@ -1,2 +1,7 @@
 # Cursor Rules
 Please follow the instructions in [AI.md](./AI.md) for all tasks in this repository.
+
+## Medical & Dietary Rules
+- **Dual-System Check:** Always evaluate treatments and diets using both Ayurveda and Allopathy perspectives. Ensure there are no contradictions between the two systems or with prescribed medications.
+- **Holistic Alignment:** When recommending foods, ensure they align with ALL diagnosed diseases (e.g., Diabetes, Grade-2 Fatty Liver, Grade-1 Prostatomegaly, and digestive issues) concurrently. Do not recommend foods that help one condition but worsen another.
+- **Auto-Update Trigger:** Automatically update these `.cursorrules` with new constraints whenever a new diagnosis is added that requires a dietary or lifestyle update.

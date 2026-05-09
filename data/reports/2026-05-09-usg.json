@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-09",
+  "label": "USG Abdomen — May 2026",
+  "type": "imaging",
+  "facility": "Aggarwal Digital X-Ray, 3D/4D USG, Colour Doppler Centre, Ambala City",
+  "doctor": "Dr. Manisha Aggarwal (MBBS DNB Radiology, MNAMS)",
+  "referredBy": "Dr. Hardeep Singh",
+  "patient": {
+    "name": "Deepak Bansal",
+    "ageSex": "53 Years / Male",
+    "location": "Ambala, Haryana"
+  },
+  "summary": "USG Abdomen reveals Grade-2 Fatty Liver with enlarged liver (19 cm span) and Mild Prostatomegaly Grade-1 (prostate volume 27 cc). All other organs — gallbladder, pancreas, spleen, kidneys, and urinary bladder — are normal. No hydronephrosis, no calculus, no free fluid.",
+  "keyMarkers": [
+    { "title": "Liver Span", "value": "19 cm", "status": "attention", "normal": "Normal: 13–16 cm" },
+    { "title": "Fatty Liver", "value": "Grade 2", "status": "attention", "normal": "Normal: No fatty infiltration" },
+    { "title": "Prostate Vol", "value": "27 cc", "status": "monitor", "normal": "Normal: 20–25 cc" },
+    { "title": "Kidneys", "value": "Normal", "status": "ok", "normal": "No hydronephrosis / calculus" },
+    { "title": "Gallbladder", "value": "Normal", "status": "ok", "normal": "No stones / wall thickening" },
+    { "title": "Pancreas", "value": "Normal", "status": "ok", "normal": "No focal lesion" }
+  ],
+  "sections": [
+    {
+      "title": "Liver",
+      "icon": "🫁",
+      "type": "table",
+      "headers": ["Finding", "Value", "Normal", "Status"],
+      "rows": [
+        ["Liver Span", "19 cm (Enlarged)", "13–16 cm", "attention"],
+        ["Echogenicity", "Increased (Fatty Infiltration)", "Normal echogenicity", "attention"],
+        ["IHBR (Intrahepatic Biliary Radicles)", "Not Dilated", "Not Dilated", "ok"],
+        ["Focal Lesion", "None", "None", "ok"]
+      ],
+      "note": "Liver is enlarged at 19 cm (normal 13–16 cm) with Grade-2 fatty changes. This is consistent with uncontrolled diabetes (HbA1c 12.7%), obesity, and high triglycerides (238 mg/dL). Grade-2 means moderate fat accumulation — still reversible with weight loss, blood sugar control, and dietary changes."
+    },
+    {
+      "title": "Gallbladder & Biliary System",
+      "icon": "🟢",
+      "type": "table",
+      "headers": ["Finding", "Value", "Normal", "Status"],
+      "rows": [
+        ["Gallbladder Outline & Wall", "Normal", "Normal", "ok"],
+        ["Gallbladder Lumen", "Anechoic (clear)", "Anechoic", "ok"],
+        ["CBD (Common Bile Duct)", "Normal caliber", "Normal caliber", "ok"],
+        ["Portal Vein", "Normal caliber", "Normal caliber", "ok"]
+      ],
+      "note": "Gallbladder is completely normal — no stones, no wall thickening, no sludge. This effectively rules out gallbladder disease as the cause of the right-sided abdominal pain reported on 7 May 2026."
+    },
+    {
+      "title": "Kidneys",
+      "icon": "🫘",
+      "type": "table",
+      "headers": ["Finding", "Value", "Normal", "Status"],
+      "rows": [
+        ["Size & Outline", "Normal (both)", "Normal", "ok"],
+        ["Echotexture", "Normal (both)", "Normal", "ok"],
+        ["CMD (Corticomedullary Differentiation)", "Maintained", "Maintained", "ok"],
+        ["Sinus Echoes", "Compact", "Compact", "ok"],
+        ["Hydronephrosis", "None", "None", "ok"],
+        ["Calculus (Stones)", "None", "None", "ok"]
+      ],
+      "note": "Both kidneys are structurally normal with no stones, no swelling (hydronephrosis), and good corticomedullary differentiation. This is reassuring given the hyperfiltration (eGFR 118) noted in the May 2 blood report. However, structural normality does not rule out early diabetic nephropathy — a urine microalbumin test is still recommended."
+    },
+    {
+      "title": "Prostate",
+      "icon": "🔵",
+      "type": "table",
+      "headers": ["Finding", "Value", "Normal", "Status"],
+      "rows": [
+        ["Size", "3.4 × 3.4 × 3.7 cm", "~3.0 × 3.0 × 3.0 cm", "monitor"],
+        ["Volume", "27 cc", "20–25 cc", "monitor"],
+        ["Outline & Echotexture", "Normal", "Normal", "ok"],
+        ["Grade", "Mild Prostatomegaly Grade-1", "No enlargement", "monitor"]
+      ],
+      "note": "Prostate is mildly enlarged at 27 cc (normal ~20–25 cc for this age). This is very common in men over 50 and is not alarming. Grade-1 means the mildest form. Only needs attention if urinary symptoms develop (weak stream, frequent nighttime urination, hesitancy). No treatment needed unless symptomatic."
+    },
+    {
+      "title": "Other Findings — All Clear",
+      "icon": "✅",
+      "type": "list",
+      "items": [
+        "<strong>Pancreas & Spleen</strong> — Normal in size, outline & echotexture. No focal lesion.",
+        "<strong>Urinary Bladder</strong> — Normal outline & wall thickness with clear (anechoic) lumen.",
+        "<strong>Free Fluid</strong> — No free fluid in abdomen (rules out ascites / peritonitis).",
+        "<strong>Retroperitoneal Lymph Nodes</strong> — No upper RP LAP (lymphadenopathy) seen.",
+        "<strong>Right Iliac Fossa</strong> — No dilated tubular aperistaltic structure (rules out appendicitis)."
+      ],
+      "note": "All remaining organs and areas are normal. Importantly, no signs of appendicitis or intra-abdominal fluid collection."
+    },
+    {
+      "title": "Connection to Existing Conditions",
+      "icon": "🔗",
+      "type": "list",
+      "items": [
+        "<strong>Fatty Liver ← Uncontrolled Diabetes</strong> — HbA1c 12.7% drives insulin resistance, which increases liver fat deposition. Controlling blood sugar is the #1 intervention.",
+        "<strong>Fatty Liver ← Dyslipidemia</strong> — Triglycerides 238 mg/dL and LDL 181.7 mg/dL contribute directly to hepatic fat accumulation.",
+        "<strong>Fatty Liver ← Obesity</strong> — The report itself notes 'poor acoustic window due to obesity.' Visceral fat is a primary driver of liver steatosis.",
+        "<strong>Enlarged Liver (19 cm)</strong> — Hepatomegaly is expected with Grade-2 fatty infiltration. The liver swells as fat accumulates in hepatocytes.",
+        "<strong>Kidneys Normal</strong> — Reassuring given the eGFR hyperfiltration (118) from blood work. Structural health is preserved for now.",
+        "<strong>Gallbladder Normal</strong> — Despite high triglycerides (a risk factor for gallstones), no stones or sludge were found.",
+        "<strong>Prostate Mild Enlargement</strong> — Age-related BPH (Benign Prostatic Hyperplasia). Common at 53. Monitor for urinary symptoms."
+      ],
+      "note": "The USG confirms that the metabolic syndrome (diabetes + dyslipidemia + obesity) is now affecting the liver. This is reversible at Grade-2 with aggressive lifestyle and blood sugar control."
+    }
+  ],
+  "consultationPlan": [
+    { "specialist": "Gastroenterologist / Hepatologist", "when": "Within 2 weeks", "note": "Grade-2 fatty liver needs baseline LFTs (ALT, AST, GGT) and follow-up plan to prevent progression to NASH/fibrosis." },
+    { "specialist": "Diabetologist", "when": "Ongoing", "note": "Fatty liver is directly linked to uncontrolled HbA1c. Intensify glycemic control." },
+    { "specialist": "Urologist", "when": "If symptomatic", "note": "Mild prostatomegaly Grade-1 — only if urinary symptoms (weak stream, nocturia, hesitancy) develop." }
+  ],
+  "impression": [
+    "Fatty Liver (Grade-2) — Moderate steatosis, reversible with intervention",
+    "Mild Prostatomegaly Grade-1 — Age-related, monitor for urinary symptoms"
+  ],
+  "targets": [
+    { "marker": "Liver Span", "current": "19 cm (enlarged)", "target3": "17–18 cm", "target6": "≤16 cm (normal)" },
+    { "marker": "Fatty Liver Grade", "current": "Grade 2", "target3": "Grade 1–2 (partial reversal)", "target6": "Grade 0–1 (near reversal)" },
+    { "marker": "Prostate Volume", "current": "27 cc", "target3": "Monitor (no worsening)", "target6": "Stable or improved" },
+    { "marker": "Fasting Blood Sugar", "current": "184 mg/dL (9 May)", "target3": "< 130 mg/dL", "target6": "< 110 mg/dL" },
+    { "marker": "HbA1c", "current": "12.7% (2 May)", "target3": "< 9%", "target6": "< 7.5%" },
+    { "marker": "Triglycerides", "current": "238 mg/dL", "target3": "< 180 mg/dL", "target6": "< 150 mg/dL (normal)" },
+    { "marker": "Body Weight", "current": "Current (obese)", "target3": "−4 to −5 kg", "target6": "−10 kg total" }
+  ],
+  "limitationsNoted": "Poor acoustic window due to obesity, bowel gases & body habitus — high-up position of structures. Some deeper structures may not be fully visualized."
+}

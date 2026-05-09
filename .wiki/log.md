@@ -105,3 +105,46 @@ Chronological record of wiki operations.
 ## [2026-05-07] urinary clue | Relaxed while passing urine
 - User reported patient feels normal/relaxed while passing urine.
 - Updated [[Gas-Relief-Research-May-2026]] to treat this as a clue toward urinary pressure/spasm possibilities while noting that ability to urinate is reassuring.
+
+## [2026-05-09] ingest | USG Abdomen Report (Aggarwal Digital X-Ray Centre)
+- Transcribed USG Abdomen report from Dr. Manisha Aggarwal into `raw/usg-abdomen-2026-05-09.md`.
+- Created structured report JSON `data/reports/2026-05-09-usg.json` for dashboard integration.
+- Added report to `data/manifest.json`.
+- Created [[USG-Abdomen-May-2026]] wiki page with full organ-by-organ analysis.
+- **Key findings**: Fatty Liver Grade-2 (liver span 19 cm), Mild Prostatomegaly Grade-1 (27 cc). All other organs normal.
+- **Differential resolution**: USG definitively ruled out gallbladder disease, kidney stones, and appendicitis from the 7 May pain differential.
+- Updated [[Gas-Relief-Research-May-2026]] with USG-based differential ruling.
+- Integrated USG findings with existing blood work (HbA1c 12.7%, triglycerides 238, eGFR 118).
+- Updated index and log.
+
+## [2026-05-09] vitals update | Fasting sugar 184 mg/dL at 7 AM
+- User reported fasting blood sugar 184 mg/dL at 7 AM on 9 May 2026.
+- This represents a significant improvement from 275.7 mg/dL (2 May 2026) → 184 mg/dL (9 May 2026) — a 33% reduction in 1 week.
+- Diet plan + medication regimen appears to be working. Still above target (70–100 mg/dL fasting) but trajectory is encouraging.
+
+## [2026-05-09] research | Liver & Prostate Care — Dual-System (Allopathy + Ayurveda)
+- Doctor ordered Fecal Elastase test (pancreatic exocrine function); LFTs and Urine Microalbumin also being done.
+- Researched fatty liver Grade-2 management: Mediterranean diet, weight loss, coffee (liver-protective), Pioglitazone/Vitamin E/GLP-1 options.
+- Researched Ayurvedic liver herbs: Kutki (most potent hepatoprotective), Bhumyamalaki, Triphala, Kalmegh, Guduchi — with drug interaction safety for Insulin/Dapagliflozin/Metformin.
+- Researched prostate BPH Grade-1: tomatoes (lycopene), pumpkin seeds (zinc), green tea (EGCG), Varuna, Gokshura, Chandraprabha Vati.
+- Created [[Liver-Prostate-Care-May-2026]] with full dual-system treatment guide.
+- Added 8 new snacks to `data/diet.json`: Roasted Makhana, Pumpkin Seed Mix, Cucumber Chana Chaat, Moong Sprouts Chaat, Sattu Drink, Paneer Tikka Bites, Beetroot-Gajar Soup, Bhuna Chana.
+- Added Liver Recovery Protocol (phased herb introduction) to `data/diet.json`.
+- Updated `app.js` dashboard to render snacks section and liver protocol section.
+- Updated index and log.
+
+## [2026-05-09] update | Website — Food Treatment Guide Integration
+- Added `liverHealingFoods` to `data/diet.json`: Black Coffee, Beetroot, Pomegranate, Lauki, Green Tea with NIH evidence and usage instructions.
+- Added `avoidFoods` to `data/diet.json`: 7 foods to strictly avoid with dual Allopathic + Ayurvedic reasons.
+- Added `pendingTests` to `data/diet.json`: Fecal Elastase, LFTs, Urine Microalbumin with clinical context.
+- Added `targets` to `data/reports/2026-05-09-usg.json`: 3-month and 6-month recovery targets for liver span, fatty liver grade, prostate volume, fasting sugar, HbA1c, triglycerides, and body weight.
+- Updated `app.js` to render 3 new sections on the Diet Plan page: 🫁 Liver-Healing Additions, ❌ Foods to Strictly Avoid, 🧪 Pending Tests.
+- Reordered Diet page sections: Snacks → Liver-Healing Foods → Liver Protocol (herbs) → Avoid Foods → Pending Tests → Disclaimer.
+- Updated log.
+
+## [2026-05-09] update | Simple Guide & Holistic Cursor Rules
+- Updated `.cursorrules` to enforce Dual-System Check (Ayurveda + Allopathy) and Holistic Alignment across all diseases (Diabetes, Fatty Liver, Prostate).
+- Added Auto-Update trigger for `.cursorrules` on new diagnoses.
+- Added a "Simple Guide: What to Eat & What to Avoid" to `data/diet.json` which specifically recommends foods safe for *all* diseases simultaneously.
+- Enhanced `app.js` and `style.css` to render this simple, father-friendly guide prominently at the top of the Diet Plan page.
+- Updated log.

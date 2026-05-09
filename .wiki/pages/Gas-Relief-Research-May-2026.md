@@ -71,6 +71,30 @@ Scar clarification: user believes the visible abdominal mark is a **growth/weigh
 
 Whole-context synthesis: Current pattern is severe right-sided abdominal/flank-region pain with **no fever, no vomiting, BP 129/84, pulse 97, glucose 156, painless normal urination, and abdominal mark likely stretch mark rather than surgical scar**. This makes UTI, severe hyperglycemic crisis, hypertensive emergency, and surgical-adhesion/old-scar explanations less likely. Top remaining possibilities are **trapped gas/hepatic-flexure spasm**, **gallbladder colic**, **kidney stone without urinary symptoms**, **muscle/nerve pain**, and **early surgical abdomen** if pain becomes fixed/worse.
 
+## 🩻 USG Abdomen Results — 9 May 2026 (Definitive Update)
+
+USG Abdomen performed by Dr. Manisha Aggarwal at Aggarwal Digital X-Ray Centre, Ambala. Full analysis: [[USG-Abdomen-May-2026]].
+
+### Differential Diagnosis — Ruled Out by USG
+
+| Previous Suspect | USG Result | Status |
+|---|---|---|
+| **Gallbladder / Cholecystitis** ⭐⭐⭐⭐ | GB normal, no stones, no wall thickening, CBD normal | ❌ **RULED OUT** |
+| **Kidney Stone / Renal Colic** ⭐⭐⭐⭐ | Both kidneys normal, no calculus, no hydronephrosis | ❌ **RULED OUT** |
+| **Appendicitis** | No dilated tubular aperistaltic structure in RIF | ❌ **RULED OUT** |
+| **Hepatic Flexure Gas/Spasm** | Liver enlarged but no focal lesion | ✅ **LIKELY CAUSE** |
+| **Liver Capsular Stretch (NAFLD)** | Grade-2 fatty liver, liver span 19 cm (enlarged) | ✅ **CONFIRMED — contributory** |
+
+### New Findings from USG
+1. **Fatty Liver Grade-2**: Liver enlarged at 19 cm with increased echogenicity. Consistent with HbA1c 12.7%, triglycerides 238, and obesity.
+2. **Mild Prostatomegaly Grade-1**: Prostate 27 cc. Age-related, no treatment needed unless urinary symptoms develop.
+3. All other organs (pancreas, spleen, bladder) — normal.
+
+### Revised Assessment
+The 7 May pain was most likely caused by **hepatic flexure gas/spasm** (high-fiber diet + Metformin GI effects) and/or **hepatomegaly-related capsular stretch** (enlarged liver at 19 cm pulling on Glisson's capsule → dull RUQ pain). The serious causes (gallstones, kidney stones, appendicitis) have been definitively excluded.
+
+---
+
 Practical comfort plan while monitoring:
 - If pain is improving: left-side lying, knees bent, slow breathing, small sips of water, gentle walking only if comfortable.
 - For gas/acidity pattern: sugar-free simethicone/antacid as per label; ajwain water or saunf is acceptable.

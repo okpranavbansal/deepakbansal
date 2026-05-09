@@ -124,13 +124,48 @@ body {
 }
 
 /* ── DIET SPECIFIC ── */
+.simple-guide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.sg-column {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.sg-header {
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.sg-header-eat { background: #2E7D32; }
+.sg-header-avoid { background: #C62828; }
+.sg-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+}
+.sg-list li {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  border-bottom: 1px solid var(--border);
+  gap: 15px;
+}
+.sg-list li:last-child { border-bottom: none; }
+.sg-emoji { font-size: 28px; }
+.sg-list strong { display: block; font-size: 15px; color: var(--navy); margin-bottom: 4px; }
+.sg-list p { font-size: 13px; color: var(--slate); margin: 0; line-height: 1.4; }
+
 .meal-day { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
 .meal-day-header { background: var(--navy-mid); color: white; padding: 12px 20px; font-weight: 600; }
 .meal-row { display: grid; grid-template-columns: 130px 1fr; border-bottom: 1px solid var(--border); }
 .meal-time { background: var(--light); padding: 12px 14px; font-weight: 600; border-right: 1px solid var(--border); font-size: 12px; }
 .meal-food { padding: 12px 16px; font-size: 14px; }
-
-/* ── NEW ADDITIONS HIGHLIGHT ── */
 .meal-row-new {
   background: var(--shield-light);
   border-left: 4px solid var(--shield);
@@ -379,6 +414,7 @@ body {
 .badge-ok { background: #D5F5E3; color: var(--ok); }
 
 @media (max-width: 600px) {
+  .simple-guide-grid { grid-template-columns: 1fr; }
   .summary-grid { grid-template-columns: 1fr 1fr; }
   .meal-row { grid-template-columns: 100px 1fr; }
   .header { padding: 30px 20px; }

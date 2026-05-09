@@ -1,5 +1,6 @@
 {
   "reports": [
-    { "date": "2026-05-02", "file": "2026-05-02.json", "label": "May 2026" }
+    { "date": "2026-05-02", "file": "2026-05-02.json", "label": "May 2026" },
+    { "date": "2026-05-09", "file": "2026-05-09-usg.json", "label": "USG Abdomen — May 2026" }
   ]
 }

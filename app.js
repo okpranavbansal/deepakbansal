@@ -35,13 +35,19 @@ async function render() {
 
   // Update Buttons
   prevBtn.disabled = (currentPage === 0);
-  nextBtn.disabled = (currentPage === manifest.reports.length);
+  nextBtn.disabled = (currentPage === manifest.reports.length + 2);
 
   if (currentPage === 0) {
     indicator.innerText = "Page 1: Diet Plan";
     renderDiet(content);
+  } else if (currentPage === 1) {
+    indicator.innerText = "Page 2: Dietary Precautions";
+    renderPrecautions(content);
+  } else if (currentPage === 2) {
+    indicator.innerText = "Page 3: Fruits Guide";
+    renderFruits(content);
   } else {
-    const reportIndex = currentPage - 1;
+    const reportIndex = currentPage - 3;
     const report = await getReport(reportIndex);
     indicator.innerText = `Page ${currentPage + 1}: Report — ${report.label}`;
     renderReport(content, report);
@@ -50,9 +56,53 @@ async function render() {
 
 function renderDiet(container) {
   let html = `
+    <!-- FATHER-FRIENDLY SIMPLE GUIDE -->
+    ${dietData.simpleGuide ? `
+    <div class="section">
+      <div class="section-title">🌟 Simple Guide: What to Eat & What to Avoid</div>
+      <div style="background: white; padding: 20px; border-radius: 12px; margin-bottom: 30px; font-size: 15px; border: 2px solid #E2E8F0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+        <p style="margin-bottom: 20px; color: var(--slate); text-align: center; font-weight: 500;">
+          <em>This list is custom-made to be safe for <strong>Diabetes</strong>, <strong>Fatty Liver</strong>, <strong>Prostate</strong>, and <strong>Digestion</strong> all at once.</em>
+        </p>
+        <div class="simple-guide-grid">
+          <!-- EATABLES -->
+          <div class="sg-column sg-eat">
+            <h3 class="sg-header sg-header-eat">✅ Safe to Eat (Superfoods)</h3>
+            <ul class="sg-list">
+              ${dietData.simpleGuide.eatables.map(item => `
+                <li>
+                  <div class="sg-emoji">${item.emoji}</div>
+                  <div>
+                    <strong>${item.item}</strong>
+                    <p>${item.reason}</p>
+                  </div>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+          <!-- AVOIDABLES -->
+          <div class="sg-column sg-avoid">
+            <h3 class="sg-header sg-header-avoid">❌ Strictly Avoid (Poison for Liver/Sugar)</h3>
+            <ul class="sg-list">
+              ${dietData.simpleGuide.avoidables.map(item => `
+                <li>
+                  <div class="sg-emoji">${item.emoji}</div>
+                  <div>
+                    <strong>${item.item}</strong>
+                    <p>${item.reason}</p>
+                  </div>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    ` : ''}
+
     <div class="section">
       <div class="section-title">🛡️ Protective Diet Shield</div>
-      <div style="background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%); color:white; padding:24px; border-radius:12px; margin-bottom:20px; font-size:14px;">
+      <div style="background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%); color:white; padding:24px; border-radius:12px; margin-bottom:20px; font-size:14px; box-shadow: 0 10px 20px rgba(26,38,57,0.2);">
         <strong style="display:block; margin-bottom:10px; color:#AED6F1; font-size:16px;">Dietary Goals</strong>
         <div style="display:flex; flex-wrap:wrap; gap:8px;">
           ${dietData.goals.map(g => `<span style="background:rgba(255,255,255,0.1); padding:6px 12px; border-radius:20px; font-size:13px; border:1px solid rgba(255,255,255,0.15);">${g}</span>`).join('')}
@@ -237,6 +287,121 @@ function renderDiet(container) {
     </div>
     ` : ''}
 
+    <!-- SNACKS -->
+    ${dietData.snacks ? `
+    <div class="section">
+      <div class="section-title">🍿 Healthy Snacks — Liver + Prostate + Sugar Safe</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px;">
+        ${dietData.snacks.map(s => `
+          <div class="lifestyle-card" style="position:relative; overflow:hidden;">
+            <div style="position:absolute; top:8px; right:8px;">
+              <span class="badge badge-${s.target === 'prostate' ? 'monitor' : 'ok'}" style="font-size:10px; text-transform:uppercase;">${s.target}</span>
+            </div>
+            <div style="font-size:28px; margin-bottom:8px;">${s.emoji}</div>
+            <div style="font-weight:700; font-size:15px; margin-bottom:4px; color:var(--navy);">${s.name}</div>
+            <div style="font-size:12px; color:var(--info); margin-bottom:6px; font-weight:600;">${s.when}</div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px; font-style:italic;">${s.recipe}</div>
+            <div style="font-size:12px; color:var(--navy); background:rgba(26,54,93,0.05); padding:8px; border-radius:6px;">${s.benefit}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <!-- LIVER HEALING FOODS -->
+    ${dietData.liverHealingFoods ? `
+    <div class="section">
+      <div class="section-title">🫁 Liver-Healing Additions (Evidence-Based)</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:14px;">
+        ${dietData.liverHealingFoods.map(f => `
+          <div class="lifestyle-card" style="border-left:4px solid #27AE60;">
+            <div style="font-size:28px; margin-bottom:8px;">${f.emoji}</div>
+            <div style="font-weight:700; font-size:15px; margin-bottom:6px; color:var(--navy);">${f.name}</div>
+            <div style="font-size:12px; color:var(--shield); background:#E8F5E9; padding:6px 10px; border-radius:6px; margin-bottom:8px; font-weight:500;">${f.evidence}</div>
+            <div style="font-size:13px; color:var(--slate);"><strong>How:</strong> ${f.how}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <!-- LIVER PROTOCOL -->
+    ${dietData.liverProtocol ? `
+    <div class="section">
+      <div class="section-title">🌿 Liver Recovery Protocol — Phased Introduction</div>
+      <div style="background: linear-gradient(135deg, #FFF3E0, #FFF8E1); padding:15px; border-radius:10px; margin-bottom:15px; font-size:13px; border-left:4px solid #FF9800;">
+        <strong>⚠️ Rule:</strong> Introduce ONE new item per week. Monitor fasting sugar daily. Stop immediately if sugar drops below 100 mg/dL.
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:12px;">
+        ${dietData.liverProtocol.map(p => `
+          <div class="lifestyle-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <div style="font-weight:700; font-size:15px; color:var(--navy);">${p.item}</div>
+              <span class="badge badge-monitor" style="font-size:10px;">${p.phase}</span>
+            </div>
+            <div style="font-size:13px; color:var(--slate);">${p.note}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <!-- FOODS TO STRICTLY AVOID -->
+    ${dietData.avoidFoods ? `
+    <div class="section">
+      <div class="section-title">❌ Foods to Strictly Avoid</div>
+      <div style="background:#FFEBEE; border:1px solid #EF9A9A; border-left:5px solid #C62828; padding:14px 18px; border-radius:8px; margin-bottom:16px; font-size:14px; color:#B71C1C;">
+        <strong>❌ Critical:</strong> These foods directly worsen fatty liver, spike blood sugar, or interfere with the treatment plan. Zero exceptions.
+      </div>
+      <table class="marker-table">
+        <thead>
+          <tr>
+            <th>❌ Avoid</th>
+            <th>Allopathy (Why)</th>
+            <th>Ayurveda (Why)</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${dietData.avoidFoods.map(a => `
+            <tr>
+              <td><strong>${a.item}</strong></td>
+              <td style="font-size:13px; color:#C62828;">${a.allopathy}</td>
+              <td style="font-size:13px; color:var(--slate);">${a.ayurveda}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+    ` : ''}
+
+    <!-- PENDING TESTS -->
+    ${dietData.pendingTests ? `
+    <div class="section">
+      <div class="section-title">🧪 Pending Tests — What to Expect</div>
+      <div style="background: linear-gradient(135deg, #E3F2FD, #EDE7F6); padding:14px 18px; border-radius:8px; margin-bottom:16px; font-size:13px; border-left:4px solid #1565C0; color:#0D47A1;">
+        <strong>💡 Tip:</strong> Share Fecal Elastase result when available — if < 200 µg/g, it confirms Panlipase dose (currently 10,000 units) needs to be increased to 40,000–50,000 units.
+      </div>
+      <table class="marker-table">
+        <thead>
+          <tr>
+            <th>Test</th>
+            <th>Ordered By</th>
+            <th>What It Reveals</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${dietData.pendingTests.map(t => `
+            <tr>
+              <td><strong>${t.test}</strong></td>
+              <td><span class="badge badge-monitor">${t.orderedBy}</span></td>
+              <td style="font-size:13px;">${t.reveals}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+    ` : ''}
+
     <!-- DISCLAIMER -->
     <div class="section">
       <div class="disclaimer">
@@ -246,6 +411,79 @@ function renderDiet(container) {
   `;
   container.innerHTML = html;
 }
+
+function renderPrecautions(container) {
+  let html = `
+    <div class="section">
+      <div class="section-title">⚠️ Dietary Precautions</div>
+      <p style="margin-bottom:20px; color:var(--slate); font-size:14px;">Important rules for portion control, meal timings, and cooking methods to protect the liver and pancreas.</p>
+      
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px;">
+        ${dietData.precautions ? dietData.precautions.map(p => `
+          <div class="lifestyle-card">
+            <div style="font-size:28px; margin-bottom:8px;">${p.icon}</div>
+            <div style="font-weight:700; font-size:15px; margin-bottom:10px; color:var(--navy);">${p.title}</div>
+            <ul style="list-style: none; padding: 0;">
+              ${p.rules.map(rule => `
+                <li style="padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 13px; display: flex; align-items: flex-start; gap: 8px;">
+                  <span style="color: var(--attention);">•</span>
+                  <span style="color:var(--slate);">${rule}</span>
+                </li>
+              `).join('')}
+            </ul>
+          </div>
+        `).join('') : ''}
+      </div>
+    </div>
+  `;
+  container.innerHTML = html;
+}
+
+function renderFruits(container) {
+  let html = `
+    <div class="section">
+      <div class="section-title">🍎 Fruits Guide: Safe vs Unsafe</div>
+      <p style="margin-bottom:20px; color:var(--slate); font-size:14px;">Carefully selected fruits that are safe for both diabetes and fatty liver. Strict avoidance is needed for high-sugar fruits.</p>
+      
+      ${dietData.fruitsGuide ? `
+      <div class="simple-guide-grid">
+        <!-- EATABLES -->
+        <div class="sg-column sg-eat">
+          <h3 class="sg-header sg-header-eat">✅ Safe Fruits</h3>
+          <ul class="sg-list">
+            ${dietData.fruitsGuide.eatable.map(item => `
+              <li>
+                <div class="sg-emoji">${item.emoji}</div>
+                <div>
+                  <strong>${item.name}</strong>
+                  <p>${item.reason}</p>
+                </div>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+        <!-- AVOIDABLES -->
+        <div class="sg-column sg-avoid">
+          <h3 class="sg-header sg-header-avoid">❌ Strictly Avoid</h3>
+          <ul class="sg-list">
+            ${dietData.fruitsGuide.nonEatable.map(item => `
+              <li>
+                <div class="sg-emoji">${item.emoji}</div>
+                <div>
+                  <strong>${item.name}</strong>
+                  <p>${item.reason}</p>
+                </div>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+      </div>
+      ` : ''}
+    </div>
+  `;
+  container.innerHTML = html;
+}
+
 
 function renderReport(container, report) {
   let html = `
@@ -301,6 +539,70 @@ function renderReport(container, report) {
         ${s.note ? `<div style="background:#F8F9FA; padding:15px; border-radius:8px; margin-top:15px; font-size:13px; border-left:4px solid var(--info);">${s.note}</div>` : ''}
       </div>
     `).join('')}
+
+    ${report.impression ? `
+    <div class="section">
+      <div class="section-title">📋 Impression</div>
+      <ul style="list-style: none; padding: 0;">
+        ${report.impression.map(item => `
+          <li style="padding: 10px 15px; margin-bottom:8px; background: linear-gradient(135deg, #FFF3E0, #FFF8E1); border-radius:8px; font-size: 14px; font-weight:500; border-left:4px solid var(--attention);">
+            ${item}
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+    ` : ''}
+
+    ${report.consultationPlan ? `
+    <div class="section">
+      <div class="section-title">🩺 Recommended Consultations</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:15px;">
+        ${report.consultationPlan.map(c => `
+          <div class="lifestyle-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <div style="font-weight:700; font-size:15px; color:var(--navy);">${c.specialist}</div>
+              <span class="badge badge-${c.when === 'Soon' || c.when === 'Ongoing' ? 'attention' : 'monitor'}" style="font-size:11px;">${c.when}</span>
+            </div>
+            <div style="font-size:13px; color:var(--slate);">${c.note}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    ${report.targets ? `
+    <div class="section">
+      <div class="section-title">🎯 Recovery Targets</div>
+      <table class="marker-table">
+        <thead>
+          <tr>
+            <th>Marker</th>
+            <th>Current</th>
+            <th>3-Month Target</th>
+            <th>6-Month Target</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${report.targets.map(t => `
+            <tr>
+              <td><strong>${t.marker}</strong></td>
+              <td style="font-family: 'DM Mono', monospace; font-weight:600; color:var(--attention);">${t.current}</td>
+              <td style="font-family: 'DM Mono', monospace;">${t.target3}</td>
+              <td style="font-family: 'DM Mono', monospace; color:var(--ok);">${t.target6}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+    ` : ''}
+
+    ${report.limitationsNoted ? `
+    <div class="section">
+      <div style="background:#FFF3E0; padding:15px; border-radius:8px; font-size:13px; border-left:4px solid #FF9800;">
+        <strong>⚠️ Scan Limitations:</strong> ${report.limitationsNoted}
+      </div>
+    </div>
+    ` : ''}
   `;
   container.innerHTML = html;
 }
@@ -314,7 +616,7 @@ document.getElementById('prev-btn').addEventListener('click', () => {
 });
 
 document.getElementById('next-btn').addEventListener('click', () => {
-  if (currentPage < manifest.reports.length) {
+  if (currentPage < manifest.reports.length + 2) {
     currentPage++;
     render();
     window.scrollTo(0, 0);

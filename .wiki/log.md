@@ -179,3 +179,13 @@ Chronological record of wiki operations.
 - Updated `app.js` so the Today page starts with a simple daily focus, puts the daily schedule above dense explanations, reuses card/table helpers, and exposes report notes plus recovery targets.
 - Updated `style.css` for a clearer first screen, reusable card/grid styles, better table wrapping, tighter card radius, and safer mobile schedule layout.
 - Verified the site locally at `http://localhost:8010`, including tab navigation and browser console.
+
+## [2026-05-09] research | Independent urgent test prioritization
+- User asked which tests are most urgent if cost is a concern, ignoring whether tests were doctor-ordered or previously recommended.
+- Searched repo context and current web sources including ADA 2026 kidney/CVD standards, AASLD/EASL MASLD guidance, FDA SGLT2 safety information, ADA eye guidance, and NIDDK EPI diagnosis guidance.
+- Updated [[Liver-Prostate-Care-May-2026]] with a cost-value urgency ranking: UACR/urine routine, LFT/CMP, CBC with platelets, symptom-triggered ketones, diabetic eye exam, fecal elastase, and ECG only when clinically indicated or as a low-cost baseline.
+
+## [2026-05-09] clarification | Life-saving test urgency
+- User clarified that health/life safety matters more than cost.
+- Reframed test priority into emergency-now triggers, urgent baseline screens, and scheduled prevention.
+- Added explicit ER/urgent-care triggers for ketones/DKA, heart symptoms/ECG-troponin, urinary infection, and severe abdominal pain workup in [[Liver-Prostate-Care-May-2026]].

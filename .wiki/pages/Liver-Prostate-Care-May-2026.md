@@ -13,6 +13,52 @@
 
 ## 🧪 Pending Tests — What They Will Tell Us
 
+### Independent Urgency Ranking — 9 May 2026
+
+This ranking ignores whether a test was doctor-ordered or previously recommended, and prioritizes only by near-term medical usefulness and cost-value for this patient profile: type 2 diabetes with HbA1c 12.7%, grade-2 fatty liver, obesity, LDL 181.7, triglycerides 238, hypertension history, smoking, Daparyl M, Huminsulin, and Panlipase.
+
+| Priority | Test | Why it is urgent / useful now | Cost-value note |
+|---|---|---|---|
+| 1 | **Urine albumin-to-creatinine ratio (UACR / microalbumin-creatinine ratio)** + urine routine | ADA 2026 standards support UACR + eGFR at least annually in all type 2 diabetes. His eGFR is high/hyperfiltration and USG can still be normal in early diabetic kidney disease. Daparyl M also increases urinary sugar, so urine routine helps screen infection/ketones/glucose context. | High value, usually inexpensive. Do first if choosing only one kidney test. |
+| 2 | **LFT/CMP**: ALT, AST, GGT, ALP, bilirubin, albumin, creatinine/eGFR, electrolytes | USG shows grade-2 fatty liver and 19 cm liver span, but ultrasound does not show liver-cell inflammation. CMP also checks kidney/electrolyte safety while on diabetes medicines. | High value because it guides liver safety and medication/herb decisions. |
+| 3 | **CBC with platelet count** | Platelets plus AST/ALT/age allow FIB-4 calculation, the low-cost first step in fatty-liver fibrosis triage. | Cheap add-on; makes the LFT result much more actionable. |
+| 4 | **Ketones only if symptomatic or sick**: urine ketones or preferably blood beta-hydroxybutyrate | FDA warns SGLT2 inhibitors such as dapagliflozin can cause ketoacidosis with abdominal pain, nausea/vomiting, fatigue, or breathing difficulty, sometimes without very high glucose. | Not a routine expensive panel; keep for sick-day/pain/vomiting/poor-intake scenarios. |
+| 5 | **Dilated retinal/diabetic eye exam** | Long-standing or newly recognized type 2 diabetes can already have silent eye disease; ADA patient guidance supports eye exam soon after type 2 diagnosis and annually. | Important, but can be scheduled soon rather than same-day if no visual symptoms. |
+| 6 | **Fecal elastase** | Best independent justification is symptoms or pancreatitis/EPI concern: oily/foul stools, chronic diarrhea, weight loss, malabsorption, persistent bloating, or uncertainty about Panlipase need/dose. NIDDK describes fecal elastase as the common stool test for EPI. | Useful if digestive symptoms are real/persistent; less urgent than kidney/liver screens if money is tight. |
+| 7 | **Resting ECG** | Diabetes + LDL 181.7 + smoking + BP history = high cardiovascular risk. ADA 2026 does not recommend routine coronary screening in asymptomatic people if risk factors are treated, but ECG is reasonable baseline if symptoms, abnormal exam, breathlessness, chest discomfort, claudication, or before exercise intensification. | Low-cost baseline; urgent only with symptoms. |
+
+**Tests to avoid repeating immediately unless clinically needed:** HbA1c was done on 2 May 2026, so repeat around 3 months is usually more meaningful; lipid profile was also just done, so repeat after treatment/lifestyle interval rather than immediately; PSA is not urgent from the mild 27 cc prostate finding unless urinary symptoms, abnormal exam, family history, or shared screening decision.
+
+### Life-Safety Ranking — If Health Is the Priority Over Cost
+
+If the goal is preventing a missed emergency, separate the tests into **emergency-now**, **urgent baseline**, and **scheduled prevention**.
+
+#### Emergency-now tests: do immediately in ER/urgent care if symptoms appear
+
+These are not routine screening tests; they are life-saving when the patient is unwell.
+
+| Trigger | Tests that matter immediately | Why |
+|---|---|---|
+| Abdominal pain plus nausea/vomiting, unusual weakness, breathlessness, fever, dehydration, poor intake, confusion, fruity breath, or glucose repeatedly >300 mg/dL | **Blood/urine ketones**, random glucose, electrolytes, bicarbonate/CO2, anion gap, creatinine/eGFR, BUN, urinalysis, CBC | Daparyl M contains dapagliflozin. SGLT2 medicines can rarely cause ketoacidosis, sometimes without very high glucose. Untreated DKA can be fatal. |
+| Chest pain, chest pressure, unexplained breathlessness, sweating, left arm/jaw pain, fainting, or severe weakness | **ECG immediately**, troponin, BP/oxygen check, electrolytes/glucose | Diabetes + smoking + LDL 181.7 + BP history can make heart events more likely and symptoms can be atypical. |
+| Fever, burning urine, flank pain, blood in urine, severe urinary frequency/urgency | Urine routine/microscopy/culture, CBC, creatinine/eGFR, glucose/ketones if unwell | Dapagliflozin increases glucose in urine and can raise genital/urinary infection risk; infections can destabilize diabetes. |
+| Severe persistent right/upper abdominal pain, vomiting, fever, jaundice, or pain radiating to back | LFT/CMP, CBC, lipase/amylase, ketones/electrolytes, imaging as clinically indicated | Need to distinguish liver/biliary/pancreas/ketone causes rather than assuming gas. |
+
+#### Urgent baseline tests: do soon even if he feels okay
+
+1. **UACR / urine microalbumin-creatinine ratio + urine routine** — kidney and infection-risk screen; diabetes and BP can silently damage kidneys.
+2. **CMP/LFT with electrolytes and kidney function** — liver inflammation, bilirubin, albumin, creatinine/eGFR, sodium/potassium/bicarbonate context.
+3. **CBC with platelets** — infection/anemia screen and required for FIB-4 fibrosis risk calculation.
+4. **FIB-4 calculation from age + AST + ALT + platelets** — cheap first liver fibrosis triage. If FIB-4 is high/indeterminate, then FibroScan becomes more health-urgent.
+5. **Dilated retinal/diabetic eye exam** — important silent-complication screen; schedule soon.
+6. **Foot/neuropathy exam** — not expensive, but health-critical because uncontrolled diabetes + smoking increases wound/infection risk.
+
+#### Important but not usually life-saving this week
+
+- **Fecal elastase**: important if persistent gas, oily/foul stools, chronic diarrhea, weight loss, or malabsorption; less urgent than ketone/kidney/liver-heart safety unless symptoms suggest EPI is active.
+- **PSA**: not urgent from Grade-1 prostatomegaly alone unless urinary symptoms, abnormal exam, family history, or shared screening decision.
+- **Repeat HbA1c/lipids**: not useful immediately because both were just checked on 2 May 2026.
+
 ### Fecal Elastase (Doctor-Ordered)
 - **What it tests**: Pancreatic exocrine function — whether the pancreas produces enough digestive enzymes
 - **Why it matters**: He is already on Panlipase 10000 (enzyme replacement), but this test will confirm whether the dose is adequate

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deepak Bansal | Health Portfolio</title>
+    <meta
+      name="description"
+      content="Family-friendly health dashboard for daily diet, safety rules, and medical reports."
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
       rel="stylesheet"
@@ -31,11 +35,11 @@
       </div>
 
       <!-- NAVIGATION -->
-      <nav class="top-nav">
-        <button class="nav-tab active" data-tab="diet">Daily Schedule</button>
-        <button class="nav-tab" data-tab="categories">Food Guide</button>
-        <button class="nav-tab" data-tab="guidelines">Rules & Safety</button>
-        <button class="nav-tab" data-tab="reports">Medical Reports</button>
+      <nav class="top-nav" aria-label="Health dashboard sections">
+        <button class="nav-tab active" type="button" data-tab="diet">Today</button>
+        <button class="nav-tab" type="button" data-tab="categories">Food List</button>
+        <button class="nav-tab" type="button" data-tab="guidelines">Safety</button>
+        <button class="nav-tab" type="button" data-tab="reports">Reports</button>
       </nav>
 
       <!-- DYNAMIC CONTENT -->

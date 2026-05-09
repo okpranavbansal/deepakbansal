@@ -172,3 +172,10 @@ Chronological record of wiki operations.
 - Updated `app.js` to render Safety First cards and Web-Checked Medical Sources, renamed the spice section from “Anti-Cancer Spice Protocol” to “Food-Level Spice Support,” and broadened medication safety warnings.
 - Updated `style.css` so safety/report cards use one column on small mobile screens.
 - Updated [[Diet-Research-Summer-2026]], [[Liver-Prostate-Care-May-2026]], and `.wiki/index.md` with the re-check synthesis and safety-first changes.
+
+## [2026-05-09] website cleanup | Easier daily dashboard
+- Re-checked official web guidance signals already represented in the site: CDC diabetes meal planning and smoking guidance, NIDDK NAFLD/fatty-liver treatment guidance, NIDDK pancreatitis/EPI eating and PERT guidance, and FDA SGLT2 ketoacidosis safety warning.
+- Updated `index.html` navigation labels to be shorter and added a page description and navigation accessibility attributes.
+- Updated `app.js` so the Today page starts with a simple daily focus, puts the daily schedule above dense explanations, reuses card/table helpers, and exposes report notes plus recovery targets.
+- Updated `style.css` for a clearer first screen, reusable card/grid styles, better table wrapping, tighter card radius, and safer mobile schedule layout.
+- Verified the site locally at `http://localhost:8010`, including tab navigation and browser console.

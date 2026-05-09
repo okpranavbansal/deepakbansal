@@ -21,12 +21,15 @@ async function init() {
 
 function setupEventListeners() {
   document.querySelectorAll(".nav-tab").forEach((tab) => {
+    tab.setAttribute("aria-pressed", tab.classList.contains("active"));
     tab.addEventListener("click", () => {
       // Update UI
-      document
-        .querySelectorAll(".nav-tab")
-        .forEach((t) => t.classList.remove("active"));
+      document.querySelectorAll(".nav-tab").forEach((t) => {
+        t.classList.remove("active");
+        t.setAttribute("aria-pressed", "false");
+      });
       tab.classList.add("active");
+      tab.setAttribute("aria-pressed", "true");
 
       // Update State
       currentTab = tab.getAttribute("data-tab");
@@ -43,6 +46,55 @@ async function getReport(index) {
     reportsData[reportInfo.date] = await res.json();
   }
   return reportsData[reportInfo.date];
+}
+
+function section(title, body, lead = "") {
+  return `
+    <section class="section">
+      <div class="section-title">${title}</div>
+      ${lead ? `<p class="section-lede">${lead}</p>` : ""}
+      ${body}
+    </section>
+  `;
+}
+
+function statusCard(item) {
+  const text = item.explain || item.text || item.note || item.benefit || "";
+  return `
+    <article class="summary-card card-${item.status || "ok"}">
+      ${item.status ? `<div class="card-status status-${item.status}">${item.status}</div>` : ""}
+      <div class="card-title">${item.title}</div>
+      ${text ? `<p>${text}</p>` : ""}
+      ${item.hindi ? `<p class="hindi-note">${item.hindi}</p>` : ""}
+    </article>
+  `;
+}
+
+function simpleCard({ icon = "", title = "", kicker = "", body = "", badgeText = "", badgeTone = "monitor" }) {
+  return `
+    <article class="lifestyle-card">
+      ${badgeText ? `<span class="badge badge-${badgeTone} card-badge">${badgeText}</span>` : ""}
+      ${icon ? `<div class="card-icon">${icon}</div>` : ""}
+      <div class="card-title">${title}</div>
+      ${kicker ? `<div class="card-kicker">${kicker}</div>` : ""}
+      ${body ? `<p>${body}</p>` : ""}
+    </article>
+  `;
+}
+
+function cardGrid(cards, className = "") {
+  return `<div class="card-grid ${className}">${cards.join("")}</div>`;
+}
+
+function simpleTable(headers, rows, className = "") {
+  return `
+    <div class="table-wrap">
+      <table class="marker-table ${className}">
+        <thead><tr>${headers.map((h) => `<th>${h}</th>`).join("")}</tr></thead>
+        <tbody>${rows.join("")}</tbody>
+      </table>
+    </div>
+  `;
 }
 
 async function render() {
@@ -62,155 +114,25 @@ async function render() {
 
 function renderDietChart(container) {
   let html = `
-    <!-- CONDITION SNAPSHOT -->
-    ${
-      dietData.conditionSummary
-        ? `
-    <div class="section">
-      <div class="section-title">🧭 Current Condition Snapshot</div>
-      <div class="summary-grid" style="margin-bottom: 30px;">
-        ${dietData.conditionSummary
-          .map(
-            (c) => `
-          <div class="summary-card card-${c.status}">
-            <div class="card-status status-${c.status}">${c.status}</div>
-            <div class="card-title" style="font-weight:700; font-size:15px; margin-bottom:8px;">${c.title}</div>
-            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${c.explain}</div>
-            <div style="font-size:13px; color:var(--navy); font-weight:600;">${c.hindi}</div>
-          </div>
-        `,
-          )
-          .join("")}
+    <section class="care-brief">
+      <div>
+        <div class="eyebrow">Use this first</div>
+        <h2>Today’s simple plan</h2>
+        <p>Keep meals regular, keep portions measured, take medicines exactly as prescribed, and make every tea break smoke-free if possible.</p>
       </div>
-    </div>
-    `
-        : ""
-    }
+      <ul class="focus-list" aria-label="Today's focus">
+        <li><strong>Meals:</strong> fixed timing, no skipped meals</li>
+        <li><strong>Sugar:</strong> monitor fasting and symptoms</li>
+        <li><strong>Pancreas:</strong> low-oil food, Panlipase with first bite</li>
+        <li><strong>Smoking:</strong> replace one cigarette break with water or walk</li>
+      </ul>
+    </section>
 
-    <!-- SAFETY FIRST -->
-    ${
-      dietData.safetyFirst
-        ? `
-    <div class="section">
-      <div class="section-title">⚕️ Safety First</div>
-      <div class="summary-grid" style="margin-bottom: 30px;">
-        ${dietData.safetyFirst
-          .map(
-            (s) => `
-          <div class="summary-card card-${s.status}">
-            <div class="card-status status-${s.status}">${s.status}</div>
-            <div class="card-title" style="font-weight:700; font-size:15px; margin-bottom:8px;">${s.title}</div>
-            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${s.text}</div>
-            <div style="font-size:13px; color:var(--navy); font-weight:600;">${s.hindi}</div>
-          </div>
-        `,
-          )
-          .join("")}
-      </div>
-    </div>
-    `
-        : ""
-    }
+    ${dietData.conditionSummary ? section("🧭 Current Snapshot", cardGrid(dietData.conditionSummary.map(statusCard), "summary-grid")) : ""}
 
-    <!-- GOALS -->
-    ${
-      dietData.goals
-        ? `
-    <div class="section">
-      <div class="section-title">🎯 Primary Goals</div>
-      <div style="background: white; padding: 20px; border-radius: 12px; margin-bottom: 30px; border: 2px solid #E2E8F0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-        <ul style="list-style: none; padding: 0; margin: 0;">
-          ${dietData.goals.map(g => `<li style="padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--navy); font-weight: 500;">${g}</li>`).join("")}
-        </ul>
-      </div>
-    </div>
-    `
-        : ""
-    }
-
-    <!-- 4-WEEK PRIORITY PLAN -->
-    ${
-      dietData.priorityPlan
-        ? `
-    <div class="section">
-      <div class="section-title">🎯 4-Week Priority Plan</div>
-      <div class="priority-timeline">
-        ${dietData.priorityPlan
-          .map(
-            (p) => `
-          <div class="priority-card priority-${p.priority === "🔴" ? "red" : p.priority === "🟡" ? "yellow" : p.priority === "🟢" ? "green" : "blue"}">
-            <div class="priority-header">
-              <span class="priority-dot">${p.priority}</span>
-              <strong>${p.week}</strong>
-              <span class="priority-start">${p.start}</span>
-            </div>
-            <div class="priority-body">${p.items}</div>
-          </div>
-        `,
-          )
-          .join("")}
-      </div>
-    </div>
-    `
-        : ""
-    }
-
-    <!-- SMOKING CESSATION PLAN -->
-    ${
-      dietData.smokingCessationPlan
-        ? `
-    <div class="section">
-      <div class="section-title">🚭 Smoking Quit Plan</div>
-      <div class="safety-warning">
-        <strong>Most important lifestyle treatment:</strong> Chain smoking makes diabetes harder to control and multiplies heart, lung, circulation, and cancer risk. Food helps, but quitting tobacco gives the biggest protection.
-      </div>
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:15px; margin-bottom: 30px;">
-        ${dietData.smokingCessationPlan
-          .map(
-            (s) => `
-          <div class="lifestyle-card">
-            <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
-              <span class="badge badge-attention">Step ${s.step}</span>
-              <div style="font-weight:700; color:var(--navy);">${s.title}</div>
-            </div>
-            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${s.note}</div>
-            <div style="font-size:13px; color:var(--navy); font-weight:600;">${s.hindi}</div>
-          </div>
-        `,
-          )
-          .join("")}
-      </div>
-    </div>
-    `
-        : ""
-    }
-
-    <!-- SIMPLE ANSWERS -->
-    ${
-      dietData.simpleAnswers
-        ? `
-    <div class="section">
-      <div class="section-title">🧾 Simple Answers</div>
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px; margin-bottom: 30px;">
-        ${dietData.simpleAnswers
-          .map(
-            (a) => `
-          <div class="lifestyle-card">
-            <div style="font-weight:700; font-size:15px; color:var(--navy); margin-bottom:6px;">${a.question}</div>
-            <div style="font-size:13px; color:var(--slate);">${a.answer}</div>
-          </div>
-        `,
-          )
-          .join("")}
-      </div>
-    </div>
-    `
-        : ""
-    }
-
-    <!-- DAILY SCHEDULE -->
-    <div class="section">
-      <div class="section-title">📅 Daily Schedule</div>
+    ${section(
+      "📅 Daily Schedule",
+      `
       <div class="meal-day">
         <div class="meal-rows">
           ${dietData.schedule
@@ -225,32 +147,109 @@ function renderDietChart(container) {
             .join("")}
         </div>
       </div>
-    </div>
+      `,
+      "This is the main daily checklist. Keep it boring and consistent; the details below are only for clarification.",
+    )}
+
+    ${
+      dietData.simpleAnswers
+        ? section(
+            "🧾 Simple Answers",
+            cardGrid(
+              dietData.simpleAnswers.map((a) =>
+                simpleCard({
+                  title: a.question,
+                  body: a.answer,
+                }),
+              ),
+            ),
+          )
+        : ""
+    }
+
+    ${dietData.safetyFirst ? section("⚕️ Safety First", cardGrid(dietData.safetyFirst.map(statusCard), "summary-grid")) : ""}
+
+    ${
+      dietData.priorityPlan
+        ? section(
+            "🎯 4-Week Priority Plan",
+            `
+        <div class="priority-timeline">
+          ${dietData.priorityPlan
+            .map(
+              (p) => `
+            <div class="priority-card priority-${p.priority === "🔴" ? "red" : p.priority === "🟡" ? "yellow" : p.priority === "🟢" ? "green" : "blue"}">
+              <div class="priority-header">
+                <span class="priority-dot">${p.priority}</span>
+                <strong>${p.week}</strong>
+                <span class="priority-start">${p.start}</span>
+              </div>
+              <div class="priority-body">${p.items}</div>
+            </div>
+          `,
+            )
+            .join("")}
+        </div>
+      `,
+          )
+        : ""
+    }
+
+    ${
+      dietData.smokingCessationPlan
+        ? section(
+            "🚭 Smoking Quit Plan",
+            `
+        <div class="safety-warning">
+          <strong>Most important lifestyle treatment:</strong> Chain smoking makes diabetes harder to control and multiplies heart, lung, circulation, and cancer risk. Food helps, but quitting tobacco gives the biggest protection.
+        </div>
+        ${cardGrid(
+          dietData.smokingCessationPlan.map((s) =>
+            simpleCard({
+              title: s.title,
+              kicker: `Step ${s.step}`,
+              body: `${s.note}<br><span class="hindi-note">${s.hindi}</span>`,
+              badgeText: `Step ${s.step}`,
+              badgeTone: "attention",
+            }),
+          ),
+        )}
+      `,
+          )
+        : ""
+    }
 
     <!-- PENDING TESTS -->
     ${
       dietData.pendingTests
-        ? `
-    <div class="section">
-      <div class="section-title">🧪 Pending Tests</div>
-      <table class="marker-table">
-        <thead><tr><th>Test</th><th>Order</th><th>What it tells us</th></tr></thead>
-        <tbody>
-          ${dietData.pendingTests
-            .map(
-              (t) => `
+        ? section(
+            "🧪 Pending Tests",
+            simpleTable(
+              ["Test", "Order", "What it tells us"],
+              dietData.pendingTests.map(
+                (t) => `
             <tr>
               <td><strong>${t.test}</strong></td>
               <td><span class="badge badge-monitor">${t.orderedBy}</span></td>
               <td style="font-size:13px;">${t.reveals}</td>
             </tr>
           `,
-            )
-            .join("")}
-        </tbody>
-      </table>
-    </div>
-    `
+              ),
+            ),
+          )
+        : ""
+    }
+
+    ${
+      dietData.goals
+        ? section(
+            "🎯 Primary Goals",
+            `
+        <ul class="clean-list">
+          ${dietData.goals.map((g) => `<li>${g}</li>`).join("")}
+        </ul>
+      `,
+          )
         : ""
     }
 
@@ -873,10 +872,34 @@ async function renderReports(container) {
             `
                   : ""
             }
+            ${s.note ? `<p class="section-note">${s.note}</p>` : ""}
           </div>
         `,
           )
           .join("")}
+
+        ${
+          report.targets
+            ? `
+          <div style="margin-bottom:30px;">
+            <div style="font-weight:700; font-size:15px; margin-bottom:10px;">🎯 Recovery Targets</div>
+            ${simpleTable(
+              ["Marker", "Current", "3 months", "6 months"],
+              report.targets.map(
+                (t) => `
+                <tr>
+                  <td><strong>${t.marker}</strong></td>
+                  <td>${t.current}</td>
+                  <td>${t.target3}</td>
+                  <td>${t.target6}</td>
+                </tr>
+              `,
+              ),
+            )}
+          </div>
+        `
+            : ""
+        }
       </div>
       <hr style="border: 0; border-top: 1px solid var(--border); margin: 40px 0;">
     `;

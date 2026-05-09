@@ -102,7 +102,7 @@ body {
 }
 
 .nav-tab {
-  flex: 1;
+  flex: 1 0 auto;
   min-width: 100px;
   padding: 14px 10px;
   border: none;

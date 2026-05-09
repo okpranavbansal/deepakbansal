@@ -656,11 +656,20 @@
       ]
     },
     {
-      "title": "Hydration",
+      "title": "Hydration & Sleep",
       "icon": "💧",
       "rules": [
-        "Drink 2-3 liters of water daily.",
+        "Drink 2-3 liters of water daily to help Daparyl M flush out glucose.",
+        "Avoid heavy fluid intake 2 hours before bed to prevent nocturia (nighttime urination) due to prostate enlargement.",
         "Avoid drinking large amounts of water immediately after meals; sip warm water or chaach instead."
+      ]
+    },
+    {
+      "title": "Daparyl M Hygiene",
+      "icon": "🧼",
+      "rules": [
+        "Daparyl M pushes sugar into urine. Combined with mild prostate enlargement, this creates a high risk for UTIs and fungal infections.",
+        "Maintain strict personal hygiene after urination to prevent bacterial growth."
       ]
     }
   ],
@@ -719,5 +728,64 @@
         "reason": "Very sweet, avoid completely to protect liver and manage diabetes."
       }
     ]
-  }
+  },
+  "dalsAndLegumes": [
+    {
+      "name": "Yellow Moong Dal",
+      "emoji": "🥣",
+      "benefit": "Lightest to digest, high protein, safe for pancreas and liver.",
+      "bestFor": "Daily consumption, Chillas, Soups"
+    },
+    {
+      "name": "Red Masoor Dal",
+      "emoji": "🍲",
+      "benefit": "Rich in fiber and protein, helps stabilize blood sugar.",
+      "bestFor": "Lunch or Dinner in rotation"
+    },
+    {
+      "name": "Chana Dal (Bengal Gram)",
+      "emoji": "🥘",
+      "benefit": "Lowest Glycemic Index among dals, excellent for diabetes.",
+      "bestFor": "Twice a week, keeps you full longer"
+    },
+    {
+      "name": "Sprouted Moong",
+      "emoji": "🌱",
+      "benefit": "Live enzymes boost digestion, high in antioxidants.",
+      "bestFor": "Morning snacks or Salad base"
+    }
+  ],
+  "vegetableCategories": [
+    {
+      "category": "Leafy Greens (Daily Protection)",
+      "items": [
+        { "name": "Spinach (Palak)", "reason": "High in iron and chlorophyll for liver detox." },
+        { "name": "Fenugreek (Methi)", "reason": "Lowers blood sugar levels naturally." },
+        { "name": "Mustard Greens (Sarson)", "reason": "Powerful antioxidants for cell repair." }
+      ]
+    },
+    {
+      "category": "Cruciferous (Prostate Health)",
+      "items": [
+        { "name": "Broccoli", "reason": "Contains sulforaphane, vital for prostate health." },
+        { "name": "Cauliflower (Gobhi)", "reason": "Anti-inflammatory and fiber-rich." },
+        { "name": "Cabbage (Patta Gobhi)", "reason": "Best for RAW salads to get healing enzymes." }
+      ]
+    },
+    {
+      "category": "Traditional (Hydrating & Low-GI)",
+      "items": [
+        { "name": "Lauki (Bottle Gourd)", "reason": "Easiest on the digestive system, cooling." },
+        { "name": "Tori (Ridge Gourd)", "reason": "Natural blood purifier, low calorie." },
+        { "name": "Karela (Bitter Gourd)", "reason": "Stimulates pancreas to produce insulin." },
+        { "name": "Tinda (Apple Gourd)", "reason": "Hydrating and very light on the liver." }
+      ]
+    },
+    { "category": "Detox Duo",
+      "items": [
+        { "name": "Garlic (Lahsun)", "reason": "Sulfur compounds help liver clear fat." },
+        { "name": "Onion (Pyaz)", "reason": "Quercetin reduces inflammation in the prostate." }
+      ]
+    }
+  ]
 }

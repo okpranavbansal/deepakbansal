@@ -1,44 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Health Portfolio — Deepak Bansal</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Portfolio — Deepak Bansal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <!-- HEADER -->
+      <div class="header">
+        <div class="header-top">
+          <h1>Deepak <span>Bansal</span></h1>
+        </div>
+        <div class="patient-meta">
+          <div class="meta-item">
+            <label>Patient</label><span>Deepak Bansal</span>
+          </div>
+          <div class="meta-item">
+            <label>Age / Sex</label><span>53 Years / Male</span>
+          </div>
+          <div class="meta-item">
+            <label>Location</label><span>Ambala, Haryana</span>
+          </div>
+        </div>
+      </div>
 
-<div class="page-wrap">
-  <!-- HEADER -->
-  <div class="header">
-    <div class="header-top">
-      <h1>Deepak <span>Bansal</span></h1>
+      <!-- NAVIGATION -->
+      <nav class="top-nav">
+        <button class="nav-tab active" data-tab="diet">Diet Chart</button>
+        <button class="nav-tab" data-tab="categories">Categories</button>
+        <button class="nav-tab" data-tab="guidelines">Guidelines</button>
+        <button class="nav-tab" data-tab="reports">Reports</button>
+      </nav>
+
+      <!-- DYNAMIC CONTENT -->
+      <div id="content-area">
+        <div style="padding: 50px; text-align: center; color: var(--slate)">
+          Loading Health Portfolio...
+        </div>
+      </div>
     </div>
-    <div class="patient-meta">
-      <div class="meta-item"><label>Patient</label><span>Deepak Bansal</span></div>
-      <div class="meta-item"><label>Age / Sex</label><span>53 Years / Male</span></div>
-      <div class="meta-item"><label>Location</label><span>Ambala, Haryana</span></div>
-    </div>
-  </div>
 
-  <!-- DYNAMIC CONTENT -->
-  <div id="content-area">
-    <div style="padding: 50px; text-align: center; color: var(--slate);">Loading Health Portfolio...</div>
-  </div>
-
-  <!-- PAGINATION -->
-  <div class="pagination">
-    <button class="nav-btn" id="prev-btn" disabled>
-      ← Previous Page
-    </button>
-    <div id="page-indicator">Page 1: Diet Plan</div>
-    <button class="nav-btn" id="next-btn">
-      Next Page →
-    </button>
-  </div>
-</div>
-
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

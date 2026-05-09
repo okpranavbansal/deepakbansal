@@ -28,6 +28,7 @@
 ### Urine Microalbumin
 - **What it tests**: Whether tiny amounts of protein are leaking into urine — earliest sign of diabetic kidney damage
 - **Why it matters**: Kidneys look normal on USG, but eGFR 118 (hyperfiltration) is a warning sign. Microalbumin catches damage years before structural changes appear
+- **Note on Daparyl M (Dapagliflozin)**: Daparyl M protects the kidneys by reducing this hyperfiltration. When he takes it, his eGFR might experience an initial "dip" to a lower normal range — this is a healthy, protective response, not a sign of kidney failure.
 
 ---
 
@@ -78,6 +79,8 @@
 
 ### Allopathic Perspective
 At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop. However, prostate-friendly dietary choices can slow progression.
+
+> ⚠️ **CRITICAL DAPARYL M INTERACTION**: Dapagliflozin pushes excess blood sugar into the urine. In men with BPH (even mild), urine can pool slightly in the bladder. Sugar + pooled urine = very high risk of UTIs and fungal (yeast) infections. **Strict personal hygiene after urination is mandatory**, and water intake must be high (but restricted 2 hours before bed to prevent nocturia).
 
 **Prostate-protective foods (evidence-backed)**:
 | Food | Active Compound | Evidence |

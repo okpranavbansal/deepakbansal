@@ -148,3 +148,27 @@ Chronological record of wiki operations.
 - Added a "Simple Guide: What to Eat & What to Avoid" to `data/diet.json` which specifically recommends foods safe for *all* diseases simultaneously.
 - Enhanced `app.js` and `style.css` to render this simple, father-friendly guide prominently at the top of the Diet Plan page.
 - Updated log.
+
+## [2026-05-09] re-analysis | Diet + chain smoking update
+- Re-analyzed the full condition profile: HbA1c 12.7%, fasting sugar trend 275.7 → 184 mg/dL, Grade-2 fatty liver with 19 cm liver span, high LDL/TG, hypertension risk, mild Grade-1 prostatomegaly, digestive enzyme concern, and chain smoking.
+- Web-checked current guidance from CDC smoking/diabetes and quitting resources, ADA 2026 Standards of Care, AASLD NAFLD guidance, Mayo Clinic BPH diet guidance, and NIDDK BPH information.
+- Updated `.cursorrules` with a new Smoking Constraint: tobacco cessation must be treated as a top-priority intervention and sweets/biscuits/overeating should not be suggested as cigarette substitutes.
+- Updated `data/diet.json`: added condition snapshot, smoking quit plan, Hindi glossary for difficult terms, safer herb language, gentler weight-loss target, stricter portion controls, smoking-specific craving replacements, and pending-test explanations in simpler Hindi-friendly language.
+- Updated `app.js`: Diet page now renders condition snapshot, smoking quit plan, pending tests, and disclaimer; Guidelines page now renders the Hindi glossary.
+- Updated [[Diet-Research-Summer-2026]] and [[Liver-Prostate-Care-May-2026]] to make smoking cessation central and soften over-strong “compound cure” language.
+
+## [2026-05-09] clarification | Simpler family-facing diet guide
+- User clarified the patient still cannot quit smoking, drinks roughly 8-10 cups tea/day, has pancreatitis history, Jamun is not in season, and needs simpler explanations for 2x daily, haldi+kali mirch, karela sabzi, Golden Milk, Ashwagandha, Pancreas Protection Soup, and Updated Atta.
+- Web-checked NIDDK pancreatitis diet/treatment guidance, CDC diabetes smoking guidance, and CDC/ADA-style diabetes plate guidance.
+- Updated `data/diet.json` with `simpleAnswers`, tea reduction target, seasonal fruit swaps, low-oil karela instructions, Golden Milk definition, Ashwagandha safety/form guidance, Pancreas-Liver Soup explanation, Updated Atta explanation, expanded dal/pulse list, grain guide, fruit guide, and vegetable guide.
+- Updated `app.js` to render Simple Answers and Grains/Roti Choices, and changed weekly checklist fruit heading away from Jamun.
+- Updated [[Diet-Research-Summer-2026]] and [[Liver-Prostate-Care-May-2026]] with the simplified family-facing clarification.
+
+## [2026-05-09] web re-check | Health & diet safety tightening
+- User requested a proper web search and update of the wiki/website health and diet guidance.
+- Web-checked CDC diabetes smoking and meal-planning guidance, NIDDK NAFLD/NASH treatment guidance, NIDDK pancreatitis/EPI nutrition guidance, Mayo Clinic BPH diet/lifestyle guidance, FDA SGLT2 inhibitor safety warnings, NIH/NCCIH diabetes supplement safety, NIH/NCCIH ashwagandha/turmeric safety, and NIH LiverTox ashwagandha.
+- Updated `.cursorrules` with Supplement Safety and SGLT2 + Pancreatitis Safety constraints.
+- Updated `data/diet.json` with Safety First cards, web-checked source cards, Daparyl M sick-day warning, Pancreatitis/EPI food rules, safer supplement/herb language, gradual weight-loss language, no-fasting guardrail, and food-level spice guidance.
+- Updated `app.js` to render Safety First cards and Web-Checked Medical Sources, renamed the spice section from “Anti-Cancer Spice Protocol” to “Food-Level Spice Support,” and broadened medication safety warnings.
+- Updated `style.css` so safety/report cards use one column on small mobile screens.
+- Updated [[Diet-Research-Summer-2026]], [[Liver-Prostate-Care-May-2026]], and `.wiki/index.md` with the re-check synthesis and safety-first changes.

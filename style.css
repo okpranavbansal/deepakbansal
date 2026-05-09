@@ -571,7 +571,7 @@ body {
     grid-template-columns: 1fr;
   }
   .summary-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .meal-row {
     grid-template-columns: 80px 1fr;

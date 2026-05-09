@@ -62,6 +62,56 @@ async function render() {
 
 function renderDietChart(container) {
   let html = `
+    <!-- CONDITION SNAPSHOT -->
+    ${
+      dietData.conditionSummary
+        ? `
+    <div class="section">
+      <div class="section-title">🧭 Current Condition Snapshot</div>
+      <div class="summary-grid" style="margin-bottom: 30px;">
+        ${dietData.conditionSummary
+          .map(
+            (c) => `
+          <div class="summary-card card-${c.status}">
+            <div class="card-status status-${c.status}">${c.status}</div>
+            <div class="card-title" style="font-weight:700; font-size:15px; margin-bottom:8px;">${c.title}</div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${c.explain}</div>
+            <div style="font-size:13px; color:var(--navy); font-weight:600;">${c.hindi}</div>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
+
+    <!-- SAFETY FIRST -->
+    ${
+      dietData.safetyFirst
+        ? `
+    <div class="section">
+      <div class="section-title">⚕️ Safety First</div>
+      <div class="summary-grid" style="margin-bottom: 30px;">
+        ${dietData.safetyFirst
+          .map(
+            (s) => `
+          <div class="summary-card card-${s.status}">
+            <div class="card-status status-${s.status}">${s.status}</div>
+            <div class="card-title" style="font-weight:700; font-size:15px; margin-bottom:8px;">${s.title}</div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${s.text}</div>
+            <div style="font-size:13px; color:var(--navy); font-weight:600;">${s.hindi}</div>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
+
     <!-- GOALS -->
     ${
       dietData.goals
@@ -105,6 +155,59 @@ function renderDietChart(container) {
         : ""
     }
 
+    <!-- SMOKING CESSATION PLAN -->
+    ${
+      dietData.smokingCessationPlan
+        ? `
+    <div class="section">
+      <div class="section-title">🚭 Smoking Quit Plan</div>
+      <div class="safety-warning">
+        <strong>Most important lifestyle treatment:</strong> Chain smoking makes diabetes harder to control and multiplies heart, lung, circulation, and cancer risk. Food helps, but quitting tobacco gives the biggest protection.
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:15px; margin-bottom: 30px;">
+        ${dietData.smokingCessationPlan
+          .map(
+            (s) => `
+          <div class="lifestyle-card">
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
+              <span class="badge badge-attention">Step ${s.step}</span>
+              <div style="font-weight:700; color:var(--navy);">${s.title}</div>
+            </div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${s.note}</div>
+            <div style="font-size:13px; color:var(--navy); font-weight:600;">${s.hindi}</div>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
+
+    <!-- SIMPLE ANSWERS -->
+    ${
+      dietData.simpleAnswers
+        ? `
+    <div class="section">
+      <div class="section-title">🧾 Simple Answers</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px; margin-bottom: 30px;">
+        ${dietData.simpleAnswers
+          .map(
+            (a) => `
+          <div class="lifestyle-card">
+            <div style="font-weight:700; font-size:15px; color:var(--navy); margin-bottom:6px;">${a.question}</div>
+            <div style="font-size:13px; color:var(--slate);">${a.answer}</div>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
+
     <!-- DAILY SCHEDULE -->
     <div class="section">
       <div class="section-title">📅 Daily Schedule</div>
@@ -123,6 +226,37 @@ function renderDietChart(container) {
         </div>
       </div>
     </div>
+
+    <!-- PENDING TESTS -->
+    ${
+      dietData.pendingTests
+        ? `
+    <div class="section">
+      <div class="section-title">🧪 Pending Tests</div>
+      <table class="marker-table">
+        <thead><tr><th>Test</th><th>Order</th><th>What it tells us</th></tr></thead>
+        <tbody>
+          ${dietData.pendingTests
+            .map(
+              (t) => `
+            <tr>
+              <td><strong>${t.test}</strong></td>
+              <td><span class="badge badge-monitor">${t.orderedBy}</span></td>
+              <td style="font-size:13px;">${t.reveals}</td>
+            </tr>
+          `,
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>
+    `
+        : ""
+    }
+
+    <div class="disclaimer">
+      This dashboard is a family-friendly guide, not a prescription. Keep all diabetes, BP, liver, and smoking-cessation medication decisions with the treating doctor, especially because insulin and Daparyl M can change sugar levels quickly.
+    </div>
   `;
   container.innerHTML = html;
 }
@@ -137,7 +271,7 @@ function renderCategories(container) {
       <div class="section-title">🌟 Simple Guide: What to Eat & What to Avoid</div>
       <div style="background: white; padding: 20px; border-radius: 12px; margin-bottom: 30px; font-size: 15px; border: 2px solid #E2E8F0; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
         <p style="margin-bottom: 20px; color: var(--slate); text-align: center; font-weight: 500;">
-          <em>This list is custom-made to be safe for <strong>Diabetes</strong>, <strong>Fatty Liver</strong>, <strong>Prostate</strong>, and <strong>Digestion</strong> all at once.</em>
+          <em>This list is custom-made to be safe for <strong>Diabetes</strong>, <strong>Fatty Liver</strong>, <strong>Prostate</strong>, <strong>Digestion</strong>, and <strong>Smoking Recovery</strong> all at once.</em>
         </p>
         <div class="simple-guide-grid">
           <!-- EATABLES -->
@@ -199,6 +333,27 @@ function renderCategories(container) {
         `).join("")}
       </div>
     </div>
+
+    <!-- GRAINS -->
+    ${
+      dietData.grainGuide
+        ? `
+    <div class="section">
+      <div class="section-title">🌾 Grains & Roti Choices</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:15px; margin-bottom: 30px;">
+        ${dietData.grainGuide.map(grain => `
+          <div class="lifestyle-card">
+            <div style="font-size:28px; margin-bottom:8px;">${grain.emoji}</div>
+            <div style="font-weight:700; font-size:16px; color:var(--navy); margin-bottom:5px;">${grain.name}</div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${grain.benefit}</div>
+            <div style="font-size:12px; color:var(--info); font-weight:600;">How: ${grain.how}</div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
 
     <!-- VEGETABLES CATEGORIES -->
     <div class="section">
@@ -328,7 +483,7 @@ function renderCategories(container) {
       dietData.spiceProtocol
         ? `
     <div class="section">
-      <div class="section-title">🌶️ Anti-Cancer Spice Protocol</div>
+      <div class="section-title">🌶️ Food-Level Spice Support</div>
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:15px;">
         ${dietData.spiceProtocol
           .map(
@@ -385,9 +540,9 @@ function renderCategories(container) {
           <thead>
             <tr>
               <th>Day</th>
-              <th>Haldi 2x</th>
+              <th>Haldi food-level</th>
               <th>Amla/Giloy</th>
-              <th>Jamun</th>
+              <th>Fruit</th>
               <th>Cruciferous</th>
               <th>Salad</th>
               <th>Omega-3</th>
@@ -554,7 +709,7 @@ function renderGuidelines(container) {
     <div class="section">
       <div class="section-title">🛡️ Medication Safety</div>
       <div class="safety-warning">
-        <strong>⚠️ Interaction Alert:</strong> Giloy and Karela lower blood sugar. Monitor fasting sugar closely with Huminsulin.
+        <strong>⚠️ Interaction Alert:</strong> Giloy, Karela, Kutki, Ashwagandha, high-dose cinnamon, and turmeric/curcumin supplements may affect sugar or liver safety. Do not self-start them with Huminsulin + Daparyl M.
       </div>
       <table class="marker-table">
         <thead>
@@ -597,6 +752,54 @@ function renderGuidelines(container) {
           .join("")}
       </div>
     </div>
+
+    <!-- GLOSSARY -->
+    ${
+      dietData.glossary
+        ? `
+    <div class="section">
+      <div class="section-title">📘 Simple Hindi Glossary</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:15px;">
+        ${dietData.glossary
+          .map(
+            (g) => `
+          <div class="lifestyle-card">
+            <div style="font-weight:700; font-size:15px; color:var(--navy); margin-bottom:4px;">${g.term}</div>
+            <div style="font-size:13px; color:var(--info); font-weight:600; margin-bottom:6px;">${g.hindi}</div>
+            <div style="font-size:13px; color:var(--slate);">${g.meaning}</div>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
+
+    <!-- SOURCES -->
+    ${
+      dietData.webCheckedSources
+        ? `
+    <div class="section">
+      <div class="section-title">🔎 Web-Checked Medical Sources</div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px;">
+        ${dietData.webCheckedSources
+          .map(
+            (src) => `
+          <div class="lifestyle-card">
+            <div style="font-weight:700; font-size:15px; color:var(--navy); margin-bottom:4px;">${src.topic}</div>
+            <div style="font-size:13px; color:var(--slate); margin-bottom:8px;">${src.takeaway}</div>
+            <a href="${src.url}" target="_blank" rel="noopener noreferrer" style="font-size:12px; color:var(--info); font-weight:700;">${src.source}</a>
+          </div>
+        `,
+          )
+          .join("")}
+      </div>
+    </div>
+    `
+        : ""
+    }
   `;
   container.innerHTML = html;
 }

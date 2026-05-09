@@ -1,12 +1,102 @@
 {
   "goals": [
-    "\u2705 Steady Sugar Management: Target < 150 mg/dL (Optimized Medication)",
-    "\u2705 Gentle Weight Management: Target -4 to -5 kg in 1 month",
-    "\u2705 Cooling Summer Hydration (Chaach, Jeera Water, Lauki/Tori)",
-    "\u2705 Balanced Nutrition: Focus on Whole Grains & Fresh Greens",
-    "\u2705 Healthy Fats: Controlled usage (Max 3 tsp / 15ml Oil per day)",
-    "\ud83d\udee1\ufe0f Pancreas Protection: Anti-inflammatory + Antioxidant Shield",
-    "\ud83d\udee1\ufe0f Cancer Prevention: Curcumin, Cruciferous Veg, Rasayana Herbs"
+    "✅ Steady Sugar Management (रक्त शर्करा/शुगर नियंत्रण): Target < 150 mg/dL (Optimized Medication (सही दवाएं))",
+    "🚭 Smoking Cessation (धूम्रपान छोड़ना): #1 priority because chain smoking worsens sugar, heart risk, fatty liver risk, lungs, and cancer risk",
+    "✅ Oxidative Stress (ऑक्सीडेटिव स्ट्रेस/अंदरूनी टूट-फूट) Management: Support the body while quitting tobacco",
+    "✅ Gentle Weight Management (वजन नियंत्रण): Target about -2 to -3 kg/month; avoid rapid loss, skipped meals, or crash dieting while insulin/Daparyl M are active",
+    "✅ Cooling Summer Hydration (पानी की कमी पूरी करना) (गर्मी से बचाव और हाइड्रेशन) (Chaach, Jeera Water, Lauki/Tori)",
+    "✅ Balanced Nutrition (संतुलित आहार): Focus on Whole Grains & Fresh Greens",
+    "✅ Healthy Fats (स्वस्थ वसा/चिकनाई): Controlled usage (Max 3 tsp / 15ml Oil per day)",
+    "🛡️ Pancreas + Liver Support (अग्नाशय और लिवर का सहारा): Anti-inflammatory (सूजन कम करने वाला) + Antioxidant (नुकसान से बचाने वाले तत्व) foods",
+    "🛡️ Cancer-Risk Reduction (कैंसर का खतरा कम करना): tobacco-free life + vegetables + fiber + doctor follow-up"
+  ],
+  "conditionSummary": [
+    {
+      "title": "Diabetes is the root issue",
+      "status": "attention",
+      "explain": "HbA1c 12.7% means sugar has been high for about 3 months. Fasting sugar improved from 275.7 to 184 mg/dL, but it is still above target.",
+      "hindi": "मतलब: शुगर कम हो रही है, पर अभी भी किडनी, आंख, दिल और लिवर की सुरक्षा के लिए सख्त नियंत्रण चाहिए।"
+    },
+    {
+      "title": "Grade-2 Fatty Liver",
+      "status": "attention",
+      "explain": "USG shows liver span 19 cm and moderate fat in the liver. This is usually reversible with sugar control, weight loss, walking, and zero alcohol.",
+      "hindi": "मतलब: लिवर में चर्बी जमा है, लेकिन अभी मेहनत से वापस सुधर सकता है।"
+    },
+    {
+      "title": "Heart risk is high",
+      "status": "attention",
+      "explain": "LDL 181.7, triglycerides 238, diabetes, BP history, and chain smoking together make heart protection very important.",
+      "hindi": "मतलब: धूम्रपान + शुगर + कोलेस्ट्रॉल मिलकर हार्ट अटैक/स्ट्रोक का खतरा बढ़ाते हैं।"
+    },
+    {
+      "title": "Mild prostate enlargement",
+      "status": "monitor",
+      "explain": "Prostate volume 27 cc is mild Grade-1 enlargement. It mainly needs monitoring unless urinary symptoms appear.",
+      "hindi": "मतलब: अभी घबराने वाली बात नहीं, लेकिन रात में बार-बार पेशाब, जलन, कमजोर धार हो तो डॉक्टर को बताएं।"
+    }
+  ],
+  "safetyFirst": [
+    {
+      "title": "Daparyl M sick-day alert",
+      "status": "attention",
+      "text": "Because Daparyl M contains dapagliflozin (SGLT2 inhibitor), abdominal pain with nausea/vomiting, unusual tiredness, breathing trouble, fever, poor intake, or dehydration needs urgent doctor advice. Ketoacidosis can rarely happen even when sugar is not very high.",
+      "hindi": "पेट दर्द + उल्टी/बहुत कमजोरी/सांस फूलना/बुखार/कम खाना हो तो सिर्फ गैस न मानें; ketone/doctor check जरूरी हो सकता है।"
+    },
+    {
+      "title": "Low sugar watch",
+      "status": "attention",
+      "text": "Insulin plus Daparyl M already lowers sugar. Do not add karela juice, giloy, kutki, ashwagandha, high-dose cinnamon, or turmeric/curcumin supplements without doctor approval and glucose monitoring.",
+      "hindi": "जड़ी-बूटी/काढ़ा/सप्लीमेंट को दवा जैसा मानें। शुगर कम होने का खतरा हो सकता है।"
+    },
+    {
+      "title": "Pancreatitis/EPI rule",
+      "status": "monitor",
+      "text": "Keep meals small, low-oil, and regular. Take Panlipase/PERT exactly as prescribed with meals/snacks. Avoid alcohol completely and keep working on smoking cessation because both worsen pancreas risk.",
+      "hindi": "भारी, तला हुआ खाना नहीं; Panlipase खाने के साथ ही लें; शराब बिल्कुल नहीं।"
+    }
+  ],
+  "avoidFoods": [
+    {
+      "item": "Smoking (Cigarettes/Tobacco)",
+      "allopathy": "Nicotine (तंबाकू का नशे वाला रसायन) raises blood sugar, worsens insulin resistance (इंसुलिन का काम न कर पाना), damages blood vessels, and greatly raises heart/lung/cancer risk.",
+      "ayurveda": "Vata-Pitta aggravation, Ojas depletion, and Ama (विषाक्त पदार्थ/गंदगी) formation. सबसे बड़ा उपचार: धीरे-धीरे नहीं, डॉक्टर/quitline की मदद से पक्का छोड़ना।"
+    },
+    {
+      "item": "Alcohol",
+      "allopathy": "Directly toxic to liver — accelerates fatty liver (फैटी लिवर/लिवर में सूजन) → fibrosis (लिवर का सख्त होना)",
+      "ayurveda": "Destroys Agni, increases Pitta/Ama"
+    },
+    {
+      "item": "Maida / Refined Flour",
+      "allopathy": "Spikes blood sugar (ब्लड शुगर/रक्त शर्करा), promotes liver fat deposition",
+      "ayurveda": "Heavy, channel-blocking (Sroto-rodha)"
+    },
+    {
+      "item": "Sugar / Meetha",
+      "allopathy": "Feeds liver fat + uncontrolled diabetes (fructose → liver fat)",
+      "ayurveda": "Increases Kapha/Meda (adipose tissue)"
+    },
+    {
+      "item": "Fried Snacks (Samosa/Pakora)",
+      "allopathy": "Saturated/trans fats → direct liver fat accumulation",
+      "ayurveda": "Guru, Snigdha — Kapha-aggravating"
+    },
+    {
+      "item": "Cold Drinks / Soda",
+      "allopathy": "High fructose content → directly converted to liver fat",
+      "ayurveda": "Mandagni (extinguishes digestive fire)"
+    },
+    {
+      "item": "Heavy Red Meat",
+      "allopathy": "Saturated fat + inflammatory — worsens steatohepatitis",
+      "ayurveda": "Heavy, increases Ama (toxins (विषाक्त पदार्थ/गंदगी))"
+    },
+    {
+      "item": "Achaar (Spicy Pickle)",
+      "allopathy": "High sodium → hypertension (हाई बीपी). Oil → liver fat",
+      "ayurveda": "Pitta-aggravating — worsens liver inflammation"
+    }
   ],
   "schedule": [
     {
@@ -16,159 +106,178 @@
     },
     {
       "time": "6:45 AM",
-      "label": "\u2728 Protective Boost",
-      "food": "<strong>Haldi + Kali Mirch Warm Water</strong> (\u00bd tsp haldi, pinch black pepper, squeeze of nimbu). <em>(Daily curcumin dose \u2014 the #1 evidence-backed pancreas protector. Piperine increases absorption by 2000%)</em>"
+      "label": "✨ Optional Protective Drink",
+      "food": "<strong>Haldi + Kali Mirch Warm Water</strong> (¼ tsp haldi + tiny pinch kali mirch + nimbu). <em>Simple meaning: food-level turmeric water. Use once daily only if it suits his stomach; the second dose can simply be haldi/kali mirch used in dal or sabzi. Avoid turmeric/curcumin capsules unless doctor approves.</em>"
     },
     {
       "time": "7:00 AM",
-      "label": "\u2728 Immunity Shield",
-      "food": "<strong>Giloy Water</strong> (Mon/Wed/Fri/Sat) OR <strong>Amla Water</strong> (Tue/Thu/Sun). <em>(Giloy: Beta-cell protector. Amla: Richest Vitamin C source \u2014 20x oranges)</em>"
+      "label": "✨ Immunity (रोग प्रतिरोधक क्षमता) Shield",
+      "food": "<strong>Amla Water</strong> (Tue/Thu/Sun) OR skip. <strong>Giloy Water</strong> only if doctor agrees. <em>(Amla: Vitamin C (विटामिन सी) + antioxidants. Giloy can lower sugar and may interact with diabetes medicines, so do not self-start.)</em>"
     },
     {
       "time": "8:30 AM",
       "label": "Breakfast (Light & Protein)",
-      "food": "<strong>2 Moong Dal Chillas</strong> (add grated adrak + haldi to batter) + 1 crushed lahsun clove + <strong>Chaach</strong>. <em>(Take Panlipase 10000. Spiced tadka ensures curcumin + gingerol + allicin in every meal)</em>"
+      "food": "<strong>2 Moong Dal Chillas</strong> (add grated adrak + haldi to batter) + <strong>Hari Chutney</strong> + <strong>Chaach</strong>. Add lahsun in cooking if tolerated. <em>(Take Panlipase 10000 with first bite. Allicin (लहसुन का रक्षक तत्व) forms best when crushed garlic rests 5-10 min.)</em>"
     },
     {
       "time": "11:00 AM",
-      "label": "\u2728 Seasonal Fruits",
-      "food": "<strong>Jamun</strong> (8-10 pieces, peak May-July season!) OR <strong>Papaya</strong> (small bowl, alternate days). + 1 glass <strong>Chaach</strong>. <em>(Jamun: Anti-diabetic jamboline + anti-cancer anthocyanins. Papaya: Enzyme papain supports Panlipase)</em>"
+      "label": "✨ Seasonal Fruits",
+      "food": "<strong>Choose 1 fruit only:</strong> Papaya small bowl OR 1 small apple OR 1 guava OR small bowl anar. <strong>Jamun only when in season</strong> (8-10 pieces). + 1 glass <strong>Chaach</strong> if tolerated. <em>No fruit juice, no jamun seed powder without doctor approval.</em>"
     },
     {
       "time": "1:30 PM",
       "label": "Lunch (Balanced Plate)",
-      "food": "<strong>1\u20132 Multigrain Rotis</strong> + Dal/Paneer/Sabzi (use Haldi-Adrak-Lahsun tadka always) + <strong>Anti-Cancer Salad</strong> (shredded cabbage + tamatar + kheera + gajar + nimbu). <em>(Rotate: Gobhi/Patta Gobhi/Broccoli sabzi 2x/week for sulforaphane)</em>"
+      "food": "<strong>1–2 Multigrain Rotis</strong> + Dal/Paneer/Sabzi (Haldi-Adrak-Lahsun tadka) + <strong>Protective Salad</strong> (patta gobhi + tamatar + kheera + gajar + nimbu). <em>(Sulforaphane (गोभी वर्ग की सब्जियों का रक्षक तत्व) supports normal body repair pathways; use as food, not a cure.)</em>"
     },
     {
       "time": "5:00 PM",
-      "label": "\u2728 Enhanced Snack",
-      "food": "<strong>5-6 Soaked Almonds + 2-3 Akhrot (Walnuts)</strong> + <strong>Sprouted Moong</strong> daily. + 1 cup <strong>Chamomile Tea</strong> with a pinch of dalchini. <em>(Walnuts: Omega-3 anti-inflammatory. Dalchini: Insulin sensitizer)</em>"
+      "label": "✨ Enhanced Snack",
+      "food": "<strong>4-5 Soaked Almonds + 1 Akhrot</strong> OR <strong>Sprouted Moong</strong> OR roasted chana. + 1 small cup tea if needed. <em>Because of pancreatitis and 8-10 cups tea habit, slowly reduce to 2-3 small cups/day, no sugar, and avoid tea with cigarettes.</em>"
     },
     {
       "time": "7:30 PM",
       "label": "Dinner (Gentle & Light)",
-      "food": "<strong>1\u20132 Multigrain Rotis</strong> + Light Sabzi (<strong>Karela 2x/week</strong> in rotation, Lauki/Tori other days) OR <strong>Pancreas Protection Soup</strong>. <em>(Take Panlipase 10000. Karela stimulates pancreatic beta cells)</em>"
+      "food": "<strong>1 Multigrain Roti</strong> + Light Sabzi (<strong>Karela 1-2x/week</strong> in small portion, cooked with very little oil; Lauki/Tori/Tinda other days) OR <strong>Pancreas-Liver Support Soup</strong>. <em>Take Panlipase with first bite if prescribed. Karela can lower sugar; monitor when used with insulin.</em>"
     },
     {
       "time": "9:00 PM",
-      "label": "\u2728 Golden Milk",
-      "food": "<strong>Haldi Doodh</strong> \u2014 warm low-fat milk + \u00bd tsp haldi + pinch kali mirch + pinch dalchini. No sugar. <em>(Night-time curcumin dose for deep tissue repair and anti-inflammatory action)</em>"
+      "label": "✨ Golden Milk",
+      "food": "<strong>Golden Milk = Haldi Doodh</strong> — ½ cup warm low-fat milk + ¼ tsp haldi + tiny pinch kali mirch + pinch dalchini. No sugar. <em>Optional only; skip if it causes gas/acidity, loose stools, or nighttime urination.</em>"
     }
   ],
   "recipes": [
     {
-      "title": "\ud83d\udfe1 Haldi-Adrak Universal Tadka",
-      "details": "Use this as the BASE for EVERY sabzi \u2014 ensures curcumin + piperine + gingerol + allicin enter every meal:",
+      "title": "🟡 Haldi-Adrak Universal Tadka",
+      "details": "Use this as the BASE for EVERY sabzi — ensures curcumin + piperine + gingerol + allicin enter every meal:",
       "ingredients": [
         "1 tsp Sarson Oil (mustard oil)",
-        "\u00bd tsp Jeera (let splutter)",
+        "½ tsp Jeera (let splutter)",
         "1 clove crushed Lahsun (wait 30 sec)",
-        "\u00bd inch grated Adrak",
-        "\u00bd tsp Haldi powder",
+        "½ inch grated Adrak",
+        "½ tsp Haldi powder",
         "Pinch of Kali Mirch + Hing",
         "Then add your vegetable (gobhi, karela, lauki, etc.)"
       ]
     },
     {
-      "title": "\ud83e\udd52 Anti-Cancer Summer Salad",
-      "details": "Serve with lunch DAILY \u2014 covers 5 cancer-prevention compounds in one bowl:",
+      "title": "🥒 Protective Summer Salad",
+      "details": "Serve with lunch daily if digestion allows — fiber, hydration, and protective plant compounds:",
       "ingredients": [
-        "Shredded Patta Gobhi (cabbage) \u2014 RAW for maximum sulforaphane",
-        "Sliced Kheera (cucumber) \u2014 cooling",
-        "Diced Tamatar (tomato) \u2014 lycopene",
-        "Grated Gajar (carrot) \u2014 beta-carotene",
+        "Shredded Patta Gobhi (cabbage) — lightly steamed if raw causes gas; raw gives more sulforaphane (रक्षक तत्व)",
+        "Sliced Kheera (cucumber) — cooling",
+        "Diced Tamatar (tomato) — lycopene",
+        "Grated Gajar (carrot) — beta-carotene",
         "Squeeze of Nimbu + Kala Namak + Kali Mirch",
         "Few drops of Alsi oil (flaxseed) if available"
       ]
     },
     {
-      "title": "\ud83e\udeda Pancreas Protection Soup",
-      "details": "Perfect for 2-3 evenings per week \u2014 gentle on digestion, powerful for protection:",
+      "title": "🫚 Pancreas Protection (अग्नाशय/Pancreas का बचाव) Soup",
+      "details": "Plain meaning: a light dinner soup for pancreas + liver support. Use 2-3 evenings/week when digestion is heavy. It is food support, not a cure.",
       "ingredients": [
         "1 small Lauki (bottle gourd), chopped",
-        "\u00bd small Gobhi (cauliflower), florets",
+        "½ small Gobhi (cauliflower), florets",
         "1 Tamatar (tomato)",
         "1 inch Adrak (ginger), grated",
-        "\u00bd tsp Haldi + pinch Kali Mirch",
+        "½ tsp Haldi + pinch Kali Mirch",
         "1 clove Lahsun, crushed",
-        "Boil \u2192 Blend smooth \u2192 Serve warm"
+        "Boil, blend smooth, serve warm",
+        "No cream, no butter, no heavy tadka"
       ]
     },
     {
-      "title": "\ud83c\udf3e Updated Multigrain Atta",
-      "details": "Cancer-Shield version with boosted Omega-3 and Methi Dana:",
+      "title": "🥒 Simple Karela Sabzi",
+      "details": "Use only 1-2 times/week because karela may lower sugar when insulin/Daparyl M are already being used.",
       "ingredients": [
-        "700g Gehun (Wheat) \u2014 reduced slightly",
-        "400g Jowar (Sorghum) \u2014 cooling",
-        "400g Jau (Barley) \u2014 fiber-rich, blood sugar regulation",
-        "200g Ragi \u2014 calcium + iron rich",
-        "150g Alsi (Flaxseed) powder \u2014 INCREASED for Omega-3",
-        "50g Methi Dana powder \u2014 NEW (anti-cancer flavonoids)",
-        "2 tsp Ajwain \u2014 digestive support"
+        "Slice karela thinly; remove hard seeds if present",
+        "Optional: rub with a little salt for 10 min, rinse lightly to reduce bitterness",
+        "Use 1 tsp mustard oil for the whole pan",
+        "Add jeera, onion/tomato if tolerated, adrak, haldi, dhania, and pinch kali mirch",
+        "Cook covered till soft; keep it dry/light",
+        "Avoid deep-fried karela, stuffed oily karela, and karela juice unless doctor approves"
+      ]
+    },
+    {
+      "title": "🌾 Updated Multigrain Atta",
+      "details": "Plain meaning: roti flour made slower-digesting than plain wheat. Portion still matters: usually 1 roti at dinner and 1-2 at lunch as per sugar readings.",
+      "ingredients": [
+        "700g Gehun (Wheat) — reduced slightly",
+        "400g Jowar (Sorghum) — cooling",
+        "400g Jau (Barley) — fiber-rich, blood sugar (ब्लड शुगर/रक्त शर्करा) regulation",
+        "200g Ragi — calcium + iron rich",
+        "100g Alsi (Flaxseed) powder — Omega-3 support; keep moderate because it is calorie dense",
+        "50g Methi Dana powder — supports sugar control; monitor if fasting sugar drops",
+        "2 tsp Ajwain — digestive support"
       ]
     }
   ],
   "protectiveDrinks": [
     {
-      "emoji": "\ud83d\udfe1",
+      "emoji": "🟡",
       "name": "Haldi Kali Mirch Pani",
-      "note": "\u00bd tsp haldi + pinch kali mirch + nimbu in warm water. Daily curcumin dose",
+      "note": "¼–½ tsp haldi + pinch kali mirch + nimbu in warm water. Curcumin (हल्दी का सूजन कम करने वाला तत्व)",
       "when": "Morning, after Methi water"
     },
     {
-      "emoji": "\ud83e\uded9",
+      "emoji": "🫙",
       "name": "Amla Juice / Water",
-      "note": "Fresh amla blended with water OR 1 tsp powder. Antioxidant powerhouse",
+      "note": "Fresh amla blended with water OR 1 tsp powder. Vitamin C + antioxidants (नुकसान से बचाने वाले तत्व)",
       "when": "Mid-morning (alternate days)"
     },
     {
-      "emoji": "\ud83c\udf3f",
+      "emoji": "🌿",
       "name": "Giloy Water",
-      "note": "Fresh Giloy stem boiled in water. Immunomodulator + beta-cell protector",
-      "when": "Morning, empty stomach (3-4x/week)"
+      "note": "Skip unless doctor agrees. Can lower sugar when combined with insulin/Daparyl M.",
+      "when": "Doctor-approved only"
     },
     {
-      "emoji": "\ud83e\udd5b",
+      "emoji": "🥛",
       "name": "Haldi Doodh (Golden Milk)",
-      "note": "Warm milk + haldi + kali mirch + dalchini. Night-time repair",
+      "note": "Warm low-fat milk + haldi + kali mirch + dalchini. Skip if gas/acidity/nocturia worsens.",
       "when": "Bedtime"
+    },
+    {
+      "emoji": "🍵",
+      "name": "Tea Limit",
+      "note": "For pancreatitis, limit caffeine. Reduce from 8-10 cups slowly toward 2-3 small cups/day. No sugar, no biscuits, and never pair with cigarettes.",
+      "when": "Morning/early evening only"
     }
   ],
   "spiceProtocol": [
     {
       "spice": "Haldi (Turmeric)",
-      "compound": "Curcumin",
-      "action": "Anti-cancer, anti-inflammatory, antioxidant",
+      "compound": "Curcumin (हल्दी का सक्रिय तत्व)",
+      "action": "Anti-inflammatory (सूजन कम करने वाला), antioxidant (नुकसान से बचाने वाला)",
       "usage": "Every sabzi, dal, chilla. Always pair with Kali Mirch"
     },
     {
       "spice": "Kali Mirch (Black Pepper)",
-      "compound": "Piperine",
-      "action": "Increases curcumin absorption by 2000%",
-      "usage": "Freshly ground \u2014 dal, chaach, sabzi. 2-3 pinches daily"
+      "compound": "Piperine (अवशोषण बढ़ाने वाला तत्व)",
+      "action": "Helps turmeric absorb better; use only a pinch if acidity occurs",
+      "usage": "Freshly ground — dal, chaach, sabzi. 2-3 pinches daily"
     },
     {
       "spice": "Adrak (Ginger)",
-      "compound": "Gingerol",
-      "action": "Anti-inflammatory, supports pancreatic enzyme flow",
+      "compound": "Gingerol (अदरक का सक्रिय तत्व)",
+      "action": "Anti-inflammatory (सूजन कम करने वाला), supports pancreatic enzyme flow",
       "usage": "Fresh grated in tea, chilla, sabzi. 1-inch daily"
     },
     {
       "spice": "Dalchini (Cinnamon)",
-      "compound": "Cinnamaldehyde",
-      "action": "Insulin sensitizer, anti-proliferative",
-      "usage": "\u00bc tsp in chamomile tea. Ceylon preferred"
+      "compound": "Cinnamaldehyde (दालचीनी का सक्रिय तत्व)",
+      "action": "May support insulin sensitivity; use food-level amounts only",
+      "usage": "¼ tsp in chamomile tea. Ceylon preferred"
     },
     {
       "spice": "Lahsun (Garlic)",
-      "compound": "Allicin",
-      "action": "Immune booster, cancer risk reducer",
-      "usage": "2 raw cloves or crushed in sabzi daily"
+      "compound": "Allicin (लहसुन का रक्षक तत्व)",
+      "action": "Supports heart and immunity; can irritate acidity if taken raw",
+      "usage": "1 clove crushed in sabzi most days; raw only if tolerated"
     },
     {
       "spice": "Jeera (Cumin)",
-      "compound": "Thymoquinone",
-      "action": "Digestive aid, antioxidant",
+      "compound": "Cumin aldehyde (जीरे का पाचन-सहायक तत्व)",
+      "action": "Digestive aid, antioxidant support",
       "usage": "In Chaach + dal tadka daily"
     }
   ],
@@ -176,9 +285,9 @@
     {
       "day": "Mon",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Amla",
-        "Jamun",
+        "Papaya/Apple",
         "Gobhi sabzi",
         "Raw Salad",
         "Omega-3"
@@ -187,9 +296,9 @@
     {
       "day": "Tue",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Giloy",
-        "Jamun",
+        "Guava/Anar",
         "Cabbage salad",
         "Raw Salad",
         "Omega-3",
@@ -199,9 +308,9 @@
     {
       "day": "Wed",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Amla",
-        "Jamun",
+        "Papaya/Apple",
         "Broccoli soup",
         "Raw Salad",
         "Omega-3"
@@ -210,9 +319,9 @@
     {
       "day": "Thu",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Giloy",
-        "Jamun",
+        "Guava/Anar",
         "Gobhi sabzi",
         "Raw Salad",
         "Omega-3",
@@ -222,9 +331,9 @@
     {
       "day": "Fri",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Amla",
-        "Jamun",
+        "Papaya/Apple",
         "Cabbage salad",
         "Raw Salad",
         "Omega-3"
@@ -233,9 +342,9 @@
     {
       "day": "Sat",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Giloy",
-        "Jamun",
+        "Guava/Anar",
         "Broccoli soup",
         "Raw Salad",
         "Omega-3"
@@ -244,10 +353,10 @@
     {
       "day": "Sun",
       "items": [
-        "Haldi+Kali Mirch 2x",
+        "Haldi daily",
         "Amla",
-        "Jamun",
-        "\u2014 (rest day)",
+        "Papaya/Apple",
+        "— (rest day)",
         "Raw Salad",
         "Omega-3"
       ]
@@ -256,137 +365,212 @@
   "priorityPlan": [
     {
       "week": "Week 1",
-      "priority": "\ud83d\udd34",
-      "items": "Haldi + Kali Mirch (2x daily) + Raw salad with cabbage at lunch + Jamun (daily, in season!)",
+      "priority": "🔴",
+      "items": "Smoking quit setup: tell doctor, pick quit date, remove cigarettes/lighters, start 10-min post-meal walks + keep meals fixed",
       "start": "Today"
     },
     {
       "week": "Week 2",
-      "priority": "\ud83d\udfe1",
-      "items": "Add Amla (powder or fresh) + Karela sabzi (2x/week) + Akhrot at 5 PM",
+      "priority": "🟡",
+      "items": "Add Amla + measured nuts + protective salad; discuss nicotine patch/gum or medicine support with doctor",
       "start": "After 1 week"
     },
     {
       "week": "Week 3",
-      "priority": "\ud83d\udfe2",
-      "items": "Add Giloy (3-4x/week) + Gobhi/Broccoli rotation + Golden Milk at night",
+      "priority": "🟢",
+      "items": "Add Gobhi/Broccoli rotation. Keep total caffeine controlled: slowly reduce tea from 8-10 cups toward 2-3 small cups/day; avoid after 3 PM.",
       "start": "After sugar monitoring is stable"
     },
     {
       "week": "Week 4",
-      "priority": "\ud83d\udd35",
-      "items": "Add Ashwagandha (bedtime) + Pancreas Protection Soup + Updated Atta",
+      "priority": "🔵",
+      "items": "Do not add herbs such as Giloy/Kutki/Ashwagandha unless the treating doctor/Ayurvedic physician approves after LFTs and sugar pattern review",
       "start": "After consulting doctor"
+    }
+  ],
+  "smokingCessationPlan": [
+    {
+      "step": "1",
+      "title": "Set Quit Date (छोड़ने की तारीख)",
+      "note": "Choose a date within 7-14 days. Tell family and doctor. Do not keep cigarettes at home, shop, or car.",
+      "hindi": "तारीख पक्की करें और घर में कोई सिगरेट/लाइटर न रखें।"
+    },
+    {
+      "step": "2",
+      "title": "Doctor Support",
+      "note": "Ask the doctor about nicotine patch/gum/lozenge or prescription medicines. Because he has diabetes, sugar should be checked more often during quitting.",
+      "hindi": "निकोटीन पैच/गम मदद कर सकते हैं, पर शुगर की निगरानी जरूरी है।"
+    },
+    {
+      "step": "3",
+      "title": "Craving Rescue (तलब संभालना)",
+      "note": "Use 4D: Delay 10 minutes, Deep breathing, Drink water, Do something else. Keep saunf, sugar-free gum, cucumber, roasted chana nearby.",
+      "hindi": "तलब आए तो 10 मिनट रुकें, गहरी सांस लें, पानी पिएं, ध्यान बदलें।"
+    },
+    {
+      "step": "4",
+      "title": "Smoke-Free Tea Break",
+      "note": "Replace cigarette breaks with 5-10 minute walks, chaach/jeera water, or unsweetened tea. Avoid pairing tea with cigarettes.",
+      "hindi": "चाय के साथ सिगरेट की आदत तोड़नी है; चाय के बाद walk करें।"
+    }
+  ],
+  "simpleAnswers": [
+    {
+      "question": "He cannot quit smoking. What can we do?",
+      "answer": "Do not fight daily. Treat it like a medical addiction: doctor support, nicotine gum/patch/lozenge if doctor agrees, fixed quit date, no cigarettes stored at home, and replace tea-cigarette breaks with 5-10 min walk, saunf, cucumber, water, or sugar-free gum. Even cutting down is useful, but the goal remains zero tobacco."
+    },
+    {
+      "question": "8-10 cups tea daily?",
+      "answer": "Too much for pancreatitis, sleep, acidity, urination, and cigarette pairing. Reduce slowly: first 5-6 small cups, then 3-4, target 2-3 small cups/day. Keep tea without sugar, light milk, and no biscuits/namkeen."
+    },
+    {
+      "question": "What does 2x daily mean?",
+      "answer": "2x daily means two times in a day. For haldi + kali mirch, it does not need two separate drinks. Simpler rule: once as morning haldi water if tolerated, and once through normal cooking in dal/sabzi/chilla."
+    },
+    {
+      "question": "Jamun not available now",
+      "answer": "No problem. Use one fruit portion: papaya small bowl, 1 small apple, 1 guava, or small bowl anar. Jamun is seasonal only; do not use jamun seed powder without doctor approval."
+    },
+    {
+      "question": "How to take karela sabzi?",
+      "answer": "Take small portion 1-2 times/week, cooked like dry/light sabzi with 1 tsp oil for the whole pan, onion/tomato optional, haldi, jeera, adrak, and a pinch kali mirch. No deep fry, no stuffed oily karela, no karela juice while on insulin unless doctor approves."
+    },
+    {
+      "question": "What is Golden Milk?",
+      "answer": "Golden Milk is just haldi doodh: 1/2 cup warm low-fat milk with 1/4 tsp haldi, tiny pinch kali mirch, and pinch dalchini. No sugar. It is optional, not compulsory."
+    },
+    {
+      "question": "Ashwagandha in which form?",
+      "answer": "Do not start now by yourself. If the doctor/Ayurvedic doctor approves, use a standardized tablet/capsule from a reliable brand, usually at night after food. Avoid if thyroid disease/thyroid medicine, liver irritation, excessive sleepiness, or low sugar episodes."
+    },
+    {
+      "question": "What is Pancreas-Liver Support Soup?",
+      "answer": "A light low-fat soup for dinner: lauki + gobhi + tomato + adrak + haldi + lahsun, boiled and blended. It is not a medicine; it is an easy-to-digest meal option for pancreatitis/fatty liver days."
+    },
+    {
+      "question": "What is Updated Atta?",
+      "answer": "Updated Atta means a roti flour mix with more fiber and slower sugar rise: wheat + jowar + jau + ragi + little flaxseed + little methi + ajwain. Use it for measured rotis, not unlimited rotis."
     }
   ],
   "safetyNotes": [
     {
       "item": "Haldi + Kali Mirch",
-      "insulin": "\u2705 Safe",
-      "daparylM": "\u2705 Safe",
-      "panlipase": "\u2705 Safe \u2014 may improve enzyme flow"
+      "insulin": "✅ Food-level safe",
+      "daparylM": "✅ Food-level safe",
+      "panlipase": "✅ Food-level safe; avoid high-dose curcumin/piperine capsules unless doctor approves"
     },
     {
       "item": "Giloy",
-      "insulin": "\u26a0\ufe0f Can lower sugar \u2014 monitor",
-      "daparylM": "\u26a0\ufe0f Additive sugar-lowering",
-      "panlipase": "\u2705 Safe"
+      "insulin": "⚠️ Can lower sugar — monitor",
+      "daparylM": "⚠️ Additive sugar-lowering",
+      "panlipase": "✅ Safe"
     },
     {
       "item": "Amla",
-      "insulin": "\u2705 Safe \u2014 mild benefit",
-      "daparylM": "\u2705 Safe \u2014 may enhance Metformin",
-      "panlipase": "\u2705 Safe"
+      "insulin": "✅ Safe — mild benefit",
+      "daparylM": "✅ Safe — may enhance Metformin",
+      "panlipase": "✅ Safe"
     },
     {
       "item": "Karela",
-      "insulin": "\u26a0\ufe0f Lowers sugar \u2014 start small",
-      "daparylM": "\u26a0\ufe0f Additive sugar-lowering",
-      "panlipase": "\u2705 Safe"
+      "insulin": "⚠️ Lowers sugar — start small",
+      "daparylM": "⚠️ Additive sugar-lowering",
+      "panlipase": "✅ Safe"
     },
     {
       "item": "Ashwagandha",
-      "insulin": "\u26a0\ufe0f Mild sugar-lowering",
-      "daparylM": "\u2705 Safe",
-      "panlipase": "\u2705 Safe"
+      "insulin": "⚠️ Mild sugar-lowering — doctor approval first",
+      "daparylM": "⚠️ Monitor sugar; avoid self-starting",
+      "panlipase": "⚠️ Rare liver injury reports; use only if doctor approves"
+    },
+    {
+      "item": "Kutki / Bhumyamalaki / Triphala",
+      "insulin": "⚠️ Doctor review only — possible sugar effects",
+      "daparylM": "⚠️ Avoid self-starting; review LFTs first",
+      "panlipase": "⚠️ No routine use unless clinician approves"
     },
     {
       "item": "Cruciferous Vegetables",
-      "insulin": "\u2705 Safe",
-      "daparylM": "\u2705 Safe",
-      "panlipase": "\u2705 Safe"
+      "insulin": "✅ Safe",
+      "daparylM": "✅ Safe",
+      "panlipase": "✅ Safe"
     },
     {
       "item": "Jamun",
-      "insulin": "\u26a0\ufe0f Seeds lower sugar",
-      "daparylM": "\u2705 Safe",
-      "panlipase": "\u2705 Safe"
+      "insulin": "⚠️ Seeds lower sugar",
+      "daparylM": "✅ Safe",
+      "panlipase": "✅ Safe"
     }
   ],
   "lifestyle": [
     {
-      "emoji": "\ud83d\udeb6",
+      "emoji": "🚶",
       "title": "Post-Meal Walk",
-      "note": "A gentle 10\u201315 min walk after meals helps steady sugar levels."
+      "note": "A gentle 10–15 min walk after meals helps steady sugar levels. Gradually build toward 150 min/week activity if doctor allows."
     },
     {
-      "emoji": "\ud83c\udf7d\ufe0f",
+      "emoji": "🍽️",
       "title": "The Plate Rule",
       "note": "50% Sabzi/Salad, 25% Protein, 25% Roti. Always take Panlipase with meals."
     },
     {
-      "emoji": "\ud83e\ude7a",
+      "emoji": "🩺",
       "title": "Medical Optimization",
       "note": "Regular check-ins with the doctor to ensure insulin and medications are perfectly balanced."
     },
     {
-      "emoji": "\ud83d\udcca",
+      "emoji": "📊",
       "title": "Consistent Monitoring",
       "note": "Track fasting levels and weight weekly to stay on target."
     },
     {
-      "emoji": "\ud83d\udee1\ufe0f",
+      "emoji": "🛡️",
       "title": "Daily Non-Negotiables",
-      "note": "Haldi+Kali Mirch (2x), Raw Salad, Omega-3, Jamun (in season) \u2014 every single day."
+      "note": "No cigarette, fixed meals, post-meal walk, measured roti/nuts, and daily sugar log."
+    },
+    {
+      "emoji": "🚭",
+      "title": "Smoking Rule",
+      "note": "Quitting will help sugar control, circulation, lungs, heart, and cancer-risk reduction more than any single food."
     }
   ],
   "medications": [
     {
       "name": "Huminsulin",
-      "purpose": "Rapidly controls severe blood sugar highs (glucose toxicity).",
-      "icon": "\ud83d\udc89"
+      "purpose": "Rapidly controls severe blood sugar (ब्लड शुगर/रक्त शर्करा) highs (glucose toxicity).",
+      "icon": "💉"
     },
     {
       "name": "Daparyl M (Dapagliflozin + Metformin)",
-      "purpose": "Improves insulin sensitivity and flushes excess glucose through kidneys.",
-      "icon": "\ud83d\udc8a"
+      "purpose": "Improves insulin sensitivity and flushes excess glucose through kidneys. Hydration and hygiene are important.",
+      "icon": "💊"
     },
     {
       "name": "Panlipase 10000",
-      "purpose": "Pancreatic enzyme replacement for proper nutrient absorption.",
-      "icon": "\ud83e\uddec"
+      "purpose": "Pancreatic enzyme replacement (पाचन enzyme) for proper nutrient absorption. Take with first bite of meals.",
+      "icon": "🧬"
     }
   ],
   "snacks": [
     {
       "name": "Roasted Makhana",
-      "emoji": "\ud83c\udf30",
-      "recipe": "Dry-roast in \u00bd tsp ghee + kali mirch + haldi + chaat masala",
+      "emoji": "🌰",
+      "recipe": "Dry-roast in ½ tsp ghee + kali mirch + haldi + chaat masala",
       "benefit": "Low-GI, high-fiber, rich in magnesium. Vata-pacifying, Kapha-neutral.",
       "target": "liver",
       "when": "Anytime snack"
     },
     {
       "name": "Pumpkin Seed + Almond Mix",
-      "emoji": "\ud83c\udf83",
+      "emoji": "🎃",
       "recipe": "1 tbsp kaddu ke beej + 4-5 almonds + pinch kala namak",
-      "benefit": "Zinc for prostate. Omega-3 for liver. Bala-vardhak (strength-building).",
-      "target": "prostate",
-      "when": "4\u20135 PM"
+      "benefit": "Zinc for prostate (प्रोस्टेट/गदूद). Omega-3 for liver. Bala-vardhak (strength-building).",
+      "target": "prostate (प्रोस्टेट/गदूद)",
+      "when": "4–5 PM"
     },
     {
       "name": "Cucumber + Chana Chaat",
-      "emoji": "\ud83e\udd52",
+      "emoji": "🥒",
       "recipe": "Kheera slices + bhuna chana + nimbu + kala namak + chaat masala",
       "benefit": "High-fiber, high-protein, low-GI. Pitta-cooling, Agni-friendly.",
       "target": "liver",
@@ -394,7 +578,7 @@
     },
     {
       "name": "Moong Sprouts Chaat",
-      "emoji": "\ud83c\udf31",
+      "emoji": "🌱",
       "recipe": "Sprouted moong + kheera + tamatar + nimbu + kala namak",
       "benefit": "Plant protein + fiber. Laghu (light), Agni-boosting.",
       "target": "liver",
@@ -402,7 +586,7 @@
     },
     {
       "name": "Sattu Drink (Sugar-Free)",
-      "emoji": "\ud83e\udd5b",
+      "emoji": "🥛",
       "recipe": "2 tbsp sattu + nimbu + kala namak + jeera powder in cold water",
       "benefit": "Plant protein, fiber, cooling. Pitta-pacifying, energy-giving.",
       "target": "liver",
@@ -410,7 +594,7 @@
     },
     {
       "name": "Paneer Tikka Bites",
-      "emoji": "\ud83e\uddc0",
+      "emoji": "🧀",
       "recipe": "Low-fat paneer + haldi-adrak-lehsun dahi marinade, air-fried/grilled",
       "benefit": "Lean protein, no refined carbs. Bala-vardhak, Ojas-building.",
       "target": "liver",
@@ -418,7 +602,7 @@
     },
     {
       "name": "Beetroot-Gajar Soup",
-      "emoji": "\ud83c\udf45",
+      "emoji": "🍅",
       "recipe": "Boil chukandar + gajar + adrak + haldi, blend smooth",
       "benefit": "Betalains (liver-protective). Rakta-shodhak (blood purifier).",
       "target": "liver",
@@ -426,209 +610,221 @@
     },
     {
       "name": "Roasted Bhuna Chana",
-      "emoji": "\ud83e\uded8",
+      "emoji": "🫘",
       "recipe": "Plain roasted or with chaat masala + nimbu",
-      "benefit": "High-protein, low-GI, liver-safe. Laghu, Ruksha \u2014 reduces Kapha.",
+      "benefit": "High-protein, low-GI, liver-safe. Laghu, Ruksha — reduces Kapha.",
       "target": "liver",
       "when": "Anytime"
     }
   ],
   "liverProtocol": [
     {
-      "item": "\u2615 Black Coffee (no sugar)",
-      "note": "1\u20132 cups/day. Only beverage proven to reduce liver fibrosis risk.",
+      "item": "☕ Black Coffee (no sugar)",
+      "note": "Optional 1 cup/day, counted inside total caffeine. May support lower liver fibrosis (लिवर का सख्त होना) risk; avoid late evening due to sleep/prostate.",
       "phase": "Week 2"
     },
     {
-      "item": "\ud83c\udf3f Triphala",
-      "note": "1 tsp in warm water at bedtime. Digestive reset + liver support.",
-      "phase": "Week 2"
+      "item": "🌿 Triphala",
+      "note": "Doctor/Ayurvedic physician review only. Can affect digestion and sugar; avoid self-starting.",
+      "phase": "Clinician review"
     },
     {
-      "item": "\ud83e\udeda Kutki",
-      "note": "250 mg morning empty stomach. Most potent Ayurvedic liver herb. \u26a0\ufe0f Monitor sugar.",
-      "phase": "Week 3"
+      "item": "🫚 Kutki",
+      "note": "Doctor/Ayurvedic physician only after LFTs. May lower sugar and can be risky with insulin/Daparyl M.",
+      "phase": "Clinician review"
     },
     {
-      "item": "\ud83c\udf83 Pumpkin Seeds",
-      "note": "1 tbsp daily. Zinc for prostate health.",
+      "item": "🎃 Pumpkin Seeds",
+      "note": "1 tbsp daily. Zinc for prostate (प्रोस्टेट/गदूद) health.",
       "phase": "Week 4"
     },
     {
-      "item": "\ud83c\udf75 Green Tea",
-      "note": "1 cup after lunch. EGCG catechins for prostate + liver.",
+      "item": "🍵 Green Tea",
+      "note": "Optional 1 cup after lunch, counted inside total caffeine. Avoid after 3 PM if urination/sleep/acidity worsens.",
       "phase": "Week 4"
     }
   ],
   "liverHealingFoods": [
     {
-      "emoji": "\u2615",
+      "emoji": "☕",
       "name": "Black Coffee (no sugar)",
-      "evidence": "Only beverage proven to reduce liver fibrosis risk (Hepatology 2012, BMJ 2017)",
-      "how": "1\u20132 cups/day, morning or post-lunch"
+      "evidence": "Regular coffee is associated with lower liver fibrosis (लिवर का सख्त होना) risk in liver-disease studies.",
+      "how": "Start 1 cup/day, morning or post-lunch; no sugar/cream"
     },
     {
-      "emoji": "\ud83c\udf45",
+      "emoji": "🍅",
       "name": "Beetroot (Chukandar)",
-      "evidence": "Betalains protect liver cells from oxidative damage (NIH)",
-      "how": "Grated in salad or as soup, 2\u20133x/week"
+      "evidence": "Betalains (चुकंदर के रंग वाले antioxidant) support antioxidant intake.",
+      "how": "Grated in salad or as soup, 2–3x/week"
     },
     {
-      "emoji": "\ud83c\udf4e",
+      "emoji": "🍎",
       "name": "Pomegranate (Anar)",
-      "evidence": "Punicalagin reduces liver oxidative stress",
-      "how": "1 small bowl 3x/week"
+      "evidence": "Punicalagin (अनार का antioxidant) supports blood-vessel and liver-friendly eating.",
+      "how": "Small bowl 2-3x/week; count as fruit portion"
     },
     {
-      "emoji": "\ud83e\udd52",
+      "emoji": "🥒",
       "name": "Lauki (Bottle Gourd)",
       "evidence": "Hydrating, low-calorie, Pitta-cooling",
       "how": "Increase to 3x/week (already in rotation)"
     },
     {
-      "emoji": "\ud83c\udf75",
+      "emoji": "🍵",
       "name": "Green Tea",
-      "evidence": "EGCG catechins \u2014 liver + prostate protective",
-      "how": "1 cup after lunch"
-    }
-  ],
-  "avoidFoods": [
-    {
-      "item": "Alcohol",
-      "allopathy": "Directly toxic to liver \u2014 accelerates fatty liver \u2192 fibrosis",
-      "ayurveda": "Destroys Agni, increases Pitta/Ama"
-    },
-    {
-      "item": "Maida / Refined Flour",
-      "allopathy": "Spikes blood sugar, promotes liver fat deposition",
-      "ayurveda": "Heavy, channel-blocking (Sroto-rodha)"
-    },
-    {
-      "item": "Sugar / Meetha",
-      "allopathy": "Feeds liver fat + uncontrolled diabetes (fructose \u2192 liver fat)",
-      "ayurveda": "Increases Kapha/Meda (adipose tissue)"
-    },
-    {
-      "item": "Fried Snacks (Samosa/Pakora)",
-      "allopathy": "Saturated/trans fats \u2192 direct liver fat accumulation",
-      "ayurveda": "Guru, Snigdha \u2014 Kapha-aggravating"
-    },
-    {
-      "item": "Cold Drinks / Soda",
-      "allopathy": "High fructose content \u2192 directly converted to liver fat",
-      "ayurveda": "Mandagni (extinguishes digestive fire)"
-    },
-    {
-      "item": "Heavy Red Meat",
-      "allopathy": "Saturated fat + inflammatory \u2014 worsens steatohepatitis",
-      "ayurveda": "Heavy, increases Ama (toxins)"
-    },
-    {
-      "item": "Achaar (Spicy Pickle)",
-      "allopathy": "High sodium \u2192 hypertension. Oil \u2192 liver fat",
-      "ayurveda": "Pitta-aggravating \u2014 worsens liver inflammation"
+      "evidence": "EGCG catechins (ग्रीन टी antioxidants) may support heart/liver health.",
+      "how": "1 cup after lunch; avoid late evening"
     }
   ],
   "pendingTests": [
     {
       "test": "Fecal Elastase",
       "orderedBy": "Doctor",
-      "reveals": "Whether pancreas produces enough enzymes. If < 200 \u00b5g/g \u2192 Panlipase dose needs increase (currently 10,000 units; standard is 40,000\u201350,000)"
+      "reveals": "Whether pancreas produces enough digestive enzymes (पाचन enzyme). If low, doctor may adjust Panlipase dose."
     },
     {
       "test": "LFTs (ALT, AST, GGT)",
       "orderedBy": "Our recommendation",
-      "reveals": "Whether fatty liver has caused actual liver cell damage or inflammation \u2014 baseline before herb introduction"
+      "reveals": "Whether fatty liver (फैटी लिवर/लिवर में चर्बी) has caused liver inflammation (सूजन) or cell stress — baseline before herbs."
     },
     {
       "test": "Urine Microalbumin",
       "orderedBy": "Our recommendation",
-      "reveals": "Earliest sign of diabetic kidney damage \u2014 catches it years before USG shows structural changes"
+      "reveals": "Earliest sign of diabetic kidney stress (किडनी पर शुगर का असर) — USG can still look normal in early stages."
+    }
+  ],
+  "webCheckedSources": [
+    {
+      "topic": "Diabetes + smoking",
+      "takeaway": "Smoking makes diabetes harder to control; quitting can improve blood sugar management. Nicotine products can help but should be discussed with the doctor because nicotine can affect sugar.",
+      "source": "CDC Diabetes and Smoking",
+      "url": "https://www.cdc.gov/diabetes/risk-factors/diabetes-and-smoking.html"
+    },
+    {
+      "topic": "Diabetes meal method",
+      "takeaway": "Use regular balanced meals, plate method, fewer refined grains/added sugars, and whole foods. Whole fruit is safer than juice.",
+      "source": "CDC Diabetes Meal Planning",
+      "url": "https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html"
+    },
+    {
+      "topic": "Fatty liver",
+      "takeaway": "Gradual weight loss improves fatty liver. About 3-5% body-weight loss can reduce liver fat; 7-10% may be needed for inflammation/fibrosis. Rapid weight loss can worsen liver disease.",
+      "source": "NIDDK NAFLD/NASH Treatment",
+      "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+    },
+    {
+      "topic": "Pancreatitis/EPI",
+      "takeaway": "Low-fat small frequent meals, fluids, limiting caffeine, no alcohol, quitting smoking, and taking PERT with meals/snacks are core safety rules.",
+      "source": "NIDDK Pancreatitis + EPI",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/eating-diet-nutrition"
+    },
+    {
+      "topic": "BPH/prostate",
+      "takeaway": "Limit evening fluids, caffeine, alcohol, spicy irritants if symptoms appear; vegetables, fruits, activity, and healthy weight support prostate symptoms.",
+      "source": "Mayo Clinic BPH diet/lifestyle",
+      "url": "https://www.mayoclinic.org/diseases-conditions/benign-prostatic-hyperplasia/expert-answers/enlarged-prostate-and-diet/faq-20322773"
+    },
+    {
+      "topic": "Herbs/supplements",
+      "takeaway": "Diabetes supplements have weak evidence and may interact with medicines. Ashwagandha and bioavailable turmeric/curcumin supplements have rare liver-injury reports; food-level spices are safer.",
+      "source": "NIH NCCIH / LiverTox",
+      "url": "https://www.nccih.nih.gov/health/diabetes-and-dietary-supplements-what-you-need-to-know"
+    },
+    {
+      "topic": "Daparyl M / SGLT2 alert",
+      "takeaway": "SGLT2 inhibitors can rarely cause ketoacidosis with symptoms like nausea, vomiting, abdominal pain, fatigue, or breathing difficulty, sometimes even when blood sugar is below 250 mg/dL.",
+      "source": "FDA SGLT2 safety communication",
+      "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/sodium-glucose-cotransporter-2-sglt2-inhibitors"
     }
   ],
   "simpleGuide": {
     "eatables": [
       {
         "item": "Curd (Dahi) & Hari Chutney",
-        "reason": "Dahi is good for daytime digestion (avoid at night). Hari Chutney (Mint/Coriander) is an excellent side for Chilla.",
+        "reason": "Dahi is good for daytime digestion (पाचन) (avoid at night). Hari Chutney (Mint/Coriander) is an excellent side for Chilla.",
         "emoji": "🥣"
       },
       {
         "item": "Lauki, Tori, Tinda (Gourds)",
-        "reason": "Extremely light on liver & pancreas, good for blood sugar.",
-        "emoji": "\ud83e\udd52"
+        "reason": "Extremely light on liver & pancreas, good for blood sugar (ब्लड शुगर/रक्त शर्करा).",
+        "emoji": "🥒"
       },
       {
         "item": "Moong Dal & Sprouts",
         "reason": "Best protein. Easy to digest, doesn't tax the liver.",
-        "emoji": "\ud83c\udf31"
+        "emoji": "🌱"
       },
       {
         "item": "Chaach with Jeera (Buttermilk)",
-        "reason": "Cools the stomach, adds healthy gut bacteria for digestion.",
-        "emoji": "\ud83e\udd5b"
+        "reason": "Cools the stomach, adds healthy gut bacteria for digestion (पाचन).",
+        "emoji": "🥛"
       },
       {
         "item": "Pumpkin Seeds & Walnuts",
-        "reason": "Pumpkin seeds heal the prostate. Walnuts reduce liver swelling.",
-        "emoji": "\ud83c\udf83"
+        "reason": "Pumpkin seeds provide zinc for prostate (प्रोस्टेट/गदूद) support. Walnuts provide healthy fats; keep quantity measured.",
+        "emoji": "🎃"
       },
       {
-        "item": "Jamun & Papaya",
-        "reason": "Jamun lowers blood sugar. Papaya naturally contains digestion enzymes.",
-        "emoji": "\ud83e\uded0"
+        "item": "Fruit: Papaya / Apple / Guava / Anar",
+        "reason": "Choose only one small portion at a time. Jamun is good only when available in season; no fruit juice.",
+        "emoji": "🫐"
       },
       {
         "item": "Multigrain Roti",
-        "reason": "High fiber, keeps blood sugar steady instead of spiking.",
-        "emoji": "\ud83e\uded3"
+        "reason": "High fiber, keeps blood sugar (ब्लड शुगर/रक्त शर्करा) steady instead of spiking.",
+        "emoji": "🫓"
       },
       {
         "item": "Haldi, Adrak, Lahsun in Cooking",
-        "reason": "The 'Golden Trio' that fights cancer, liver fat, and inflammation.",
-        "emoji": "\ud83e\uddc4"
+        "reason": "Daily food-level spices: curcumin (हल्दी), gingerol (अदरक), allicin (लहसुन) support inflammation control.",
+        "emoji": "🧄"
       },
       {
-        "item": "Black Coffee & Green Tea",
-        "reason": "1 cup black coffee actively reduces liver fat. Green tea protects prostate.",
-        "emoji": "\u2615"
+        "item": "Limited Tea / Green Tea / Coffee",
+        "reason": "Useful only without sugar and in small amounts. Because of pancreatitis, reduce 8-10 cups tea toward 2-3 small cups/day.",
+        "emoji": "☕"
       }
     ],
     "avoidables": [
       {
+        "item": "Smoking / Tobacco",
+        "reason": "Nicotine (तंबाकू का नशे वाला रसायन) raises sugar and multiplies heart, lung, liver, and cancer risk.",
+        "emoji": "🚭"
+      },
+      {
         "item": "Namkeen, Biscuits & Chips",
-        "reason": "Processed, fried, and spikes blood sugar rapidly while burdening digestion.",
+        "reason": "Processed, fried, and spikes blood sugar (ब्लड शुगर/रक्त शर्करा) rapidly while burdening digestion (पाचन).",
         "emoji": "🥨"
       },
       {
         "item": "Sugar, Jaggery, Honey, Sweets",
         "reason": "Immediately turns into liver fat and spikes diabetes.",
-        "emoji": "\ud83d\udeab"
+        "emoji": "🚫"
       },
       {
         "item": "Maida & Bakery Biscuits",
         "reason": "Acts like glue in the stomach, spikes sugar instantly.",
-        "emoji": "\ud83e\udd50"
+        "emoji": "🥐"
       },
       {
         "item": "Fried Foods (Samosa, Pakora)",
-        "reason": "Taxes the pancreas and directly increases fatty liver.",
-        "emoji": "\ud83c\udf5f"
+        "reason": "Taxes the pancreas and directly increases fatty liver (फैटी लिवर/लिवर में सूजन).",
+        "emoji": "🍟"
       },
       {
         "item": "Cold Drinks & Packaged Juices",
-        "reason": "Hidden sugars that destroy the liver faster than anything else.",
-        "emoji": "\ud83e\udd64"
+        "reason": "Hidden sugars rapidly raise sugar and add liver fat.",
+        "emoji": "🥤"
       },
       {
         "item": "Achaar (Pickles)",
         "reason": "Too much oil and salt. Increases blood pressure and acidity.",
-        "emoji": "\ud83c\udf36\ufe0f"
+        "emoji": "🌶️"
       },
       {
         "item": "Red Meat & Heavy Meals",
         "reason": "Pancreas cannot digest heavy fats properly right now.",
-        "emoji": "\ud83e\udd69"
+        "emoji": "🥩"
       },
       {
         "item": "Alcohol",
@@ -639,12 +835,13 @@
   },
   "precautions": [
     {
-      "title": "Portion Control",
+      "title": "Portion Control (मात्रा पर नियंत्रण/कम खाना)",
       "icon": "⚖️",
       "rules": [
         "Avoid overeating; stop when 80% full.",
         "Eat smaller, frequent meals rather than large, heavy ones.",
-        "Do not skip meals, especially if taking medications."
+        "Do not skip meals, especially if taking insulin or sugar-lowering medicines.",
+        "Keep nuts, roti, fruit, and paneer measured; healthy foods can still increase weight if portions are large."
       ]
     },
     {
@@ -653,7 +850,7 @@
       "rules": [
         "Use cold-pressed mustard oil (sarson) or olive oil.",
         "Limit total oil intake to 3 teaspoons (15ml) per day.",
-        "Completely avoid refined seed oils (sunflower, soybean, etc)."
+        "Avoid repeatedly heated oil, vanaspati, and deep-fried foods. Do not add extra ghee/butter."
       ]
     },
     {
@@ -661,61 +858,83 @@
       "icon": "⏱️",
       "rules": [
         "Finish dinner by 7:30 PM to 8:00 PM.",
-        "Allow a 12-14 hour overnight fasting window (e.g., 8 PM to 8 AM).",
-        "Take a gentle post-meal walk (10-15 mins) to prevent sugar spikes."
+        "Keep a natural overnight gap only if meals are regular and the doctor agrees. Do not intentionally fast, skip meals, or sharply cut carbs while taking insulin/Daparyl M.",
+        "Take a gentle post-meal walk (10-15 mins) to prevent sugar spikes.",
+        "Do not do long fasting or crash dieting while on insulin unless doctor specifically advises it."
       ]
     },
     {
-      "title": "Hydration & Sleep",
+      "title": "Hydration (पानी की कमी पूरी करना) & Sleep",
       "icon": "💧",
       "rules": [
-        "Drink 2-3 liters of water daily to help Daparyl M flush out glucose.",
-        "Avoid heavy fluid intake 2 hours before bed to prevent nocturia (nighttime urination) due to prostate enlargement.",
-        "Avoid drinking large amounts of water immediately after meals; sip warm water or chaach instead."
+        "Keep steady hydration through the day; the doctor may adjust fluid goals if heart, kidney, swelling, or nighttime urination issues appear.",
+        "Avoid heavy fluid intake 2 hours before bed to prevent nocturia (nighttime urination) due to prostate (प्रोस्टेट/गदूद) enlargement.",
+        "Avoid drinking large amounts of water immediately after meals; sip warm water or chaach instead.",
+        "Keep coffee/green tea before 3 PM if sleep or nighttime urination worsens.",
+        "Reduce 8-10 cups tea slowly; target 2-3 small cups/day because pancreatitis guidance recommends limiting caffeine."
       ]
     },
     {
       "title": "Daparyl M Hygiene",
       "icon": "🧼",
       "rules": [
-        "Daparyl M pushes sugar into urine. Combined with mild prostate enlargement, this creates a high risk for UTIs and fungal infections.",
+        "Daparyl M pushes sugar into urine. Combined with mild prostate (प्रोस्टेट/गदूद) enlargement, this creates a high risk for UTIs and fungal infections.",
         "Maintain strict personal hygiene after urination to prevent bacterial growth."
+      ]
+    },
+    {
+      "title": "Smoking Quit Safety (धूम्रपान छोड़ने की सावधानी)",
+      "icon": "🚭",
+      "rules": [
+        "Do not replace cigarettes with sweets, biscuits, or extra tea snacks.",
+        "Check fasting and post-meal sugar more often during the first 2-4 weeks of quitting.",
+        "Ask the doctor about nicotine replacement or quitting medicines; quitting support is safer than continuing chain smoking."
       ]
     }
   ],
   "fruitsGuide": {
     "eatable": [
       {
-        "name": "Jamun (Black Plum)",
+        "name": "Jamun (Black Plum) — seasonal only",
         "emoji": "🫐",
-        "reason": "Excellent for diabetes, contains jamboline which controls blood sugar."
+        "reason": "Use 8-10 pieces only when available. Do not use jamun seed powder without doctor approval."
       },
       {
         "name": "Papaya (Papeeta)",
         "emoji": "🥭",
-        "reason": "Rich in papain enzyme, great for digestion and pancreas."
+        "reason": "Rich in papain enzyme, great for digestion (पाचन) and pancreas."
       },
       {
         "name": "Apple (Seb)",
         "emoji": "🍎",
-        "reason": "High in pectin fiber, keeps blood sugar steady."
+        "reason": "High in pectin fiber, keeps blood sugar (ब्लड शुगर/रक्त शर्करा) steady."
       },
       {
         "name": "Guava (Amrood)",
         "emoji": "🍐",
-        "reason": "Low glycemic index, rich in vitamin C and fiber."
+        "reason": "Low glycemic index (शुगर धीरे बढ़ाने वाला), rich in vitamin C and fiber."
       },
       {
         "name": "Pomegranate (Anar)",
         "emoji": "🍎",
-        "reason": "Potent antioxidants that protect the liver."
+        "reason": "Potent antioxidants (एंटीऑक्सीडेंट्स/नुकसान से बचाने वाले तत्व) that protect the liver."
+      },
+      {
+        "name": "Mosambi / Orange",
+        "emoji": "🍊",
+        "reason": "One small whole fruit is okay if sugar readings allow. Avoid juice."
+      },
+      {
+        "name": "Pear (Nashpati)",
+        "emoji": "🍐",
+        "reason": "Fiber-rich and usually gentler on sugar than very sweet fruits; use small portion."
       }
     ],
     "nonEatable": [
       {
         "name": "Mango (Aam)",
         "emoji": "🥭",
-        "reason": "High in simple sugars, causes rapid spikes in blood glucose and burdens the liver."
+        "reason": "High in simple sugars; avoid until sugar is controlled. Later only doctor/dietitian-approved small portions."
       },
       {
         "name": "Banana (Kela)",
@@ -730,7 +949,7 @@
       {
         "name": "Watermelon (Tarbooz)",
         "emoji": "🍉",
-        "reason": "High glycemic index, rapidly increases blood sugar."
+        "reason": "Can raise sugar quickly if portion is large; avoid while fasting sugar is high."
       },
       {
         "name": "Lychee & Chikoo",
@@ -749,53 +968,237 @@
     {
       "name": "Red Masoor Dal",
       "emoji": "🍲",
-      "benefit": "Rich in fiber and protein, helps stabilize blood sugar.",
+      "benefit": "Rich in fiber and protein, helps stabilize blood sugar (ब्लड शुगर/रक्त शर्करा).",
       "bestFor": "Lunch or Dinner in rotation"
     },
     {
       "name": "Chana Dal (Bengal Gram)",
       "emoji": "🥘",
-      "benefit": "Lowest Glycemic Index among dals, excellent for diabetes.",
+      "benefit": "Lowest Glycemic Index (शुगर बढ़ाने की गति) among dals, excellent for diabetes.",
       "bestFor": "Twice a week, keeps you full longer"
     },
     {
       "name": "Sprouted Moong",
       "emoji": "🌱",
-      "benefit": "Live enzymes boost digestion, high in antioxidants.",
+      "benefit": "Live enzymes boost digestion (पाचन), high in antioxidants (एंटीऑक्सीडेंट्स/नुकसान से बचाने वाले तत्व).",
       "bestFor": "Morning snacks or Salad base"
+    },
+    {
+      "name": "Arhar/Toor Dal",
+      "emoji": "🍛",
+      "benefit": "Common dal, acceptable if cooked thin with less oil and hing/jeera for gas.",
+      "bestFor": "Lunch rotation, 2-3x/week"
+    },
+    {
+      "name": "Urad/Rajma/Chole",
+      "emoji": "🫘",
+      "benefit": "Heavier and gas-forming; not forbidden, but use rarely, small portions, soaked well, and only when digestion is stable.",
+      "bestFor": "Occasional lunch, not dinner"
+    }
+  ],
+  "grainGuide": [
+    {
+      "name": "Updated Multigrain Atta",
+      "emoji": "🌾",
+      "benefit": "Best routine roti option because wheat is mixed with jowar, jau, ragi, little flaxseed, methi, and ajwain.",
+      "how": "Use measured rotis: 1-2 at lunch, 1 at dinner depending on sugar."
+    },
+    {
+      "name": "Jau (Barley)",
+      "emoji": "🌾",
+      "benefit": "High fiber and slower sugar rise; good for diabetes/fatty liver.",
+      "how": "Use in atta mix, not as unlimited porridge."
+    },
+    {
+      "name": "Jowar",
+      "emoji": "🫓",
+      "benefit": "Useful summer grain and gluten-free; still a carbohydrate.",
+      "how": "Use in mixed atta or one jowar roti occasionally."
+    },
+    {
+      "name": "Ragi",
+      "emoji": "🌱",
+      "benefit": "Mineral-rich but can raise sugar if portion is large.",
+      "how": "Small amount in atta mix; avoid sweet ragi drinks."
+    },
+    {
+      "name": "Oats / Daliya",
+      "emoji": "🥣",
+      "benefit": "Fiber-rich breakfast option if chilla is not possible.",
+      "how": "Plain salted vegetable oats/daliya; no sugar/honey."
+    },
+    {
+      "name": "Rice / Poha / Suji",
+      "emoji": "🍚",
+      "benefit": "Faster sugar rise; keep limited while fasting sugar is high.",
+      "how": "Small occasional portions only, paired with dal and sabzi."
+    },
+    {
+      "name": "Bajra",
+      "emoji": "🫓",
+      "benefit": "Nutritious but heavier/heating for summer and digestion.",
+      "how": "Use rarely in hot weather or if gas/acidity increases."
     }
   ],
   "vegetableCategories": [
     {
       "category": "Leafy Greens (Daily Protection)",
       "items": [
-        { "name": "Spinach (Palak)", "reason": "High in iron and chlorophyll for liver detox." },
-        { "name": "Fenugreek (Methi)", "reason": "Lowers blood sugar levels naturally." },
-        { "name": "Mustard Greens (Sarson)", "reason": "Powerful antioxidants for cell repair." }
+        {
+          "name": "Spinach (Palak)",
+          "reason": "Useful leafy green in rotation; cook lightly and keep oil low."
+        },
+        {
+          "name": "Fenugreek (Methi)",
+          "reason": "Lowers blood sugar (ब्लड शुगर/रक्त शर्करा) levels naturally."
+        },
+        {
+          "name": "Mustard Greens (Sarson)",
+          "reason": "Powerful antioxidants (एंटीऑक्सीडेंट्स/नुकसान से बचाने वाले तत्व) for cell repair."
+        },
+        {
+          "name": "Bathua / Chaulai",
+          "reason": "Good leafy options in rotation; cook well and keep oil low."
+        }
       ]
     },
     {
-      "category": "Cruciferous (Prostate Health)",
+      "category": "Cruciferous (Prostate (प्रोस्टेट/गदूद) Health)",
       "items": [
-        { "name": "Broccoli", "reason": "Contains sulforaphane, vital for prostate health." },
-        { "name": "Cauliflower (Gobhi)", "reason": "Anti-inflammatory and fiber-rich." },
-        { "name": "Cabbage (Patta Gobhi)", "reason": "Best for RAW salads to get healing enzymes." }
+        {
+          "name": "Broccoli",
+          "reason": "Contains sulforaphane (गोभी वर्ग का रक्षक तत्व); useful as part of a vegetable-rich diet."
+        },
+        {
+          "name": "Cauliflower (Gobhi)",
+          "reason": "Anti-inflammatory (सूजन कम करने वाला) and fiber-rich."
+        },
+        {
+          "name": "Cabbage (Patta Gobhi)",
+          "reason": "Good in salad; lightly steam if raw causes gas."
+        }
       ]
     },
     {
       "category": "Traditional (Hydrating & Low-GI)",
       "items": [
-        { "name": "Lauki (Bottle Gourd)", "reason": "Easiest on the digestive system, cooling." },
-        { "name": "Tori (Ridge Gourd)", "reason": "Natural blood purifier, low calorie." },
-        { "name": "Karela (Bitter Gourd)", "reason": "Stimulates pancreas to produce insulin." },
-        { "name": "Tinda (Apple Gourd)", "reason": "Hydrating and very light on the liver." }
+        {
+          "name": "Lauki (Bottle Gourd)",
+          "reason": "Easiest on the digestive system, cooling."
+        },
+        {
+          "name": "Tori (Ridge Gourd)",
+          "reason": "Natural blood purifier, low calorie."
+        },
+        {
+          "name": "Karela (Bitter Gourd)",
+          "reason": "May lower sugar; use small portions and monitor with insulin."
+        },
+        {
+          "name": "Tinda (Apple Gourd)",
+          "reason": "Hydrating and very light on the liver."
+        },
+        {
+          "name": "Pumpkin (Kaddu)",
+          "reason": "Allowed in small portions; cook without sugar/jaggery."
+        },
+        {
+          "name": "Bhindi (Okra)",
+          "reason": "Fiber-rich and usually diabetes-friendly; cook with little oil."
+        },
+        {
+          "name": "Baingan / Capsicum / Beans",
+          "reason": "Good rotation vegetables when cooked lightly and not fried."
+        }
       ]
     },
-    { "category": "Detox Duo",
+    {
+      "category": "Use Less / Avoid Often",
       "items": [
-        { "name": "Garlic (Lahsun)", "reason": "Sulfur compounds help liver clear fat." },
-        { "name": "Onion (Pyaz)", "reason": "Quercetin reduces inflammation in the prostate." }
+        {
+          "name": "Potato, Arbi, Jimikand",
+          "reason": "Starchy; raises sugar faster. Use rarely and in small portions."
+        },
+        {
+          "name": "Very oily stuffed sabzi",
+          "reason": "Too much fat can worsen pancreatitis and fatty liver."
+        }
       ]
+    },
+    {
+      "category": "Detox Duo",
+      "items": [
+        {
+          "name": "Garlic (Lahsun)",
+          "reason": "Sulfur compounds and allicin (लहसुन का रक्षक तत्व) support heart-friendly cooking."
+        },
+        {
+          "name": "Onion (Pyaz)",
+          "reason": "Quercetin reduces inflammation in the prostate (प्रोस्टेट/गदूद)."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Curcumin",
+      "hindi": "हल्दी का सक्रिय तत्व",
+      "meaning": "सूजन और oxidative stress (अंदरूनी नुकसान) कम करने में मदद करने वाला plant compound."
+    },
+    {
+      "term": "Allicin",
+      "hindi": "लहसुन का रक्षक तत्व",
+      "meaning": "लहसुन crush करने पर बनता है; heart-friendly cooking और immunity support में मददगार."
+    },
+    {
+      "term": "Piperine",
+      "hindi": "काली मिर्च का अवशोषण बढ़ाने वाला तत्व",
+      "meaning": "हल्दी के curcumin को शरीर में absorb करने में मदद करता है; acidity हो तो बहुत कम लें."
+    },
+    {
+      "term": "Sulforaphane",
+      "hindi": "गोभी वर्ग की सब्जियों का रक्षक तत्व",
+      "meaning": "Cabbage, cauliflower, broccoli में मिलता है; शरीर के normal repair systems को support करता है."
+    },
+    {
+      "term": "Oxidative Stress",
+      "hindi": "अंदरूनी टूट-फूट / cells पर नुकसान",
+      "meaning": "Smoking, high sugar, pollution और stress से cells को नुकसान होना."
+    },
+    {
+      "term": "Insulin Resistance",
+      "hindi": "इंसुलिन का ठीक से काम न करना",
+      "meaning": "Body में insulin मौजूद है, पर cells sugar को ठीक से अंदर नहीं ले पाते."
+    },
+    {
+      "term": "Fatty Liver Grade-2",
+      "hindi": "लिवर में मध्यम स्तर की चर्बी",
+      "meaning": "लिवर में fat जमा है; sugar control, weight loss, walking, and zero alcohol से अक्सर सुधर सकता है."
+    },
+    {
+      "term": "Microalbumin",
+      "hindi": "पेशाब में बहुत थोड़ा protein",
+      "meaning": "Diabetes से kidney पर शुरुआती असर पता करने का test."
+    },
+    {
+      "term": "2x Daily",
+      "hindi": "दिन में 2 बार",
+      "meaning": "For haldi+kali mirch, this can mean once as drink and once inside normal cooking. It does not mean forcing two extra drinks."
+    },
+    {
+      "term": "Golden Milk",
+      "hindi": "हल्दी दूध",
+      "meaning": "Warm low-fat milk with haldi, tiny kali mirch, and dalchini. No sugar. Optional only."
+    },
+    {
+      "term": "Pancreas-Liver Support Soup",
+      "hindi": "हल्का लौकी-गोभी soup",
+      "meaning": "Low-fat boiled/blended soup for easy digestion on dinner days; not a medicine."
+    },
+    {
+      "term": "Updated Atta",
+      "hindi": "fiber वाला mixed atta",
+      "meaning": "Wheat mixed with jowar, jau, ragi, little flaxseed, methi, and ajwain so roti raises sugar more slowly than plain wheat."
     }
   ]
 }

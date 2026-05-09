@@ -4,6 +4,7 @@
 - **Age/Sex**: 53 Years / Male
 - **USG Findings (9 May 2026)**: Fatty Liver Grade-2 (liver span 19 cm), Mild Prostatomegaly Grade-1 (27 cc)
 - **Blood Work (2 May 2026)**: HbA1c 12.7%, FBS 275.7 → 184 mg/dL (9 May), TG 238, LDL 181.7, HDL 35, eGFR 118
+- **Smoking**: Chain smoker / long smoking history. This materially raises cardiovascular, lung, cancer, oxidative stress, and diabetes-control risk.
 - **Fecal Elastase**: Ordered by doctor (pending results)
 - **LFTs + Urine Microalbumin**: Being done (pending results)
 - **Current Medications**: Huminsulin (Insulin), Daparyl M (Dapagliflozin + Metformin), Panlipase 10000
@@ -40,11 +41,12 @@
 
 **Primary interventions (evidence-backed)**:
 1. **Blood sugar control** — the #1 intervention. HbA1c 12.7% → target < 7%
-2. **Weight loss** — 5–10% of body weight can dramatically reduce liver fat (Vilar-Gomez et al., Hepatology 2015)
-3. **Mediterranean-style diet** — strong evidence for NAFLD reversal (Romero-Gómez et al., J Hepatol 2017)
-4. **Exercise** — 150+ min/week moderate aerobic activity
-5. **Zero alcohol** — absolute requirement
-6. **Coffee** — research shows regular coffee consumption may be protective against liver fibrosis (Molloy et al., Hepatology 2012)
+2. **Smoking cessation** — urgent because smoking worsens diabetes control, inflammation, vascular risk, and cancer risk; diet cannot offset continued chain smoking
+3. **Weight loss** — 5–10% of body weight can dramatically reduce liver fat (Vilar-Gomez et al., Hepatology 2015)
+4. **Mediterranean-style diet** — strong evidence for NAFLD reversal (Romero-Gómez et al., J Hepatol 2017)
+5. **Exercise** — 150+ min/week moderate aerobic activity if doctor allows, starting with post-meal walks
+6. **Zero alcohol** — absolute requirement
+7. **Coffee** — research shows regular coffee consumption may be protective against liver fibrosis (Molloy et al., Hepatology 2012); keep it sugar-free and avoid late day if prostate/sleep symptoms worsen
 
 **Medications to discuss with doctor**:
 - **Pioglitazone** — insulin sensitizer with evidence for NASH improvement
@@ -59,18 +61,20 @@
 
 | Herb | Ayurvedic Action | Safety with Current Meds | How to Take |
 |---|---|---|---|
-| **Kutki** (*Picrorhiza kurroa*) | Most potent liver herb — stimulates bile flow, reduces liver fat, hepatoprotective | ⚠️ May lower blood sugar — monitor closely with Insulin + Daparyl M. Start small. | 250–500 mg powder in warm water, morning empty stomach |
-| **Bhumyamalaki** (*Phyllanthus niruri*) | Liver cleanser, detoxifier, anti-viral | ⚠️ Mild hypoglycemic effect — same precaution as Kutki | 500 mg tablet or 1 tsp powder in water, twice daily |
-| **Triphala** (Amla + Haritaki + Bibhitaki) | Digestive reset, reduces Ama, supports all three doshas | ✅ Safe — already consuming Amla separately. Additive benefit. | 1 tsp powder in warm water at bedtime |
-| **Kalmegh** (*Andrographis paniculata*) | "King of Bitters" — liver protector, anti-inflammatory | ✅ Safe — no known interactions with current meds | 500 mg twice daily after meals |
-| **Guduchi/Giloy** (*Tinospora cordifolia*) | Already in diet — immunomodulator, beta-cell protector, liver detoxifier | ⚠️ Already using — monitor sugar levels | Continue current schedule (3-4x/week) |
-| **Haldi/Turmeric** (*Curcuma longa*) | Already in diet — anti-inflammatory, curcumin protects hepatocytes | ✅ Already taking 2x/day — continue | Continue with Kali Mirch (piperine) |
+| **Kutki** (*Picrorhiza kurroa*) | Bitter liver-support herb in Ayurveda | ⚠️ Doctor/Ayurvedic physician only after LFT review; may lower sugar with Insulin + Daparyl M | Do not self-start; no dose recorded in family guide |
+| **Bhumyamalaki** (*Phyllanthus niruri*) | Traditional liver-support herb | ⚠️ Doctor/Ayurvedic physician only; possible sugar-lowering and liver-safety uncertainty | Do not self-start |
+| **Triphala** (Amla + Haritaki + Bibhitaki) | Digestive reset, reduces Ama, supports all three doshas | ⚠️ May affect digestion and sugar pattern; use only if clinician agrees | Do not self-start |
+| **Kalmegh** (*Andrographis paniculata*) | Bitter liver-support herb | ⚠️ Avoid assuming “safe”; review with clinician because diabetes medicines and LFTs are active concerns | Do not self-start |
+| **Guduchi/Giloy** (*Tinospora cordifolia*) | Immunomodulatory herb in Ayurveda | ⚠️ Can lower sugar; use only if doctor agrees and glucose is monitored | Skip unless approved |
+| **Haldi/Turmeric** (*Curcuma longa*) | Food-level anti-inflammatory spice | ✅ Use in food-level amounts if tolerated. Avoid turmeric/curcumin capsules or high-piperine supplements unless doctor approves because liver injury has been reported with some bioavailable products | Food-level cooking/water only |
 
-> ⚠️ **CRITICAL SAFETY NOTE**: Kutki and Bhumyamalaki both lower blood sugar. Since he is on Insulin + Dapagliflozin + Metformin (triple glucose-lowering therapy), adding these herbs without monitoring can cause dangerous hypoglycemia. **Start ONE herb at a time, monitor fasting sugar daily for 1 week, and inform the doctor.**
+> ⚠️ **CRITICAL SAFETY NOTE**: Since he is on Insulin + Dapagliflozin + Metformin and has Grade-2 fatty liver, herbs/supplements should be treated like medication changes. Do not self-start sugar-lowering herbs, ashwagandha, kutki, giloy, bitter-gourd juice/extract, high-dose cinnamon, or turmeric/curcumin capsules. Food-level spices and vegetables are preferred unless the treating doctor/Ayurvedic physician approves and monitoring is in place.
+
+> 🚭 **SMOKING NOTE**: Smoking cessation should be treated like a core treatment, not a side habit. CDC guidance links smoking with harder diabetes control and worse complications. If nicotine patch/gum/lozenge is used, glucose should be monitored more often and the doctor should supervise because nicotine can affect blood sugar.
 
 **Ayurvedic lifestyle for liver**:
 - **Yoga asanas**: Ardha Matsyendrasana (seated twist), Bhujangasana (cobra), Dhanurasana (bow) — all stimulate liver blood flow
-- **Pranayama**: Kapalbhati (5 min morning) — stimulates Agni, promotes detox
+- **Pranayama**: Gentle breathing or walking-based routine only if comfortable; avoid forceful practices during abdominal pain, uncontrolled BP, dizziness, or acute illness.
 - **Avoid**: Late-night eating, daytime sleeping, heavy/cold foods
 
 ---
@@ -85,21 +89,21 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 **Prostate-protective foods (evidence-backed)**:
 | Food | Active Compound | Evidence |
 |---|---|---|
-| **Cooked Tomatoes** | Lycopene | Meta-analyses show lower prostate cancer risk; cooked > raw for bioavailability |
-| **Pumpkin Seeds** (*Kaddu ke beej*) | Zinc + Phytosterols | Low zinc levels linked to BPH; pumpkin seeds are one of the richest plant sources |
+| **Cooked Tomatoes** | Lycopene | Supportive prostate-friendly food pattern; cooked tomato improves lycopene bioavailability |
+| **Pumpkin Seeds** (*Kaddu ke beej*) | Zinc + Phytosterols | Useful zinc-containing snack for prostate-friendly eating |
 | **Green Tea** | Catechins (EGCG) | Anti-inflammatory, may reduce prostate enlargement rate |
 | **Walnuts** (*Akhrot*) | Omega-3, Ellagic acid | Already in diet — anti-inflammatory |
-| **Broccoli/Cauliflower** | Sulforaphane | Already in diet — protective against prostate cancer |
+| **Broccoli/Cauliflower** | Sulforaphane | Already in diet — protective plant compounds and fiber |
 | **Flaxseeds** (*Alsi*) | Lignans, Omega-3 | Already in atta mix — phytoestrogens may help balance hormones |
 
 ### Ayurvedic Perspective (Vata-Kapha imbalance)
 **Key herbs for prostate support**:
 | Herb | Action | Safety |
 |---|---|---|
-| **Varuna** (*Crataeva nurvala*) | Primary prostate herb — reduces glandular swelling, improves urine flow | ✅ Safe — no known interactions with current meds |
-| **Gokshura** (*Tribulus terrestris*) | Diuretic, anti-inflammatory, strengthens urinary system | ✅ Safe — but monitor BP (mild diuretic) |
+| **Varuna** (*Crataeva nurvala*) | Traditional prostate/urinary herb | ⚠️ Doctor/Ayurvedic physician review only; do not assume supplement quality or interaction safety |
+| **Gokshura** (*Tribulus terrestris*) | Diuretic, anti-inflammatory, strengthens urinary system | ⚠️ Doctor review only; may affect urine volume/BP and overlaps with Daparyl M hydration considerations |
 | **Chandraprabha Vati** | Classic formulation for urinary + prostate support | ⚠️ Contains multiple herbs — verify sugar-free version. Discuss with doctor. |
-| **Ashwagandha** | Adaptogen, hormonal balance, stress reducer | ⚠️ Already in Week-4 priority plan — mild sugar-lowering |
+| **Ashwagandha** | Adaptogen, hormonal balance, stress reducer | ⚠️ Not routine here: possible diabetes/BP/thyroid/sedative interactions and rare liver-injury reports. Avoid unless doctor approves. |
 
 ---
 
@@ -109,7 +113,7 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 
 | Food | Why It Helps | Allopathy Evidence | Ayurveda Action | How to Add |
 |---|---|---|---|---|
-| **Coffee (black, no sugar)** | Only beverage proven to reduce liver fibrosis risk | Molloy et al., Hepatology 2012; Kennedy et al., BMJ 2017 | Agni stimulant (in moderation) | 1–2 cups/day, morning or post-lunch. NO sugar/cream |
+| **Coffee (black, no sugar)** | Associated with lower liver fibrosis risk in studies | Molloy et al., Hepatology 2012; Kennedy et al., BMJ 2017 | Agni stimulant (in moderation) | Start 1 cup/day, morning or post-lunch. NO sugar/cream |
 | **Lauki (Bottle Gourd)** | Hydrating, low-calorie, liver-cooling | Supportive evidence for metabolic health | Pitta-pacifying, liver coolant | Already in dinner rotation — increase to 3x/week |
 | **Papaya** | Papain enzyme supports Panlipase; anti-inflammatory | Supports digestive enzyme function | Deepana (digestive stimulant) | Already in snack rotation — continue |
 | **Pomegranate** (*Anar*) | Antioxidant-rich, anti-inflammatory | Punicalagin reduces oxidative stress in liver cells | Pitta-balancing, blood purifier (*Raktashodhak*) | 1 small bowl 3x/week, mid-morning or as snack |
@@ -119,9 +123,25 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 
 | Food | Why It Helps | How to Add |
 |---|---|---|
-| **Pumpkin Seeds** (*Kaddu ke beej*) | Richest plant source of zinc — essential for prostate health | 1 tbsp roasted, as evening snack daily |
+| **Pumpkin Seeds** (*Kaddu ke beej*) | Zinc-containing prostate-friendly snack | 1 tbsp roasted, as evening snack daily |
 | **Cooked Tomatoes** | Lycopene (cooked > raw) — prostate protective | Already in salad + tadka — increase to cooked tomato chutney/sabzi |
 | **Green Tea** | EGCG catechins — anti-inflammatory, prostate protective | 1 cup after lunch (replace one Chamomile tea session) |
+
+### 🚭 Smoking-Specific Food Safety
+
+| Situation | Safer replacement | Avoid |
+|---|---|---|
+| Cigarette craving with tea | Saunf, sugar-free gum, cucumber slices, roasted chana | Biscuits, namkeen, sweets |
+| After meals | 10-15 minute walk, jeera water, deep breathing | “Just one cigarette” after food |
+| Stress craving | 4D method: Delay, Deep breathing, Drink water, Do something else | Extra caffeine late evening |
+
+### Family Simplification Update — 9 May 2026
+
+- **Tea**: Current intake is reported as 8-10 cups/day. This is now treated as a pancreatitis/caffeine problem and a smoking trigger. Reduce gradually toward 2-3 small cups/day; no sugar, no biscuits, no cigarette pairing.
+- **Jamun**: Seasonal only. If unavailable, use one small portion of papaya, apple, guava, anar, mosambi/orange, or pear.
+- **Karela**: Use as small low-oil sabzi 1-2x/week, not juice. Monitor sugar because the patient is already on glucose-lowering medicines.
+- **Ashwagandha**: Not a routine add-on. If approved by the doctor/Ayurvedic physician, prefer standardized tablet/capsule from a reliable brand, usually after food/night; avoid self-starting because of sugar, thyroid, sedation, and liver-safety concerns.
+- **Pancreas-Liver Support Soup**: Plain low-fat lauki/gobhi/tomato/adrak/haldi soup for easy dinner days, not a medicine.
 
 ### 🍿 NEW SNACK OPTIONS — Safe for Diabetes + Fatty Liver + Prostate
 
@@ -162,7 +182,7 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 | **Alcohol** | Directly toxic to liver — will accelerate fatty liver → fibrosis | Damages Agni, increases Pitta/Ama |
 | **Maida / Refined Flour** | Spikes blood sugar, promotes liver fat | Heavy (*Guru*), channel-blocking |
 | **Sugar / Meetha** | Feeds liver fat deposition + uncontrolled diabetes | Increases Kapha/Meda Dhatu |
-| **Fried Snacks (Samosa/Pakora/Bhature)** | Saturated fat → liver fat. Trans fats destroy liver cells | Guru, Snigdha — increases Kapha dramatically |
+| **Fried Snacks (Samosa/Pakora/Bhature)** | Saturated/trans fats worsen fatty liver and heart risk | Guru, Snigdha — increases Kapha dramatically |
 | **Cold Drinks / Soda** | High fructose → directly converted to liver fat | Mandagni (kills digestive fire) |
 | **Heavy Red Meat** | Saturated fat, inflammatory | Heavy, hard to digest, increases Ama |
 | **Excess Dairy (Dahi/Paneer/Cream)** | Saturated fat if full-fat versions | Heavy, Kapha-increasing |
@@ -170,28 +190,23 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 
 ---
 
-## 🌿 Integrated Herbal Protocol (Phased Introduction)
+## 🌿 Integrated Herb/Supplement Protocol (Safety-First)
 
-> ⚠️ **RULE**: Introduce ONE herb per week. Monitor fasting sugar daily. Stop immediately if sugar drops below 100 mg/dL.
+> ⚠️ **RULE**: No new herb or concentrated supplement should be started by the family without clinician approval, because Insulin + Daparyl M already lower sugar and Grade-2 fatty liver makes liver-safety review important. Food-level spices/vegetables are preferred.
 
-### Phase 1 (This Week) — Already Active
-- ✅ Haldi + Kali Mirch (2x daily)
-- ✅ Giloy (3-4x/week)
-- ✅ Amla (alternate days)
-- ✅ Alsi in atta (Omega-3)
+### Allowed Without New Supplement
+- ✅ Haldi + Kali Mirch in food-level amounts if tolerated
+- ✅ Amla as food/water in measured amounts
+- ✅ Alsi in atta in small measured quantity
+- ✅ Karela as low-oil sabzi 1-2x/week, not juice/extract
 
-### Phase 2 (Week 2) — Liver Focus
-- 🆕 **Triphala** at bedtime — 1 tsp in warm water (digestive reset + liver support)
-- 🆕 **Coffee** — 1 cup black, no sugar, morning (liver-protective)
+### Doctor-Review Only
+- **Giloy, Kutki, Bhumyamalaki, Kalmegh, Triphala, Varuna, Gokshura, Chandraprabha Vati, Ashwagandha**: review after LFTs, sugar pattern, current medicines, BP, urinary symptoms, and product quality are checked.
+- **Turmeric/curcumin capsules, high-dose cinnamon, green-tea extract**: avoid self-starting. These are not the same as using small amounts in food/tea.
 
-### Phase 3 (Week 3) — Liver Deep
-- 🆕 **Kutki** — 250 mg morning empty stomach (⚠️ monitor sugar closely)
-- 🆕 **Beetroot** in salad 2-3x/week
-
-### Phase 4 (Week 4) — Prostate Support
-- 🆕 **Pumpkin Seeds** — 1 tbsp daily
-- 🆕 **Green Tea** — 1 cup after lunch
-- 🆕 **Varuna** — discuss with Ayurvedic doctor first
+### Food Additions That Remain Reasonable
+- Coffee or green tea can be used only within the reduced caffeine target and avoided late day if sleep, acidity, or urination worsens.
+- Pumpkin seeds, tomatoes, lauki, beetroot, cabbage/gobhi/broccoli, and measured nuts remain food-level supports.
 
 ---
 
@@ -199,18 +214,26 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 
 | New Addition | + Insulin | + Dapagliflozin | + Metformin | + Panlipase |
 |---|---|---|---|---|
-| Coffee (black) | ✅ Safe | ✅ Safe | ✅ Safe — may enhance effect | ✅ Safe |
-| Triphala | ⚠️ Mild sugar-lowering | ✅ Safe | ⚠️ Both affect GI — take 2h apart | ✅ Safe |
+| Coffee (black) | ✅ Food-level okay if caffeine total is controlled | ✅ Watch hydration/urination | ✅ Avoid sugar/cream | ✅ Safe |
+| Triphala | ⚠️ Clinician review only | ⚠️ Clinician review only | ⚠️ Can affect GI pattern | ✅ No direct issue, but avoid self-starting |
 | Kutki | ⚠️ Hypoglycemia risk | ⚠️ Additive sugar-lowering | ⚠️ Additive sugar-lowering | ✅ Safe |
 | Bhumyamalaki | ⚠️ Hypoglycemia risk | ⚠️ Additive sugar-lowering | ⚠️ Additive sugar-lowering | ✅ Safe |
 | Makhana | ✅ Safe | ✅ Safe | ✅ Safe | ✅ Safe |
 | Pumpkin Seeds | ✅ Safe | ✅ Safe | ✅ Safe | ✅ Safe |
-| Green Tea | ✅ Safe | ✅ Safe | ✅ Safe — take tea 1h away from meds | ✅ Safe |
+| Green Tea | ✅ Food-level okay | ✅ Count inside caffeine/hydration plan | ✅ Avoid late day/acidity | ✅ Safe |
 | Pomegranate | ✅ Safe | ✅ Safe | ✅ Safe | ✅ Safe |
-| Varuna | ✅ Safe | ⚠️ Both are diuretic — hydrate well | ✅ Safe | ✅ Safe |
+| Varuna/Gokshura | ⚠️ Clinician review only | ⚠️ Diuretic/urinary overlap with Daparyl M | ⚠️ Clinician review only | ✅ No direct issue known, but avoid self-starting |
 
 ---
 
-*Researched: 2026-05-09 | Sources: NIH, Hepatology Journal, Cleveland Clinic, Mayo Clinic, Healthline, Charaka Samhita, Ayurvaid, ZanduCare, DeepAyurveda, PlanetAyurveda, AskAyurveda*
+## 9 May 2026 Web Safety Re-check
+
+- **Daparyl M/SGLT2**: FDA safety information supports adding a sick-day warning. Abdominal pain with nausea/vomiting, unusual fatigue, breathing difficulty, fever, dehydration, or poor intake should trigger doctor/ketone evaluation because ketoacidosis can occur even when glucose is not very high.
+- **Pancreatitis/EPI**: NIDDK guidance supports small frequent meals, low-fat eating, fluids, limiting caffeine, no alcohol, quitting smoking, and taking PERT/Panlipase with meals/snacks.
+- **Fatty liver**: NIDDK guidance supports gradual weight loss; rapid weight loss or malnutrition can worsen liver disease. Website target softened to about 2-3 kg/month.
+- **Supplements**: NIH/NCCIH notes weak evidence and interaction risks for diabetes supplements. Ashwagandha and bioavailable turmeric/curcumin have rare liver-injury reports, so the dashboard now says food-level spices only unless doctor-approved.
+- **BPH/prostate**: Mayo Clinic guidance supports caffeine/alcohol reduction, less fluid close to bedtime if symptoms occur, more vegetables/fruits, activity, and healthy weight.
+
+*Researched: 2026-05-09 | Re-checked sources: CDC, FDA, NIDDK, NIH NCCIH, NIH LiverTox, Mayo Clinic, AASLD/NIDDK fatty liver guidance.*
 
 *See also: [[USG-Abdomen-May-2026]] | [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]] | [[Gas-Relief-Research-May-2026]]*

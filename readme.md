@@ -1,5 +1,7 @@
 # Health Portfolio — Deepak Bansal
 
+https://okpranavbansal.github.io/deepakbansal/
+
 A personalized, privacy-first web dashboard to manage health reports, track diet plans, and maintain an organized medical timeline. This project is built using basic HTML, CSS, and Vanilla JS, making it extremely lightweight and perfect for hosting on GitHub Pages.
 
 ## Features

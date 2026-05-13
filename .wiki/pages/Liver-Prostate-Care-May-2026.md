@@ -13,6 +13,14 @@
 
 ## 🧪 Pending Tests — What They Will Tell Us
 
+### 14 May 2026 Full Wiki + Web Re-check Addendum
+
+- **Diabetes safety frame**: ADA 2026 keeps diabetes care broad: glycemic control, kidney screening, eye/foot protection, cardiovascular risk reduction, obesity/weight management, and complication surveillance all matter together. For this profile, HbA1c 12.7% + smoking + LDL 181.7 + TG 238 + BP history makes prevention of kidney, eye, foot, heart, and liver complications the priority.
+- **Kidney baseline**: UACR/eGFR remain high-value because NIDDK notes urine albumin and eGFR are the two key CKD markers; normal kidney structure on USG does not rule out early diabetic kidney injury.
+- **Lipid/heart baseline**: ACC/AHA 2026 dyslipidemia guidance reinforces lifestyle plus earlier LDL-lowering treatment when risk is high; diabetes, smoking, obesity, high TG, and South Asian risk context should push the family to discuss statin/intensity and possibly ApoB/Lp(a) with the doctor.
+- **MASLD staging**: AASLD-style guidance supports FIB-4 first. If FIB-4 is <1.3, repeat periodically because diabetes/metabolic risk persists; if >=1.3, discuss FibroScan/VCTE, ELF/MRE, or hepatology review; if >2.67 or liver enzymes stay high, specialist referral becomes more important.
+- **Medication/herb safety**: Avoid self-starting liver/prostate/diabetes supplements. Treat herbs as medication changes while insulin + dapagliflozin/metformin are active and fatty liver is present.
+
 ### Independent Urgency Ranking — 9 May 2026
 
 This ranking ignores whether a test was doctor-ordered or previously recommended, and prioritizes only by near-term medical usefulness and cost-value for this patient profile: type 2 diabetes with HbA1c 12.7%, grade-2 fatty liver, obesity, LDL 181.7, triglycerides 238, hypertension history, smoking, Daparyl M, Huminsulin, and Panlipase.
@@ -95,9 +103,9 @@ These are not routine screening tests; they are life-saving when the patient is 
 7. **Coffee** — research shows regular coffee consumption may be protective against liver fibrosis (Molloy et al., Hepatology 2012); keep it sugar-free and avoid late day if prostate/sleep symptoms worsen
 
 **Medications to discuss with doctor**:
-- **Pioglitazone** — insulin sensitizer with evidence for NASH improvement
-- **Vitamin E (800 IU/day)** — shown to reduce NASH in non-diabetic patients; discuss with doctor for diabetic patients
-- **GLP-1 receptor agonists** (e.g., Liraglutide) — newer evidence shows benefit for NAFLD + diabetes
+- **Pioglitazone** — may help selected patients with biopsy-proven or strongly suspected MASH/NASH, but weight gain, edema/heart-failure risk, fracture risk, and overall diabetes plan matter.
+- **GLP-1 receptor agonists / dual GIP-GLP-1 agents** — may be useful when obesity, diabetes, cardiovascular risk, and fatty-liver risk overlap; these are clinician-managed medicines, not diet substitutes.
+- **Vitamin E** — not a routine self-start in this diabetic patient. If considered, it should be a clinician decision after liver staging and bleeding/prostate/cardiovascular risk review.
 
 ### Ayurvedic Perspective (Yakrit Roga)
 
@@ -117,6 +125,8 @@ These are not routine screening tests; they are life-saving when the patient is 
 > ⚠️ **CRITICAL SAFETY NOTE**: Since he is on Insulin + Dapagliflozin + Metformin and has Grade-2 fatty liver, herbs/supplements should be treated like medication changes. Do not self-start sugar-lowering herbs, ashwagandha, kutki, giloy, bitter-gourd juice/extract, high-dose cinnamon, or turmeric/curcumin capsules. Food-level spices and vegetables are preferred unless the treating doctor/Ayurvedic physician approves and monitoring is in place.
 
 > 🚭 **SMOKING NOTE**: Smoking cessation should be treated like a core treatment, not a side habit. CDC guidance links smoking with harder diabetes control and worse complications. If nicotine patch/gum/lozenge is used, glucose should be monitored more often and the doctor should supervise because nicotine can affect blood sugar.
+
+> 🧪 **FIB-4 NOTE**: The next liver decision should be based on LFT/CMP + CBC platelets, not only USG grade. Calculate FIB-4 once AST, ALT, and platelets are available; this helps decide whether FibroScan/VCTE or hepatology review is urgent.
 
 **Ayurvedic lifestyle for liver**:
 - **Yoga asanas**: Ardha Matsyendrasana (seated twist), Bhujangasana (cobra), Dhanurasana (bow) — all stimulate liver blood flow
@@ -188,6 +198,14 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 - **Karela**: Use as small low-oil sabzi 1-2x/week, not juice. Monitor sugar because the patient is already on glucose-lowering medicines.
 - **Ashwagandha**: Not a routine add-on. If approved by the doctor/Ayurvedic physician, prefer standardized tablet/capsule from a reliable brand, usually after food/night; avoid self-starting because of sugar, thyroid, sedation, and liver-safety concerns.
 - **Pancreas-Liver Support Soup**: Plain low-fat lauki/gobhi/tomato/adrak/haldi soup for easy dinner days, not a medicine.
+
+### Hunger + Snack Safety Update — 14 May 2026
+
+Frequent hunger has been separated into three patterns before adding food: possible low sugar, possible high sugar/dehydration, or true appetite. Because the patient is on Huminsulin and Daparyl M, sudden hunger with sweating/shaking/weakness/confusion needs glucose checking first. If glucose is below 70 mg/dL, slow snacks like chana, makhana, paneer, or soup are not rescue foods.
+
+The website now uses measured snack portions that protect diabetes, fatty liver, pancreas, and prostate together: cucumber + bhuna chana, dry-roasted makhana, sugar-free sattu, steamed moong chaat, mini moong chilla, chaach/dahi, lauki/tori soup, small paneer, optional boiled egg, and one controlled fruit+nuts option. Ayurvedically, these stay closer to laghu, cooling, kapha/meda-reducing foods; allopathically, they emphasize protein/fiber, low oil, low refined carbohydrate, and portion control.
+
+See [[Hunger-Snacking-Plan-May-2026]] for the dedicated snack decision table and Panlipase notes.
 
 ### 🍿 NEW SNACK OPTIONS — Safe for Diabetes + Fatty Liver + Prostate
 
@@ -282,4 +300,4 @@ At 27 cc and Grade-1, **no treatment is needed** unless urinary symptoms develop
 
 *Researched: 2026-05-09 | Re-checked sources: CDC, FDA, NIDDK, NIH NCCIH, NIH LiverTox, Mayo Clinic, AASLD/NIDDK fatty liver guidance.*
 
-*See also: [[USG-Abdomen-May-2026]] | [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]] | [[Gas-Relief-Research-May-2026]]*
+*See also: [[USG-Abdomen-May-2026]] | [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]] | [[Gas-Relief-Research-May-2026]] | [[Full-Wiki-Web-Recheck-May-2026]] | [[Hunger-Snacking-Plan-May-2026]]*

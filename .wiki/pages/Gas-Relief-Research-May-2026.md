@@ -71,17 +71,17 @@ Scar clarification: user believes the visible abdominal mark is a **growth/weigh
 
 Whole-context synthesis: Current pattern is severe right-sided abdominal/flank-region pain with **no fever, no vomiting, BP 129/84, pulse 97, glucose 156, painless normal urination, and abdominal mark likely stretch mark rather than surgical scar**. This makes UTI, severe hyperglycemic crisis, hypertensive emergency, and surgical-adhesion/old-scar explanations less likely. Top remaining possibilities are **trapped gas/hepatic-flexure spasm**, **gallbladder colic**, **kidney stone without urinary symptoms**, **muscle/nerve pain**, and **early surgical abdomen** if pain becomes fixed/worse.
 
-## 🩻 USG Abdomen Results — 9 May 2026 (Definitive Update)
+## 🩻 USG Abdomen Results — 9 May 2026 (Major Reassurance, Not Absolute)
 
 USG Abdomen performed by Dr. Manisha Aggarwal at Aggarwal Digital X-Ray Centre, Ambala. Full analysis: [[USG-Abdomen-May-2026]].
 
-### Differential Diagnosis — Ruled Out by USG
+### Differential Diagnosis — Lowered By USG
 
 | Previous Suspect | USG Result | Status |
 |---|---|---|
-| **Gallbladder / Cholecystitis** ⭐⭐⭐⭐ | GB normal, no stones, no wall thickening, CBD normal | ❌ **RULED OUT** |
-| **Kidney Stone / Renal Colic** ⭐⭐⭐⭐ | Both kidneys normal, no calculus, no hydronephrosis | ❌ **RULED OUT** |
-| **Appendicitis** | No dilated tubular aperistaltic structure in RIF | ❌ **RULED OUT** |
+| **Gallbladder / Cholecystitis** ⭐⭐⭐⭐ | GB normal, no stones, no wall thickening, CBD normal | ↓ **Much less likely on this scan** |
+| **Kidney Stone / Renal Colic** ⭐⭐⭐⭐ | Both kidneys normal, no calculus, no hydronephrosis | ↓ **Obstructing stone less likely on this scan** |
+| **Appendicitis** | No dilated tubular aperistaltic structure in RIF | ↓ **Not seen on this scan** |
 | **Hepatic Flexure Gas/Spasm** | Liver enlarged but no focal lesion | ✅ **LIKELY CAUSE** |
 | **Liver Capsular Stretch (NAFLD)** | Grade-2 fatty liver, liver span 19 cm (enlarged) | ✅ **CONFIRMED — contributory** |
 
@@ -91,7 +91,7 @@ USG Abdomen performed by Dr. Manisha Aggarwal at Aggarwal Digital X-Ray Centre, 
 3. All other organs (pancreas, spleen, bladder) — normal.
 
 ### Revised Assessment
-The 7 May pain was most likely caused by **hepatic flexure gas/spasm** (high-fiber diet + Metformin GI effects) and/or **hepatomegaly-related capsular stretch** (enlarged liver at 19 cm pulling on Glisson's capsule → dull RUQ pain). The serious causes (gallstones, kidney stones, appendicitis) have been definitively excluded.
+The 7 May pain was most likely caused by **hepatic flexure gas/spasm** (high-fiber diet + Metformin GI effects) and/or **hepatomegaly-related capsular stretch** (enlarged liver at 19 cm pulling on Glisson's capsule → dull RUQ pain). The USG made gallstones, obstructing kidney stones, and appendicitis much less likely for that episode, but it did **not** create a permanent rule that future severe pain is gas. The scan itself was technically limited by obesity/bowel gas and recommended clinical/alternative imaging correlation.
 
 ---
 
@@ -299,4 +299,11 @@ For someone with an HbA1c of 12.7%, every gram of hidden sugar matters.
 
 *Researched: 2026-05-07 | Sources: Cleveland Clinic, Mayo Clinic, NIH, Healthline, Drugs.com, PharmEasy, Truemeds, 1mg.com*
 
-*See also: [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]]*
+## 14 May 2026 Web Re-check
+
+- Keep the SGLT2 warning near the top of any abdominal-pain reasoning: Daparyl M contains dapagliflozin, and FDA safety information supports ketone/urgent evaluation for abdominal pain with nausea/vomiting, unusual fatigue, breathlessness, dehydration, fever, or poor intake even if glucose is not very high.
+- For recurrent RUQ pain, RadiologyInfo/ACR supports ultrasound as first imaging, but CT or MRI/MRCP can be appropriate after a negative/questionable ultrasound if symptoms persist.
+- For EPI/pancreatitis context, NIDDK supports small frequent meals, PERT/Panlipase when eating, no alcohol, smoking cessation, fluids, caffeine limitation, and low-fat eating after pancreatitis.
+- Avoid strong laxatives, repeat NSAIDs, or concentrated sugar-lowering herbs during pain episodes unless a clinician directs it.
+
+*See also: [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]] | [[USG-Abdomen-May-2026]] | [[Full-Wiki-Web-Recheck-May-2026]]*

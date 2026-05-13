@@ -189,3 +189,25 @@ Chronological record of wiki operations.
 - User clarified that health/life safety matters more than cost.
 - Reframed test priority into emergency-now triggers, urgent baseline screens, and scheduled prevention.
 - Added explicit ER/urgent-care triggers for ketones/DKA, heart symptoms/ECG-troponin, urinary infection, and severe abdominal pain workup in [[Liver-Prostate-Care-May-2026]].
+
+## [2026-05-14] research+ingest | Full wiki and web re-check
+- Read the full wiki index, log, all `.wiki/pages/` health pages, raw USG source, report JSON, and diet context.
+- Re-searched current web guidance from ADA 2026, FDA, CDC, NIDDK, AASLD/EASL MASLD sources, ACC/AHA 2026 dyslipidemia update, NCCIH, LiverTox, RadiologyInfo/ACR, and NIDDK BPH.
+- Created [[Full-Wiki-Web-Recheck-May-2026]] as the source-backed synthesis page.
+- Tightened ultrasound language in [[USG-Abdomen-May-2026]] and [[Gas-Relief-Research-May-2026]]: normal USG makes gallbladder/stones/appendicitis less likely on that scan but does not absolutely rule out every diagnosis when symptoms persist or imaging was technically limited.
+- Updated [[Diet-Research-Summer-2026]] and [[Liver-Prostate-Care-May-2026]] with stronger MASLD/FIB-4, SGLT2 sick-day, supplement/herb, BPH watchful-waiting, and smoking cessation guardrails.
+
+## [2026-05-14] research+update | Hunger and practical snacking plan
+- Web-checked current CDC diabetes meal planning, CDC hypoglycemia, NIDDK pancreatitis/EPI nutrition, FDA SGLT2 safety, and CDC smoking/diabetes guidance for the patient's frequent-hunger question.
+- Created [[Hunger-Snacking-Plan-May-2026]] with a glucose-check decision tree: possible low sugar, possible high sugar/dehydration, and normal-reading hunger.
+- Updated `data/diet.json` with `hungerCheck`, `snackRules`, `hungerSnacks`, added family Q&A entries, and added CDC hypoglycemia to web-checked sources.
+- Updated `app.js` to render Always Hungry Plan and Practical Hunger Snacks sections in the diet website.
+- Updated [[Diet-Research-Summer-2026]] and [[Liver-Prostate-Care-May-2026]] with allopathic + Ayurvedic snack reasoning and Panlipase-aware safety notes.
+
+## [2026-05-14] audit+cleanup | Website organization and duplicate removal
+- Re-read project files and re-checked the current web-source backbone for diabetes meal planning, hypoglycemia, pancreatitis/EPI, fatty liver, smoking, and SGLT2 safety.
+- Audited rendered website sections across Today, Food List, Safety, and Reports.
+- Removed duplicate full snack rendering: Today now keeps the hunger decision guide, while Food List owns the detailed practical snack table.
+- Removed the stale generic `snacks` data block and old Healthy Snacks renderer because it duplicated the measured hunger-snack plan.
+- Moved Fruits Guide from Safety to Food List, removed Pending Tests from Today, and narrowed Liver Protocol to clinician-review herbs only so food items do not repeat under protocol.
+- Updated README and wiki notes to match the cleaned tab structure.

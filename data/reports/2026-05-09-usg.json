@@ -31,7 +31,7 @@
         ["IHBR (Intrahepatic Biliary Radicles)", "Not Dilated", "Not Dilated", "ok"],
         ["Focal Lesion", "None", "None", "ok"]
       ],
-      "note": "Liver is enlarged at 19 cm (normal 13–16 cm) with Grade-2 fatty changes. This is consistent with uncontrolled diabetes (HbA1c 12.7%), obesity, and high triglycerides (238 mg/dL). Grade-2 means moderate fat accumulation — still reversible with weight loss, blood sugar control, and dietary changes."
+      "note": "Liver is enlarged at 19 cm (normal 13–16 cm) with Grade-2 fatty changes. This is consistent with uncontrolled diabetes (HbA1c 12.7%), obesity, and high triglycerides (238 mg/dL). Grade-2 means moderate fat accumulation — often improvable, and sometimes reversible, with gradual weight loss, blood sugar control, lipid control, smoking cessation, zero alcohol, and clinician follow-up."
     },
     {
       "title": "Gallbladder & Biliary System",
@@ -44,7 +44,7 @@
         ["CBD (Common Bile Duct)", "Normal caliber", "Normal caliber", "ok"],
         ["Portal Vein", "Normal caliber", "Normal caliber", "ok"]
       ],
-      "note": "Gallbladder is completely normal — no stones, no wall thickening, no sludge. This effectively rules out gallbladder disease as the cause of the right-sided abdominal pain reported on 7 May 2026."
+      "note": "Gallbladder is normal on this scan — no stones, no wall thickening, no sludge. This makes gallbladder disease much less likely for the 7 May 2026 pain episode, but persistent or recurrent severe RUQ pain still needs clinical review."
     },
     {
       "title": "Kidneys",
@@ -81,9 +81,9 @@
       "items": [
         "<strong>Pancreas & Spleen</strong> — Normal in size, outline & echotexture. No focal lesion.",
         "<strong>Urinary Bladder</strong> — Normal outline & wall thickness with clear (anechoic) lumen.",
-        "<strong>Free Fluid</strong> — No free fluid in abdomen (rules out ascites / peritonitis).",
+        "<strong>Free Fluid</strong> — No free fluid seen in abdomen (reassuring on this scan).",
         "<strong>Retroperitoneal Lymph Nodes</strong> — No upper RP LAP (lymphadenopathy) seen.",
-        "<strong>Right Iliac Fossa</strong> — No dilated tubular aperistaltic structure (rules out appendicitis)."
+        "<strong>Right Iliac Fossa</strong> — No dilated tubular aperistaltic structure seen (appendicitis not seen on this scan)."
       ],
       "note": "All remaining organs and areas are normal. Importantly, no signs of appendicitis or intra-abdominal fluid collection."
     },
@@ -100,7 +100,7 @@
         "<strong>Gallbladder Normal</strong> — Despite high triglycerides (a risk factor for gallstones), no stones or sludge were found.",
         "<strong>Prostate Mild Enlargement</strong> — Age-related BPH (Benign Prostatic Hyperplasia). Common at 53. Monitor for urinary symptoms."
       ],
-      "note": "The USG confirms that the metabolic syndrome (diabetes + dyslipidemia + obesity) is now affecting the liver. This is reversible at Grade-2 with aggressive lifestyle and blood sugar control."
+      "note": "The USG confirms that the metabolic syndrome (diabetes + dyslipidemia + obesity) is affecting the liver. Grade-2 fatty liver is often improvable and sometimes reversible with sustained lifestyle, blood sugar, lipid, weight, and smoking-cessation work; fibrosis risk still needs LFT/CBC-based staging such as FIB-4."
     }
   ],
   "consultationPlan": [
@@ -109,7 +109,7 @@
     { "specialist": "Urologist", "when": "If symptomatic", "note": "Mild prostatomegaly Grade-1 — only if urinary symptoms (weak stream, nocturia, hesitancy) develop." }
   ],
   "impression": [
-    "Fatty Liver (Grade-2) — Moderate steatosis, reversible with intervention",
+    "Fatty Liver (Grade-2) — Moderate steatosis, often improvable with sustained intervention",
     "Mild Prostatomegaly Grade-1 — Age-related, monitor for urinary symptoms"
   ],
   "targets": [

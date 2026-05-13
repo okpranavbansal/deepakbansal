@@ -10,3 +10,5 @@ Catalog of all knowledge pages in this wiki.
 - [[Gas-Relief-Research-May-2026]]: Gas relief medicines safe for diabetic profile, root cause analysis, and action plan.
 - [[USG-Abdomen-May-2026]]: USG Abdomen analysis — Grade-2 fatty liver, mild prostatomegaly, differential resolution for 7 May pain.
 - [[Liver-Prostate-Care-May-2026]]: Dual-system (Allopathy + Ayurveda) treatment research for fatty liver and prostate care, with safety-first herb/supplement rules and food-level diet guidance.
+- [[Full-Wiki-Web-Recheck-May-2026]]: Whole-wiki medical re-check with current web source backbone, tightened ultrasound wording, SGLT2 sick-day safety, MASLD/FIB-4 prioritization, supplement guardrails, and BPH watchful-waiting synthesis.
+- [[Hunger-Snacking-Plan-May-2026]]: Allopathic + Ayurvedic practical plan for frequent hunger, glucose-check decision rules, measured snack portions, and Panlipase-aware snack safety.

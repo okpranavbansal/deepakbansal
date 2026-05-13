@@ -33,7 +33,7 @@
 - Dyslipidemia (Triglycerides 238, LDL 181.7 → excess lipid delivery to liver)
 - Obesity (noted in the scan itself: "poor acoustic window due to obesity")
 
-**Prognosis**: Grade-2 is still **fully reversible** with:
+**Prognosis**: Grade-2 fatty liver is often **improvable and sometimes reversible**, but the outcome depends on sustained glucose control, weight loss, lipid treatment, smoking cessation, and fibrosis risk. A FIB-4 score using age + AST + ALT + platelets should be calculated once LFT/CBC results are available. Core levers:
 1. Blood sugar control (target HbA1c < 7%)
 2. Weight loss of 5–10% body weight
 3. Mediterranean-style diet (already partially in place)
@@ -49,7 +49,7 @@
 - Lumen: anechoic (clear — no stones, no sludge)
 - CBD & Portal vein: normal caliber
 
-**Impact on differential**: This effectively **rules out gallbladder disease** (cholecystitis, cholelithiasis, bile duct obstruction) as the cause of the right-sided abdominal pain reported on 7 May 2026. See [[Gas-Relief-Research-May-2026]].
+**Impact on differential**: This makes gallbladder stones, wall-thickening cholecystitis, and biliary obstruction **less likely on this scan** as the cause of the right-sided abdominal pain reported on 7 May 2026. It does not make future or persistent RUQ pain automatically "gas"; clinical correlation and alternate imaging may still be needed if symptoms recur or worsen. See [[Gas-Relief-Research-May-2026]].
 
 ### 🫘 Kidneys — NORMAL ✅
 - Both kidneys: normal size, outline & echotexture
@@ -58,7 +58,7 @@
 - **No hydronephrosis** (no swelling/obstruction)
 - **No calculus** (no kidney stones)
 
-**Impact on differential**: This **rules out kidney stones and hydronephrosis** as the cause of right flank pain. However:
+**Impact on differential**: This makes obstructing kidney stone and hydronephrosis **less likely on this scan** as the cause of right flank pain. However:
 - Blood work showed eGFR 118 (hyperfiltration stage) — structural normality does NOT rule out early diabetic nephropathy
 - **Urine microalbumin test is still recommended** to check for microscopic kidney damage
 
@@ -87,27 +87,27 @@
 | Pancreas | Normal size, outline & echotexture. No focal lesion. |
 | Spleen | Normal size, outline & echotexture. No focal lesion. |
 | Urinary Bladder | Normal outline & wall thickness. Clear lumen. |
-| Free Fluid | None (rules out ascites / peritonitis) |
+| Free Fluid | None seen (reassuring against ascites/free fluid on this scan) |
 | RP Lymph Nodes | No upper RP LAP (no lymphadenopathy) |
-| Right Iliac Fossa | No dilated tubular aperistaltic structure (**rules out appendicitis**) |
+| Right Iliac Fossa | No dilated tubular aperistaltic structure seen (**appendicitis not seen on this scan**) |
 
 ---
 
 ## 🔗 Integration with Existing Knowledge
 
 ### Updated Differential for 7 May Pain Episode
-The USG was likely ordered in response to the severe right-sided abdominal/flank pain on 7 May 2026. The results significantly narrow the differential:
+The USG was likely ordered in response to the severe right-sided abdominal/flank pain on 7 May 2026. The results significantly narrow the differential but should not be over-read as absolute exclusion, because the report notes a poor acoustic window and recommends clinical/alternative imaging correlation:
 
 | Previous Suspect | USG Result | Status |
 |---|---|---|
-| **Gallbladder / Cholecystitis** ⭐⭐⭐⭐ | GB normal, no stones, no wall thickening | ❌ **RULED OUT** |
-| **Kidney Stone / Renal Colic** ⭐⭐⭐⭐ | Both kidneys normal, no calculus, no hydronephrosis | ❌ **RULED OUT** |
-| **Appendicitis** | No dilated tubular aperistaltic structure in RIF | ❌ **RULED OUT** |
+| **Gallbladder / Cholecystitis** ⭐⭐⭐⭐ | GB normal, no stones, no wall thickening | ↓ **Much less likely on this scan** |
+| **Kidney Stone / Renal Colic** ⭐⭐⭐⭐ | Both kidneys normal, no calculus, no hydronephrosis | ↓ **Obstructing stone less likely on this scan** |
+| **Appendicitis** | No dilated tubular aperistaltic structure in RIF | ↓ **Not seen on this scan** |
 | **Hepatic Flexure Syndrome (Gas)** | Liver enlarged but no focal lesion | ✅ Still possible — **LIKELY CAUSE** |
 | **Liver Congestion / NAFLD** | Confirmed: Grade-2 fatty liver with hepatomegaly | ✅ **CONFIRMED** — could cause dull RUQ heaviness |
 | **Muscle Strain / Nerve Pain** | Not assessed by USG | ⚠️ Cannot rule out |
 
-**Most likely explanation for 7 May pain**: Combination of **hepatic flexure gas/spasm** (consistent with his high-fiber diet + Metformin GI effects) and/or **hepatomegaly capsular stretch** (enlarged liver pulling on its capsule can cause dull RUQ pain).
+**Most likely explanation for 7 May pain after this scan and symptom context**: Combination of **hepatic flexure gas/spasm** (consistent with high-fiber diet + Metformin GI effects) and/or **hepatomegaly capsular stretch** (enlarged liver pulling on its capsule can cause dull RUQ pain). If severe pain recurs, the old episode should not be used to self-diagnose the new one.
 
 ### Connection to Blood Work (2 May 2026)
 | Lab Value | USG Correlation |
@@ -129,7 +129,7 @@ The USG was likely ordered in response to the severe right-sided abdominal/flank
 
 ### Short-Term (2–4 Weeks)
 4. **Gastroenterologist / Hepatologist consultation**: For fatty liver Grade-2 management plan and baseline assessment
-5. **FibroScan (if available)**: Non-invasive liver stiffness measurement to rule out early fibrosis — more precise than USG alone
+5. **Fibrosis risk step**: Calculate **FIB-4** from age + AST + ALT + platelets. If indeterminate/high, discuss **FibroScan/VCTE** or hepatology review — ultrasound shows fat but does not stage fibrosis well.
 6. **Intensify weight management**: Even 5% body weight loss can significantly reduce liver fat
 
 ### Lifestyle Modifications for Fatty Liver
@@ -138,7 +138,7 @@ The USG was likely ordered in response to the severe right-sided abdominal/flank
   - Increase omega-3 fatty acids (flaxseed/alsi already in diet)
   - **Zero alcohol** — absolute requirement
 - **Exercise**: Aim for 150+ minutes/week of moderate aerobic activity
-- **Medications**: Discuss with doctor whether Pioglitazone or Vitamin E supplementation would help (evidence-based for NAFLD in diabetics)
+- **Medications**: Discuss cardiometabolic options with the treating doctor. Pioglitazone and GLP-1/GIP-GLP-1 medicines may be considered in selected patients; Vitamin E is not a routine self-start for diabetic patients and should only be used if the clinician specifically recommends it.
 
 ### Monitoring for Prostate
 - **No treatment needed currently**
@@ -155,6 +155,13 @@ The USG was likely ordered in response to the severe right-sided abdominal/flank
 
 ---
 
-*Analyzed: 2026-05-09 | Sources: Healthline, Cleveland Clinic, Mayo Clinic, NIH, WebMD, NHS UK*
+## 14 May 2026 Web Re-check Correction
+
+- RadiologyInfo/ACR says ultrasound is usually the first imaging test for right-upper-quadrant pain, but CT or MRI/MRCP can be appropriate after a negative or questionable ultrasound when symptoms persist.
+- The original USG report documented a poor acoustic window due to obesity, bowel gas, and body habitus and advised clinical/alternative imaging correlation.
+- Therefore, this page should use **"not seen / less likely on this scan"** instead of **"definitively ruled out"** for gallbladder, stone, and appendicitis-related conclusions.
+- Current MASLD guidance supports staging risk with **FIB-4 first**, then FibroScan/VCTE, ELF, MRE, or hepatology review if risk is not clearly low.
+
+*Analyzed: 2026-05-09 | Re-checked: 2026-05-14 | Sources: NIH/NIDDK, AASLD, EASL-EASD-EASO, RadiologyInfo/ACR, ADA 2026*
 
 *See also: [[Gas-Relief-Research-May-2026]] | [[Medication-Research-May-2026]] | [[Diet-Research-Summer-2026]]*

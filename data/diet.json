@@ -20,7 +20,7 @@
     {
       "title": "Grade-2 Fatty Liver",
       "status": "attention",
-      "explain": "USG shows liver span 19 cm and moderate fat in the liver. This is usually reversible with sugar control, weight loss, walking, and zero alcohol.",
+      "explain": "USG shows liver span 19 cm and moderate fat in the liver. This is often improvable, and sometimes reversible, with sugar control, gradual weight loss, walking, lipid treatment, smoking cessation, and zero alcohol. LFT/CBC results should be used for FIB-4 fibrosis risk staging.",
       "hindi": "मतलब: लिवर में चर्बी जमा है, लेकिन अभी मेहनत से वापस सुधर सकता है।"
     },
     {
@@ -54,6 +54,163 @@
       "status": "monitor",
       "text": "Keep meals small, low-oil, and regular. Take Panlipase/PERT exactly as prescribed with meals/snacks. Avoid alcohol completely and keep working on smoking cessation because both worsen pancreas risk.",
       "hindi": "भारी, तला हुआ खाना नहीं; Panlipase खाने के साथ ही लें; शराब बिल्कुल नहीं।"
+    }
+  ],
+  "hungerCheck": [
+    {
+      "title": "Sudden hunger with shaking/sweating",
+      "when": "Any time, especially after insulin, walking, delayed meal, or smaller meal",
+      "action": "Check glucose immediately. If it is below 70 mg/dL, follow the doctor's low-sugar treatment plan/15g fast-carb rule. Do not use chana, makhana, nuts, or soup to treat a low because they work too slowly.",
+      "badge": "Low sugar?",
+      "tone": "attention"
+    },
+    {
+      "title": "Hunger with thirst/frequent urination",
+      "when": "If readings are high, he keeps asking for food, or he feels dry/tired",
+      "action": "Check glucose, give water, and avoid extra carbs. If abdominal pain, vomiting, fever, poor intake, dehydration, unusual tiredness, or breathing trouble happens while on Daparyl M, contact the doctor and ask about ketone testing.",
+      "badge": "High sugar?",
+      "tone": "attention"
+    },
+    {
+      "title": "Normal reading but real hunger",
+      "when": "Between meals, without low-sugar or high-sugar symptoms",
+      "action": "Use one measured protein + fiber mini-snack. Wait 20 minutes before repeating. Keep tea sugar-free and do not pair tea/snacks with cigarettes.",
+      "badge": "Snack allowed",
+      "tone": "ok"
+    }
+  ],
+  "snackRules": [
+    {
+      "title": "Portion is the medicine",
+      "status": "attention",
+      "text": "Give one snack portion at a time. Repeating healthy snacks can still raise calories, fatty liver burden, and sugar."
+    },
+    {
+      "title": "Protein + fiber first",
+      "status": "ok",
+      "text": "Prefer chana, moong, sattu, chaach, dahi, paneer/egg in small amounts, and vegetables before fruit or roti."
+    },
+    {
+      "title": "Panlipase with calorie snacks",
+      "status": "monitor",
+      "text": "Follow the doctor's Panlipase instruction. If the snack has protein, fat, or meaningful calories, ask whether Panlipase is needed with snacks too."
+    },
+    {
+      "title": "Not a snack",
+      "status": "attention",
+      "text": "Avoid biscuits, namkeen, chips, bakery rusk, juice, cold drinks, dates, sweets, mango, banana, and large handfuls of peanuts/dry fruits."
+    }
+  ],
+  "hungerSnacks": [
+    {
+      "name": "Cucumber + Bhuna Chana",
+      "tag": "Best default",
+      "portion": "1 cup cucumber + 25-30g roasted chana",
+      "when": "Mid-morning or evening",
+      "allopathy": "Protein + fiber, low oil, and slower sugar rise than biscuits or namkeen.",
+      "ayurveda": "Kheera is cooling; chana is ruksha/kapha-reducing and useful for Madhumeha-style eating.",
+      "panlipase": "Usually no enzyme for plain cucumber; ask doctor if chana snack should count as a Panlipase snack.",
+      "caution": "If gas increases, reduce chana to 1 tbsp and add ajwain/saunf.",
+      "tone": "ok"
+    },
+    {
+      "name": "Roasted Makhana",
+      "tag": "Crunchy swap",
+      "portion": "1.5-2 cups dry roasted; no oil, or max 1/2 tsp ghee for the full batch",
+      "when": "Tea time replacement",
+      "allopathy": "Light, low-fat crunchy replacement for fried snacks; portion still matters.",
+      "ayurveda": "Laghu and generally easier in summer than fried/heavy snacks.",
+      "panlipase": "Ask doctor if ghee/large portion means enzyme is needed.",
+      "caution": "Avoid fried makhana, heavy masala, and repeated bowls.",
+      "tone": "ok"
+    },
+    {
+      "name": "Sugar-free Sattu Jeera Drink",
+      "tag": "Summer filling",
+      "portion": "Start 1 tbsp sattu in water; up to 2 tbsp with lemon, roasted jeera, and kala namak; no jaggery",
+      "when": "Hot afternoon hunger",
+      "allopathy": "Adds protein, fiber, and hydration without juice/sugar.",
+      "ayurveda": "Cooling, pitta-calming, and traditionally filling in summer.",
+      "panlipase": "Counts as a calorie snack; confirm enzyme rule with doctor.",
+      "caution": "Can cause gas if started too high; begin with 1 tbsp.",
+      "tone": "monitor"
+    },
+    {
+      "name": "Steamed Moong Sprouts Chaat",
+      "tag": "High satiety",
+      "portion": "1/2 cup steamed moong + cucumber/tomato/lemon",
+      "when": "Late morning or early evening",
+      "allopathy": "Plant protein + fiber helps fullness and avoids refined carbs.",
+      "ayurveda": "Moong is laghu; steaming makes it gentler for agni.",
+      "panlipase": "Ask doctor if regular moong snacks require enzyme support.",
+      "caution": "Prefer steamed over raw if bloating, gas, or loose stool occurs.",
+      "tone": "ok"
+    },
+    {
+      "name": "Mini Moong Dal Chilla",
+      "tag": "Strong hunger",
+      "portion": "1 small chilla with chutney; minimal oil, no potato stuffing",
+      "when": "When snack hunger feels like a small meal",
+      "allopathy": "Protein-rich, controlled-carb, and more satisfying than fruit alone.",
+      "ayurveda": "Warm moong preparation is light and digestion-friendly when made low-oil.",
+      "panlipase": "Likely a meal-like snack; follow the prescribed Panlipase-with-food rule.",
+      "caution": "Do not add cheese, butter, or extra oil.",
+      "tone": "monitor"
+    },
+    {
+      "name": "Low-fat Dahi or Chaach",
+      "tag": "Cooling",
+      "portion": "1/2 cup dahi OR 1 glass thin chaach with roasted jeera; no sugar",
+      "when": "Daytime only",
+      "allopathy": "Protein and fluid support fullness; useful when tea intake is being reduced.",
+      "ayurveda": "Takra/chaach is lighter than curd and supports digestion when spiced with jeera.",
+      "panlipase": "Ask doctor if dahi counts as a snack needing enzyme.",
+      "caution": "Avoid at night or if acidity/cold symptoms worsen.",
+      "tone": "ok"
+    },
+    {
+      "name": "Lauki/Tori/Tomato Soup",
+      "tag": "Very light",
+      "portion": "1 bowl clear/light soup; no cream, butter, cornflour, or bread",
+      "when": "Evening hunger or heavy digestion days",
+      "allopathy": "Low calorie, hydrating, and pancreas/fatty-liver friendly.",
+      "ayurveda": "Pitta-cooling, laghu, and gentle for summer digestion.",
+      "panlipase": "Usually not needed if no fat/protein is added, but follow the doctor's rule.",
+      "caution": "Soup is not enough for true low sugar; check glucose if symptoms appear.",
+      "tone": "ok"
+    },
+    {
+      "name": "Paneer Cucumber Plate",
+      "tag": "Protein option",
+      "portion": "40-50g low-fat paneer + cucumber; 2-3 times/week",
+      "when": "Evening, when glucose is stable",
+      "allopathy": "Protein supports satiety, but excess paneer adds saturated fat/calories.",
+      "ayurveda": "Bala-supporting but guru/heavy if used in large portions.",
+      "panlipase": "Likely needs enzyme if doctor uses Panlipase with calorie/fat snacks.",
+      "caution": "Avoid daily large paneer portions and oily paneer tikka.",
+      "tone": "monitor"
+    },
+    {
+      "name": "Boiled Egg Option",
+      "tag": "If acceptable",
+      "portion": "1 boiled egg OR 2 egg whites",
+      "when": "Morning/evening snack when family eats egg",
+      "allopathy": "High protein without refined carbs; avoid frying.",
+      "ayurveda": "Heavier/heating than moong, so use only if it suits digestion.",
+      "panlipase": "Whole egg may need enzyme per doctor's Panlipase instructions.",
+      "caution": "No butter omelette, bread, or fried egg.",
+      "tone": "monitor"
+    },
+    {
+      "name": "Fruit + Nuts Controlled",
+      "tag": "Once daily max",
+      "portion": "1 small guava/apple OR small papaya bowl + 4 almonds OR 1 walnut",
+      "when": "Mid-morning, not late night",
+      "allopathy": "Whole fruit fiber plus a tiny fat/protein portion slows glucose rise better than juice.",
+      "ayurveda": "Fruit is light when taken alone; avoid mixing with milk or heavy meals.",
+      "panlipase": "Usually not for fruit alone; ask doctor if nuts make it an enzyme snack.",
+      "caution": "No fruit juice, mango, banana, dates, grapes, or repeated fruit bowls while sugar is high.",
+      "tone": "monitor"
     }
   ],
   "avoidFoods": [
@@ -424,6 +581,14 @@
       "answer": "Too much for pancreatitis, sleep, acidity, urination, and cigarette pairing. Reduce slowly: first 5-6 small cups, then 3-4, target 2-3 small cups/day. Keep tea without sugar, light milk, and no biscuits/namkeen."
     },
     {
+      "question": "He feels hungry all the time. What should we do first?",
+      "answer": "First check sugar instead of immediately feeding. Sudden hunger with shaking, sweating, weakness, confusion, or fast heartbeat can be low sugar and needs the doctor's low-sugar plan/15g fast-carb rule. Hunger with high readings, thirst, and frequent urination means water + doctor-guided sugar management, not extra roti/biscuits. If the reading is stable, give one measured protein + fiber snack."
+    },
+    {
+      "question": "Can he eat unlimited healthy snacks?",
+      "answer": "No. Healthy snacks are still food. Use one measured portion, wait 20 minutes, and repeat only if glucose is safe and hunger remains. Avoid biscuits, namkeen, juice, sweets, large nuts/peanuts, and fruit repeats."
+    },
+    {
       "question": "What does 2x daily mean?",
       "answer": "2x daily means two times in a day. For haldi + kali mirch, it does not need two separate drinks. Simpler rule: once as morning haldi water if tolerated, and once through normal cooking in dal/sabzi/chilla."
     },
@@ -551,78 +716,7 @@
       "icon": "🧬"
     }
   ],
-  "snacks": [
-    {
-      "name": "Roasted Makhana",
-      "emoji": "🌰",
-      "recipe": "Dry-roast in ½ tsp ghee + kali mirch + haldi + chaat masala",
-      "benefit": "Low-GI, high-fiber, rich in magnesium. Vata-pacifying, Kapha-neutral.",
-      "target": "liver",
-      "when": "Anytime snack"
-    },
-    {
-      "name": "Pumpkin Seed + Almond Mix",
-      "emoji": "🎃",
-      "recipe": "1 tbsp kaddu ke beej + 4-5 almonds + pinch kala namak",
-      "benefit": "Zinc for prostate (प्रोस्टेट/गदूद). Omega-3 for liver. Bala-vardhak (strength-building).",
-      "target": "prostate (प्रोस्टेट/गदूद)",
-      "when": "4–5 PM"
-    },
-    {
-      "name": "Cucumber + Chana Chaat",
-      "emoji": "🥒",
-      "recipe": "Kheera slices + bhuna chana + nimbu + kala namak + chaat masala",
-      "benefit": "High-fiber, high-protein, low-GI. Pitta-cooling, Agni-friendly.",
-      "target": "liver",
-      "when": "Evening"
-    },
-    {
-      "name": "Moong Sprouts Chaat",
-      "emoji": "🌱",
-      "recipe": "Sprouted moong + kheera + tamatar + nimbu + kala namak",
-      "benefit": "Plant protein + fiber. Laghu (light), Agni-boosting.",
-      "target": "liver",
-      "when": "Mid-morning"
-    },
-    {
-      "name": "Sattu Drink (Sugar-Free)",
-      "emoji": "🥛",
-      "recipe": "2 tbsp sattu + nimbu + kala namak + jeera powder in cold water",
-      "benefit": "Plant protein, fiber, cooling. Pitta-pacifying, energy-giving.",
-      "target": "liver",
-      "when": "Summer afternoons"
-    },
-    {
-      "name": "Paneer Tikka Bites",
-      "emoji": "🧀",
-      "recipe": "Low-fat paneer + haldi-adrak-lehsun dahi marinade, air-fried/grilled",
-      "benefit": "Lean protein, no refined carbs. Bala-vardhak, Ojas-building.",
-      "target": "liver",
-      "when": "Evening"
-    },
-    {
-      "name": "Beetroot-Gajar Soup",
-      "emoji": "🍅",
-      "recipe": "Boil chukandar + gajar + adrak + haldi, blend smooth",
-      "benefit": "Betalains (liver-protective). Rakta-shodhak (blood purifier).",
-      "target": "liver",
-      "when": "Evening (3x/week)"
-    },
-    {
-      "name": "Roasted Bhuna Chana",
-      "emoji": "🫘",
-      "recipe": "Plain roasted or with chaat masala + nimbu",
-      "benefit": "High-protein, low-GI, liver-safe. Laghu, Ruksha — reduces Kapha.",
-      "target": "liver",
-      "when": "Anytime"
-    }
-  ],
   "liverProtocol": [
-    {
-      "item": "☕ Black Coffee (no sugar)",
-      "note": "Optional 1 cup/day, counted inside total caffeine. May support lower liver fibrosis (लिवर का सख्त होना) risk; avoid late evening due to sleep/prostate.",
-      "phase": "Week 2"
-    },
     {
       "item": "🌿 Triphala",
       "note": "Doctor/Ayurvedic physician review only. Can affect digestion and sugar; avoid self-starting.",
@@ -632,16 +726,6 @@
       "item": "🫚 Kutki",
       "note": "Doctor/Ayurvedic physician only after LFTs. May lower sugar and can be risky with insulin/Daparyl M.",
       "phase": "Clinician review"
-    },
-    {
-      "item": "🎃 Pumpkin Seeds",
-      "note": "1 tbsp daily. Zinc for prostate (प्रोस्टेट/गदूद) health.",
-      "phase": "Week 4"
-    },
-    {
-      "item": "🍵 Green Tea",
-      "note": "Optional 1 cup after lunch, counted inside total caffeine. Avoid after 3 PM if urination/sleep/acidity worsens.",
-      "phase": "Week 4"
     }
   ],
   "liverHealingFoods": [
@@ -705,6 +789,12 @@
       "takeaway": "Use regular balanced meals, plate method, fewer refined grains/added sugars, and whole foods. Whole fruit is safer than juice.",
       "source": "CDC Diabetes Meal Planning",
       "url": "https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html"
+    },
+    {
+      "topic": "Frequent hunger / low sugar check",
+      "takeaway": "Hunger can be a hypoglycemia symptom. If glucose is below 70 mg/dL, use fast-acting carbohydrate treatment and recheck; slow snacks like chana/makhana are not low-sugar rescue foods.",
+      "source": "CDC Low Blood Sugar / Hypoglycemia",
+      "url": "https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html"
     },
     {
       "topic": "Fatty liver",

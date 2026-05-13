@@ -97,6 +97,102 @@ function simpleTable(headers, rows, className = "") {
   `;
 }
 
+function renderHungerCheck() {
+  if (!dietData.hungerCheck) return "";
+
+  return section(
+    "🍽️ Always Hungry Plan",
+    `
+      <div class="safety-warning">
+        <strong>First check:</strong> sudden hunger with shaking, sweating, weakness, confusion, or fast heartbeat can be low sugar on insulin. Check glucose before treating it as normal appetite.
+      </div>
+      ${cardGrid(
+        dietData.hungerCheck.map((item) =>
+          simpleCard({
+            title: item.title,
+            kicker: item.when,
+            body: item.action,
+            badgeText: item.badge,
+            badgeTone: item.tone || "monitor",
+          }),
+        ),
+        "summary-grid",
+      )}
+    `,
+    "Use this before giving extra food. It prevents both low-sugar panic and hidden overeating.",
+  );
+}
+
+function renderHungerSnacks() {
+  if (!dietData.hungerSnacks) return "";
+
+  return section(
+    "🥣 Practical Hunger Snacks",
+    `
+      ${dietData.snackRules ? cardGrid(dietData.snackRules.map(statusCard), "summary-grid") : ""}
+      ${simpleTable(
+        ["Snack", "Portion", "Best time", "Why it works", "Panlipase note"],
+        dietData.hungerSnacks.map(
+          (s) => `
+            <tr>
+              <td><strong>${s.name}</strong><br><span class="badge badge-${s.tone || "ok"}">${s.tag}</span></td>
+              <td>${s.portion}</td>
+              <td>${s.when}</td>
+              <td style="font-size:13px;"><strong>Allopathy:</strong> ${s.allopathy}<br><strong>Ayurveda:</strong> ${s.ayurveda}<br><span class="hindi-note">${s.caution}</span></td>
+              <td style="font-size:13px;">${s.panlipase}</td>
+            </tr>
+          `,
+        ),
+        "snack-table",
+      )}
+    `,
+    "These are measured mini-snacks, not unlimited eating. Rotate them so digestion stays calm.",
+  );
+}
+
+function renderFruitsGuide() {
+  if (!dietData.fruitsGuide) return "";
+
+  return section(
+    "🍎 Fruits Guide",
+    `
+      <div class="simple-guide-grid">
+        <div class="sg-column sg-eat">
+          <h3 class="sg-header sg-header-eat">✅ Safe Fruits</h3>
+          <ul class="sg-list">
+            ${dietData.fruitsGuide.eatable
+              .map(
+                (item) => `
+              <li>
+                <div class="sg-emoji">${item.emoji}</div>
+                <div><strong>${item.name}</strong><p>${item.reason}</p></div>
+              </li>
+            `,
+              )
+              .join("")}
+          </ul>
+        </div>
+        <div class="sg-column sg-avoid">
+          <h3 class="sg-header sg-header-avoid">❌ Avoid</h3>
+          <ul class="sg-list">
+            ${dietData.fruitsGuide.nonEatable
+              .map(
+                (item) => `
+              <li>
+                <div class="sg-emoji">${item.emoji}</div>
+                <div><strong>${item.name}</strong><p>${item.reason}</p></div>
+              </li>
+            `,
+              )
+              .join("")}
+          </ul>
+        </div>
+      </div>
+    `,
+    "Fruit is food, not a free snack. Use one small whole-fruit portion only, and avoid juice.",
+  );
+}
+
 async function render() {
   const content = document.getElementById("content-area");
   content.innerHTML = ""; // Clear existing
@@ -130,6 +226,8 @@ function renderDietChart(container) {
 
     ${dietData.conditionSummary ? section("🧭 Current Snapshot", cardGrid(dietData.conditionSummary.map(statusCard), "summary-grid")) : ""}
 
+    ${dietData.safetyFirst ? section("⚕️ Safety First", cardGrid(dietData.safetyFirst.map(statusCard), "summary-grid")) : ""}
+
     ${section(
       "📅 Daily Schedule",
       `
@@ -151,6 +249,8 @@ function renderDietChart(container) {
       "This is the main daily checklist. Keep it boring and consistent; the details below are only for clarification.",
     )}
 
+    ${renderHungerCheck()}
+
     ${
       dietData.simpleAnswers
         ? section(
@@ -166,8 +266,6 @@ function renderDietChart(container) {
           )
         : ""
     }
-
-    ${dietData.safetyFirst ? section("⚕️ Safety First", cardGrid(dietData.safetyFirst.map(statusCard), "summary-grid")) : ""}
 
     ${
       dietData.priorityPlan
@@ -215,27 +313,6 @@ function renderDietChart(container) {
           ),
         )}
       `,
-          )
-        : ""
-    }
-
-    <!-- PENDING TESTS -->
-    ${
-      dietData.pendingTests
-        ? section(
-            "🧪 Pending Tests",
-            simpleTable(
-              ["Test", "Order", "What it tells us"],
-              dietData.pendingTests.map(
-                (t) => `
-            <tr>
-              <td><strong>${t.test}</strong></td>
-              <td><span class="badge badge-monitor">${t.orderedBy}</span></td>
-              <td style="font-size:13px;">${t.reveals}</td>
-            </tr>
-          `,
-              ),
-            ),
           )
         : ""
     }
@@ -318,6 +395,8 @@ function renderCategories(container) {
         : ""
     }
 
+    ${renderHungerSnacks()}
+
     <!-- DALS & LEGUMES -->
     <div class="section">
       <div class="section-title">🥣 Best Dals & Legumes</div>
@@ -374,6 +453,8 @@ function renderCategories(container) {
       </div>
     </div>
 
+    ${renderFruitsGuide()}
+
     <!-- PROTECTIVE DRINKS -->
     ${
       dietData.protectiveDrinks
@@ -398,41 +479,12 @@ function renderCategories(container) {
     `
         : ""
     }
-
-    <!-- SNACKS -->
-    ${
-      dietData.snacks
-        ? `
-    <div class="section">
-      <div class="section-title">🍿 Healthy Snacks</div>
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:15px;">
-        ${dietData.snacks
-          .map(
-            (s) => `
-          <div class="lifestyle-card" style="position:relative;">
-            <div style="position:absolute; top:8px; right:8px;">
-              <span class="badge badge-${s.target === "prostate" ? "monitor" : "ok"}" style="font-size:10px; text-transform:uppercase;">${s.target}</span>
-            </div>
-            <div style="font-size:28px; margin-bottom:8px;">${s.emoji}</div>
-            <div style="font-weight:700; font-size:15px; margin-bottom:4px; color:var(--navy);">${s.name}</div>
-            <div style="font-size:12px; color:var(--info); margin-bottom:6px; font-weight:600;">${s.when}</div>
-            <div style="font-size:13px; color:var(--slate);">${s.benefit}</div>
-          </div>
-        `,
-          )
-          .join("")}
-      </div>
-    </div>
-    `
-        : ""
-    }
-
     <!-- LIVER PROTOCOL -->
     ${
       dietData.liverProtocol
         ? `
     <div class="section">
-      <div class="section-title">🌿 Liver Recovery Protocol</div>
+      <div class="section-title">🌿 Clinician-Review Liver Protocol</div>
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:12px;">
         ${dietData.liverProtocol
           .map(
@@ -603,49 +655,6 @@ function renderGuidelines(container) {
             : ""
         }
       </div>
-    </div>
-
-    <!-- FRUITS GUIDE -->
-    <div class="section">
-      <div class="section-title">🍎 Fruits Guide</div>
-      ${
-        dietData.fruitsGuide
-          ? `
-      <div class="simple-guide-grid">
-        <div class="sg-column sg-eat">
-          <h3 class="sg-header sg-header-eat">✅ Safe Fruits</h3>
-          <ul class="sg-list">
-            ${dietData.fruitsGuide.eatable
-              .map(
-                (item) => `
-              <li>
-                <div class="sg-emoji">${item.emoji}</div>
-                <div><strong>${item.name}</strong><p>${item.reason}</p></div>
-              </li>
-            `,
-              )
-              .join("")}
-          </ul>
-        </div>
-        <div class="sg-column sg-avoid">
-          <h3 class="sg-header sg-header-avoid">❌ Avoid</h3>
-          <ul class="sg-list">
-            ${dietData.fruitsGuide.nonEatable
-              .map(
-                (item) => `
-              <li>
-                <div class="sg-emoji">${item.emoji}</div>
-                <div><strong>${item.name}</strong><p>${item.reason}</p></div>
-              </li>
-            `,
-              )
-              .join("")}
-          </ul>
-        </div>
-      </div>
-      `
-          : ""
-      }
     </div>
 
     <!-- STRICT AVOIDANCES -->

@@ -4,8 +4,8 @@ A personalized, privacy-first web dashboard to manage health reports, track diet
 
 ## Features
 
-- **Tabbed Interface**: Seamlessly switch between the current Diet Plan and historical health reports.
-- **Strict Summer Diet Plan**: Currently configured with a diabetic-friendly summer diet plan based on recent medical research (focusing on hydration, specific multi-grain atta mixes, and strict portion controls).
+- **Tabbed Interface**: Switch between Today, Food List, Safety, and Reports without mixing daily actions with reference material.
+- **Summer Diet + Hunger Plan**: Configured with a diabetic-friendly summer diet plan, measured hunger snacks, hydration, multi-grain atta guidance, and strict portion controls.
 - **Report Tracking**: Keep track of key markers (e.g., Fasting Sugar, HbA1c, Triglycerides) historically without clutter.
 - **Privacy First**: All data is stored in local JSON files.
 
@@ -16,7 +16,7 @@ A personalized, privacy-first web dashboard to manage health reports, track diet
 - `style.css` — The styling (premium and responsive).
 - `data/` — The directory where all data is stored.
   - `data/manifest.json` — Tracks which reports are available. Add new reports here.
-  - `data/diet.json` — The current active diet plan (goals, schedule, recipes, lifestyle).
+  - `data/diet.json` — The current active diet plan (goals, schedule, hunger/snack rules, recipes, safety, lifestyle).
   - `data/reports/*.json` — Historical data files, one per report.
 - `raw/` — Contains raw research files or reference documents (e.g., `chatgpt-research.html`).
 
